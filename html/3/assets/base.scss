@@ -1,0 +1,554 @@
+@import 'fonts';
+@import 'variables';
+.banner {
+    background-image: url("../images/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    @include back-size(cover);
+    padding: 90px 0px 70px;
+    @media only screen and (max-width: 480px) {
+        padding: 20px 0 30px;
+    }
+    @media only screen and (max-width: 767px) {
+        padding: 40px 0 40px;
+    }
+    .banner-column {
+        h3 {
+            font: 18px/26px 'Titillium Web', sans-serif;
+            color: #002c40;
+            margin: 0px;
+            font-weight: 600;
+            @media only screen and (max-width: 480px) {
+                font: bold 16px/30px "Titillium Web", sans-serif;
+            }
+        }
+        h1 {
+            font: 36px/48px 'Titillium Web', sans-serif;
+            color: #002c40;
+            margin: 0px;
+            font-weight: bold;
+            @media only screen and (max-width: 767px) {
+                font: bold 28px/38px "Titillium Web", sans-serif;
+            }
+            @media only screen and (max-width: 640px) {
+                font: bold 24px/38px "Titillium Web", sans-serif;
+            }
+            @media only screen and (max-width: 480px) {
+                font: bold 16px/30px "Titillium Web", sans-serif;
+            }
+        }
+        p {
+            font: 18px/26px 'Open Sans', sans-serif;
+            color: #005468;
+            margin: 0px;
+            max-width: 54%;
+            @media only screen and (max-width: 767px) {
+                max-width: 100%;
+            }
+            @media only screen and (max-width: 480px) {
+                max-width: 100%;
+                font: 14px/22px "Open Sans", sans-serif;
+            }
+        }
+        .camera-sec {
+            margin: 0 auto;
+            text-align: right;
+            img {
+                max-width: 100%;
+                @media only screen and (max-width: 767px) {
+                    max-width: 30%;
+                }
+                @media only screen and (max-width: 640px) {
+                    max-width: 50%;
+                }
+                @media only screen and (max-width: 480px) {
+                    max-width: 50%;
+                }
+            }
+        }
+    }
+}
+
+.content-box {
+    width: 100%;
+    float: left;
+    .content-column {
+        padding: 60px 0px 70px;
+        text-align: center;
+        float: left;
+        width: 100%;
+        @media only screen and (max-width: 480px) {
+            padding: 40px 0px;
+        }
+        @media only screen and (max-width: 640px) {
+            padding: 50px 0px;
+        }
+        h2 {
+            font: 30px/43px 'Titillium Web', sans-serif;
+            color: #002c40;
+            margin: 0px auto;
+            max-width: 80%;
+            font-weight: 300;
+            @media only screen and (max-width: 640px) {
+                max-width: 100%;
+                font: 300 22px/28px "Titillium Web", sans-serif;
+            }
+            @media only screen and (max-width: 480px) {
+                max-width: 100%;
+                font: 300 18px/28px "Titillium Web", sans-serif;
+            }
+        }
+        h3 {
+            font: 18px/26px 'Titillium Web', sans-serif;
+            color: #002c40;
+            margin: 0px;
+            font-weight: 600;
+        }
+        .learn-more {
+            font: 18px/26px 'Titillium Web', sans-serif;
+            color: #00c3d7;
+            border: 2px solid #00c3d7;
+            margin: 0px;
+            padding: 4px 8px;
+            font-weight: 300;
+            margin-top: 10px;
+            text-decoration: none;
+            display: inline-block;
+            @media only screen and (max-width: 640px) {
+                margin-top: 20px;
+            }
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.eligibility {
+    float: left;
+    width: 100%;
+    background-image: url("../images/eligibility-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    @include back-size(cover);
+    .eligibility-column {
+        padding: 60px 0px 20px;
+        width: 100%;
+        float: left;
+        @media only screen and (max-width: 767px) {
+            .col-xs-12 {
+                width: 50%;
+            }
+        }
+        @media only screen and (max-width:640px) {
+            .col-xs-12 {
+                width: 100%;
+            }
+        }
+        @media only screen and (max-width: 480px) {
+            padding: 30px 0px;
+        }
+        h2 {
+            font: 30px/36px 'Titillium Web', sans-serif;
+            color: #fff;
+            margin: 0px 0px 10px;
+            font-weight: 300;
+        }
+        p {
+            font: 14px/20px 'Open Sans', sans-serif;
+            color: #fff;
+            margin: 0px;
+            font-weight: 300;
+        }
+        ul {
+            padding: 0px 0px 0px 20px;
+            margin: 10px 0px 0px;
+            li {
+                font: 14px/20px 'Open Sans', sans-serif;
+                color: #fff;
+                margin-bottom: 8px;
+                font-weight: 300;
+            }
+        }
+        .right-sec {
+            .camera-serial {
+                background: url("../images/camera-serial.png");
+                background-repeat: no-repeat;
+                background-position: center top;
+                @include back-size(cover);
+                padding: 35px 20px 20px 80px;
+                margin-bottom: 30px;
+                max-width: 72%;
+                @media only screen and (max-width: 1100px) {
+                    background: #F3F4F1 url("../images/camera-serial.png");
+                    padding: 20px;
+                }
+                @media only screen and (max-width:992px) {
+                    margin-bottom: 30px;
+                    max-width: 72%;
+                    padding: 20px 10px;
+                    background: #F3F4F1 url("../images/camera-serial.png");
+                }
+                @media only screen and (max-width:767px) {
+                    margin: 0 auto 20px;
+                    max-width: 82%;
+                    padding: 20px;
+                }
+                @media only screen and (max-width: 640px) {
+                    max-width: 72%;
+                    margin: 20px auto;
+                    padding: 15px;
+                    float: none;
+                }
+                @media only screen and (max-width: 480px) {
+                    max-width: 100%;
+                    padding: 20px;
+                }
+                .serial-unmber {
+                    padding: 0 0px 0px 20px;
+                    @media only screen and (max-width: 992px) {
+                        padding: 0px;
+                    }
+                    @media only screen and (max-width: 480px) {
+                        padding: 0px;
+                    }
+                    h2 {
+                        font: 24px/32px 'Titillium Web', sans-serif;
+                        color: #002c40;
+                        margin-bottom: 20px;
+                        font-weight: 300;
+                        @media only screen and (max-width: 992px) {
+                            font: 300 20px/32px "Titillium Web", sans-serif;
+                        }
+                        @media only screen and (max-width: 767px) {
+                            font: 300 18px/32px "Titillium Web", sans-serif;
+                        }
+                        @media only screen and (max-width: 480px) {
+                            font: 300 20px/32px "Titillium Web", sans-serif;
+                        }
+                    }
+                    .form-group {
+                        max-width: 80%;
+                        @media only screen and (max-width: 767px) {
+                            margin: 0 auto 20px;
+                        }
+                        input {
+                            background-color: rgba(0, 0, 0, 0);
+                            border-color: currentcolor currentcolor #fbbf00;
+                            border-radius: 0;
+                            border-style: none none solid;
+                            border-width: medium medium 1px;
+                            box-shadow: none;
+                            color: #1b7083;
+                            font: 14px/20px 'Open Sans', sans-serif;
+                            font-weight: 300;
+                            padding-left: 0px;
+                            &::-webkit-input-placeholder {
+                                color: #1b7083;
+                            }
+                            &::-moz-placeholder {
+                                color: #1b7083;
+                            }
+                            &:-ms-input-placeholder {
+                                color: #1b7083;
+                            }
+                            &:-moz-placeholder {
+                                color: #1b7083;
+                            }
+                        }
+                    }
+                }
+                .learn-more {
+                    border: 2px solid #fbbf00;
+                    color: #002c40;
+                    display: inline-block;
+                    font: 300 16px/24px "Titillium Web", sans-serif;
+                    margin: 5px 0 0;
+                    padding: 6px 30px;
+                    background-color: #fff;
+                    text-decoration: none;
+                    @media only screen and (max-width: 992px) {
+                        font: 300 13px/24px "Titillium Web", sans-serif;
+                    }
+                    @media only screen and (max-width: 480px) {
+                        font: 300 13px/24px "Titillium Web", sans-serif;
+                    }
+                    span {
+                        color: #00c3d7;
+                    }
+                }
+            }
+            p {
+                font: 10px/14px 'Open Sans', sans-serif;
+                color: #002c40;
+                margin: 0px;
+                max-width: 78%;
+                font-style: italic;
+                float: left;
+                @media only screen and (max-width: 480px) {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.work-upgrad {
+    background-image: url("../images/work-sec.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    @include back-size(cover);
+    padding: 35px 20px 20px 80px;
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    @media only screen and (max-width: 992px) {
+        padding: 35px 20px 20px 0px;
+    }
+    @media only screen and (max-width: 767px) {
+        .col-xs-12 {
+            width: 50%;
+        }
+    }
+    @media only screen and (max-width:640px) {
+        .col-xs-12 {
+            width: 100%;
+        }
+    }
+    @media only screen and (max-width:767px) {
+        padding: 0px;
+    }
+    .upgrading-content {
+        float: left;
+        padding: 55px 0px 0px;
+        width: 100%;
+        h3 {
+            font: 18px/26px 'Titillium Web', sans-serif;
+            color: #002c40;
+            margin: 0px;
+            font-weight: 600;
+        }
+        h2 {
+            font: 30px/36px 'Titillium Web', sans-serif;
+            color: #002c40;
+            margin: 0px 0px 10px;
+            font-weight: 300;
+        }
+        ol {
+            margin: 10px 0 0;
+            padding: 0 0 0 25px;
+            li {
+                color: #00415d;
+                font: 14px/20px "Open Sans", sans-serif;
+                margin-bottom: 8px;
+                padding-left: 10px;
+                @media only screen and (max-width: 640px) {
+                    color: #005468;
+                    br {
+                        display: none;
+                    }
+                }
+                @media only screen and (max-width: 767px) {
+                    font: 13px/18px "Open Sans", sans-serif;
+                }
+                ul {
+                    padding: 0 0 0 20px;
+                    li {
+                        list-style: outside;
+                        padding-left: 3px;
+                    }
+                }
+            }
+        }
+    }
+    .sign-up {
+        background-color: #ffffff;
+        box-sizing: border-box;
+        float: inherit;
+        margin-left: 60px;
+        padding: 35px 25px 25px;
+        width: 60%;
+        @media only screen and (max-width: 992px) {
+            width: 80%;
+        }
+        @media only screen and (max-width: 640px) {
+            width: 80%;
+            margin: 10px auto 0px;
+            float: none;
+        }
+        @media only screen and (max-width: 480px) {
+            margin: 0px;
+            width: 100%;
+        }
+        h3 {
+            color: #002c40;
+            font: 600 18px/26px "Titillium Web", sans-serif;
+            margin: 0;
+            padding: 0px 5px;
+            border-bottom: 1px solid #002c40;
+        }
+        p {
+            font: 300 14px/20px "Open Sans", sans-serif;
+            color: #584c58;
+        }
+        form {
+            margin-top: 20px;
+            .form-group {
+                padding: 0 10px;
+                margin-bottom: 10px;
+                input {
+                    background-color: rgba(0, 0, 0, 0);
+                    border-color: currentcolor currentcolor #584c58;
+                    border-radius: 0;
+                    border-style: none none solid;
+                    border-width: medium medium 2px;
+                    box-shadow: none;
+                    font: 300 14px/20px "Open Sans", sans-serif;
+                    padding-left: 0;
+                    &::-webkit-input-placeholder {
+                        color: #584c58;
+                    }
+                    &::-moz-placeholder {
+                        color: #584c58;
+                    }
+                    &:-ms-input-placeholder {
+                        color: #584c58;
+                    }
+                    &:-moz-placeholder {
+                        color: #584c58;
+                    }
+                }
+                .btn {
+                    &.btn-default {
+                        background-color: #02b8ce;
+                        color: #fff;
+                        display: inline-block;
+                        font: 600 18px/26px "Titillium Web", sans-serif;
+                        padding: 6px 30px;
+                        border: 1px solid #bfe3e9;
+                        width: 100%;
+                        margin-top: 10px;
+                        border-radius: 0px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + label {
+    font: 300 14px/20px "Open Sans", sans-serif;
+    color: #584c58;
+}
+
+input[type="radio"] + label span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #939393;
+}
+
+input[type="radio"] + label span {
+    background-color: #fff;
+}
+
+input[type="radio"]:checked + label span {
+    background-color: #02b8ce;
+    border: 0px solid #fff;
+}
+
+.faq {
+    padding: 60px 0px;
+    float: left;
+    width: 100%;
+    .faq-column {
+        h3 {
+            color: #002c40;
+            font: 600 18px/26px "Titillium Web", sans-serif;
+            margin: 0 auto;
+            text-align: center;
+            padding: 0px;
+            span {
+                color: #00b8ce;
+            }
+        }
+        h2 {
+            color: #002c40;
+            font: 300 30px/42px "Titillium Web", sans-serif;
+            margin: 0 auto;
+            text-align: center;
+            padding: 0px;
+            @media only screen and (max-width: 480px) {
+                font: 300 24px/32px "Titillium Web", sans-serif;
+            }
+        }
+        .accordion-main {
+            max-width: 60%;
+            margin: 20px auto 0px;
+            @media only screen and (max-width: 767px) {
+                max-width: 80%;
+            }
+            @media only screen and (max-width: 640px) {
+                max-width: 100%;
+            }
+            .panel-group {
+                margin: 0px;
+                .panel-default {
+                    border-color: transparent;
+                    box-shadow: none;
+                    .panel-heading {
+                        padding: 0px;
+                        background-color: transparent;
+                        border: none;
+                        border-radius: 0px;
+                        .panel-title {
+                            a {
+                                color: #002c40;
+                                font: bold 18px/26px "Titillium Web", sans-serif;
+                                margin: 0 auto;
+                                display: inherit;
+                                padding: 0;
+                                text-decoration: none;
+                                @media only screen and (max-width: 480px) {
+                                    font: bold 14px/26px "Titillium Web", sans-serif;
+                                }
+                                i {
+                                    color: #00b8ce;
+                                    float: right;
+                                    font-size: 24px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .panel-collapse {
+                .panel-body {
+                    border: none;
+                    border-top-color: transparent;
+                    p {
+                        color: #524d52;
+                        font: 300 14px/20px "Open Sans", sans-serif;
+                        margin-bottom: 0px;
+                        padding-left: 15px;
+                        max-width: 85%;
+                        @media only screen and (max-width: 480px) {
+                            max-width: 100%;
+                            padding-left: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,81 @@
+.intro-card-list ul.ul-left li
+{
+	text-align: center;
+}
+
+.amplify-button
+{
+	background: #FFFFFF;
+	border-radius: 100px;
+	font-family: HarmoniaSansStd-Bold;
+	font-size: 14px;
+	color: #62C044;
+	letter-spacing: -0.16px;
+}
+
+.qantas-button
+{
+	background: #FFFFFF;
+	border-radius: 100px;
+	font-family: HarmoniaSansStd-Bold;
+	font-size: 14px;
+	color: #F00000;
+	letter-spacing: -0.16px;
+}
+
+.greylabel
+{
+	font-family: HarmoniaSansStd-Regular;
+	color: rgba(255, 255, 255, 50);
+}
+
+.amplify-big-button
+{
+	background: #FFFFFF;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+p.greylabel
+{
+	font-family: HarmoniaSansStd-Bold;
+	font-size: 14px;
+	color: #E53C46;
+	letter-spacing: 0;
+}
+
+.col-md-3-minimum span
+{
+	color: #E43C45;
+}
+
+.oursev-right-pane .application
+{
+	background-image: linear-gradient(19deg, #BC4251 0%, #F53940 100%);
+}
+
+.oursev-right-pane .eligible .white-border
+{
+	border: 2px solid #BC4251;
+	color: #BC4251;
+}
+
+.article-review div.review-confirm p.circleblue
+{
+	background-image: linear-gradient(19deg, #BC4251 0%, #F53940 100%);
+}
+
+div.comparison ul li .right-button
+{
+	background-image: linear-gradient(19deg, #BC4251 0%, #F53940 100%);
+}
+
+div.comparison ul.bar li .progress .progress-bar
+{
+	background-image: linear-gradient(19deg, #BC4251 0%, #F53940 100%);
+}
+
+div.comparison button.review-nab
+{
+	background-image: linear-gradient(19deg, #BC4251 0%, #F53940 100%);
+}

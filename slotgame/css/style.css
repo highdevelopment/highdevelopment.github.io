@@ -1,0 +1,99 @@
+body 
+{
+	margin: 0px;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow:hidden;
+	background-color: black;
+	min-height:100%;
+}
+
+canvas {
+	margin: 0px auto;
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	background-color: transparent;
+	z-index: 0;
+}
+
+.chat p {
+	color: blue;
+}
+
+.chat ul {
+	padding: 3px;
+}
+
+.chat li {
+	list-style-position: inside;
+	border: 1px solid black;
+}
+
+#game_area
+{
+	display: none;
+	margin: 0 0;
+	position 	: absolute;
+	width 		: 100%;
+	height 		: 100%;
+	top 		: 0px;
+	left 		: 0px;
+	overflow	: hidden;
+	z-index 	: 10;
+	border:0 none;
+}
+
+iframe {
+	border:0 none;
+}
+
+#chatting {
+	display		: none;
+	position 	: absolute;
+	z-index		: 500;
+	border		: 0 none;
+	height		: 525px;
+	overflow	: hidden;
+	width		: 230px;
+	background	: red;
+}
+
+.class_iframe {
+	width: 100%;
+	height: 100%;
+}
+
+#iframe_coinDlg {
+	display: none;
+	position 	: absolute;
+	z-index: 	1000;
+	overflow	: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+#close_button {
+	position: absolute;
+	top: -15px;
+	right: -15px;
+}
+
+.dialog_background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.5;
+}
+
+#iframe_border {
+	position	: relative;
+	margin-left		: auto;
+	margin-right	: auto;
+	width		: 1000px;
+	height		: 647px;
+}

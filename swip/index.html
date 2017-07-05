@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">       
+        <link    href="css/bootstrap.min.css" rel="stylesheet">
+        <link    href="css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link    href="css/touchnswipe.min.css" rel="stylesheet">
+        <link    href="css/fullscreen_popup.css" rel="stylesheet">
+
+        <script   src="js/jquery-1.10.0.min.js" type="text/javascript"></script>
+        <script   src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script   src="js/modernizr.min.js" type="text/javascript"></script>
+        <script   src="js/jquery.mousewheel.min.js"></script>
+        <script   src="js/jquery.hammer.min.js" type="text/javascript"></script>
+        <script   src="js/TweenMax.min.js" type="text/javascript"></script>
+        <script   src="js/TouchNSwipe.js" type="text/javascript"></script>        
+        <meta    name="format-detection" content="telephone=no" />
+        <meta    name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    </head>
+
+    <script>
+        $(document).ready(function()
+        {
+            $(".slider").on("dragend", function()
+            {
+                console.log($(".slides div:nth-child(3) img").attr("alt"));
+                if($(".slides li:nth-child(3) img").attr("alt") != "video")
+                    return;
+
+                // setTimeout(function()
+                // {
+                //     $(this.parent().append("<video controls src='assets/7.mp4'></video>");
+                //     obj.remove();
+                // }, 5000);
+            })
+        });
+    </script>
+
+    <style>
+        .video_img, img[alt="video"]
+        {
+            top: 0px !important;
+            left: 0px !important;
+            width: 100% !important;
+            height: calc(100% - 50px) !important;
+            opacity: 0.01 !important;
+            z-index: 55;
+        }
+    </style>
+    <body>       
+        <div class="sliderHolder" data-elem="sliderHolder">
+            <div class="slider" data-elem="slider" data-options="initShow:true; resetScrollDuration:1;" data-show="autoAlpha:1; display:full" data-hide="autoAlpha:0; display:none" >
+                <div class="sliderBg blackBgAlpha90"></div>
+                <div class="slides" data-elem="slides" data-options="preloaderUrl:assets/preloader.gif; resizeDuration:1; adjustHeight:0" ></div>            
+                <ul data-elem="items">
+                    <li><img src="assets/portionchart_1.jpg"/></li>
+                    <li><img src="assets/portionchart_2.jpg"/></li>
+                    <li><img src="assets/togo_1.jpg"/></li>
+                    <li><img src="assets/togo_2.jpg"/></li>
+                    <li><img src="assets/recipe_grill.jpg"/></li>
+                    <li><img src="assets/recipe_lead.jpg"/></li>
+                    <li><img src="assets/recipe_prep.jpg"/></li>
+                    <li><img src="assets/recipe_salad.jpg"/></li>
+                   <!--  <li><img src="assets/training.jpg"/></li> -->
+                    <li><img src="assets/video.jpg" path="assets/7.mp4" alt="video" class="video_img"/></li>
+                </ul>
+            </div>
+        </div>
+		<div id="nav_bar">
+			<div id="navigation_var">
+				<nav class="navbar navbar-inverse">
+					<div class="container-fluid">
+						<ul class="nav navbar-nav">
+                            <li class=""><a href="#recipe_portion1">Portion</a></li>
+                            <li class=""><a href="#recipe_togo1">Togo</a></li>
+							<li class=""><a href="#recipe_grill">Recipe Grill</a></li>
+							<li class=""><a href="#recipe_lead">Recipe Lead</a></li>
+							<li class=""><a href="#recipe_prep">Recipe Prep</a></li>
+							<li class=""><a href="#recipe_salad">Recipe Salad</a></li>
+							<li class=""><a href="#recipe_traning">Training</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+        <!--video controls src="assets/7.mp4"></video-->
+    </body>
+</html>

@@ -1,0 +1,139 @@
+[
+    {
+        "name": "HYDRONICS",
+        "equipment": [
+            {
+                "name": "One-way Valve",
+                "kind": "one-way-valve",
+                "imageOrigin": "resources/images/equipments/one-way-valve.png",
+                "imageHalo": "resources/images/equipments/one-way-valve-select.png",
+                "imageFlip": "resources/images/equipments/one-way-valve-flip.png",
+                "imageFlipHalo": "resources/images/equipments/one-way-valve-flip-select.png",
+                "svg": "images/svg/one-way-valve.svg",
+                "width": 40,
+                "height": 20
+            },
+            {
+                "name": "2-way Valve",
+                "kind": "two-way-valve",
+                "imageOrigin": "resources/images/equipments/two-way-valve.png",
+                "imageHalo": "resources/images/equipments/two-way-valve-select.png",
+                "imageFlip": "resources/images/equipments/two-way-valve-flip.png",
+                "imageFlipHalo": "resources/images/equipments/two-way-valve-flip-select.png",
+                "svg": "images/svg/two-way-valve.svg",
+                "width": 40,
+                "height": 45
+            },
+            {
+                "name": "3-way Valve",
+                "kind": "three-way-valve",
+                "imageOrigin": "resources/images/equipments/three-way-valve.png",
+                "imageHalo": "resources/images/equipments/three-way-valve-select.png",
+                "imageFlip": "resources/images/equipments/three-way-valve-flip.png",
+                "imageFlipHalo": "resources/images/equipments/three-way-valve-flip-select.png",
+                "svg": "images/svg/three-way-valve.svg",
+                "width": 40,
+                "height": 45
+            },
+            {
+                "name": "Drain Recovery",
+                "kind": "drain-recovery",
+                "imageOrigin": "resources/images/equipments/drain-recovery.png",
+                "imageHalo": "resources/images/equipments/drain-recovery-select.png",
+                "imageFlip": "resources/images/equipments/drain-recovery-flip.png",
+                "imageFlipHalo": "resources/images/equipments/drain-recovery-flip-select.png",
+                "svg": "images/svg/drain-recovery.svg",
+                "width": 20,
+                "height": 55
+            },
+            {
+                "name": "Pump",
+                "kind": "pump",
+                "imageOrigin": "resources/images/equipments/pump.png",
+                "imageHalo": "resources/images/equipments/pump-select.png",
+                "imageFlip": "resources/images/equipments/pump-flip.png",
+                "imageFlipHalo": "resources/images/equipments/pump-flip-select.png",
+                "svg": "images/svg/pump.svg",
+                "width": 60,
+                "height": 25
+            },
+            {
+                "name": "Heat Exchanger",
+                "kind": "heat-exchanger",
+                "imageOrigin": "resources/images/equipments/heat-exchanger.png",
+                "imageHalo": "resources/images/equipments/heat-exchanger-select.png",
+                "imageFlip": "resources/images/equipments/heat-exchanger-flip.png",
+                "imageFlipHalo": "resources/images/equipments/heat-exchanger-flip-select.png",
+                "svg": "images/svg/heat-exchanger.svg",
+                "width": 20,
+                "height": 40
+            },
+            {
+                "name": "Zone Manifold",
+                "kind": "zone-manifold",
+                "imageOrigin": "resources/images/equipments/zone-manifold.png",
+                "imageHalo": "resources/images/equipments/zone-manifold-select.png",
+                "imageFlip": "resources/images/equipments/zone-manifold-flip.png",
+                "imageFlipHalo": "resources/images/equipments/zone-manifold-flip-select.png",
+                "svg": "images/svg/zone-manifold.svg",
+                "width": 60,
+                "height": 50
+            },
+            {
+                "name": "Boilder",
+                "kind": "boilder",
+                "imageOrigin": "resources/images/equipments/boilder.png",
+                "imageHalo": "resources/images/equipments/boilder-select.png",
+                "imageFlip": "resources/images/equipments/boilder-flip.png",
+                "imageFlipHalo": "resources/images/equipments/boilder-flip-select.png",
+                "svg": "images/svg/boilder.svg",
+                "width": 40,
+                "height": 45
+            }
+        ]
+    },
+    {
+        "name": "COOLING SOURCES",
+        "equipment": []
+    },
+    {
+        "name": "HEATING SOURCES",
+        "equipment": []
+    },
+    {
+        "name": "HEAT STORAGE",
+        "equipment": []
+    },
+    {
+        "name": "DAYLIGHTING",
+        "equipment": []
+    },
+    {
+        "name": "SOLAR WATER",
+        "equipment": []
+    },
+    {
+        "name": "VENTILATION",
+        "equipment": []
+    },
+    {
+        "name": "GSHP",
+        "equipment": []
+    },
+    {
+        "name": "AIR HANDLERS",
+        "equipment": []
+    },
+    {
+        "name": "RENEWABLES",
+        "equipment": []
+    },
+    {
+        "name": "THERMAL MASS",
+        "equipment": []
+    },
+    {
+        "name": "USER INPUTS",
+        "equipment": []
+    }
+]

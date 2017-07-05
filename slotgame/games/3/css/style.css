@@ -1,0 +1,29 @@
+/*****************************************************
+	Description 	: MainPage CSS
+	Created 		: 2016/07/18
+******************************************************/
+
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow:auto;
+	background-color: black;
+}
+
+canvas {
+	margin: 0 auto;
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -960px;
+	margin-top: -600px;
+	overflow: auto;
+	background-color: transparent;
+}
+
+@font-face {
+    font-family: 'marker';
+    src: url('../assets/resources/fonts/MarkerFeltWide.ttf');
+}

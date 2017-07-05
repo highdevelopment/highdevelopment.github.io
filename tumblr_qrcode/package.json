@@ -1,0 +1,25 @@
+{
+  "name": "foo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "engine.io": "1.8.2",
+    "express": "~4.14.0",
+    "file-url": "^2.0.0",
+    "has-binary": "0.1.7",
+    "jade": "~1.11.0",
+    "lodash": "^4.14.0",
+    "morgan": "~1.7.0",
+    "object-assign": "4.1.0",
+    "query-string": "^4.2.2",
+    "request": "^2.74.0",
+    "serve-favicon": "~2.3.0",
+    "vcards-js": "^2.4.1"
+  }
+}

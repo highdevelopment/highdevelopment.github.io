@@ -1,0 +1,27 @@
+
+._header
+{
+	color: white !important;
+}
+
+._header a
+{
+	color: white !important;
+}
+
+._description
+{
+	margin-top: 80px;
+}
+
+._email
+{
+	text-align: center;
+	margin-top: 50px;
+}
+
+._email a
+{
+    color: #337ab7 !important;
+    text-decoration: none !important;
+}

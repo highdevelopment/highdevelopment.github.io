@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1920px" height="1080px" viewBox="0 0 1920 1080" enable-background="new 0 0 1920 1080" xml:space="preserve">
+<defs>
+    <style type="text/css">
+		@font-face {
+		    font-family: 'NokiaPureText-Regular';
+		    src: url('../webfont/NokiaPureText-Regular.eot');
+		    src: url('../webfont/NokiaPureText-Regular.eot?#iefix') format('embedded-opentype'),
+		         url('../webfont/NokiaPureText-Regular.woff2') format('woff2'),
+		         url('../webfont/NokiaPureText-Regular.woff') format('woff'),
+		         url('../webfont/NokiaPureText-Regular.ttf') format('truetype'),
+		         url('../webfont/NokiaPureText-Regular.svg#nokia_pure_textregular') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+		@font-face {
+		    font-family: 'NokiaPureText-Bold';
+		    src: url('../webfont/nokiapuretext_bd-webfont.eot');
+		    src: url('../webfont/nokiapuretext_bd-webfont.eot?#iefix') format('embedded-opentype'),
+		         url('../webfont/nokiapuretext_bd-webfont.woff') format('woff'),
+		         url('../webfont/nokiapuretext_bd-webfont.ttf') format('truetype'),
+		         url('../webfont/nokiapuretext_bd-webfont.svg#nokia_pure_textregular') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+		@font-face {
+		    font-family: 'NokiaPureText-Light';
+		    src: url('../webfont/nokiapuretext_lt-webfont.eot');
+		    src: url('../webfont/nokiapuretext_lt-webfont.eot?#iefix') format('embedded-opentype'),
+		         url('../webfont/nokiapuretext_lt-webfont.woff') format('woff'),
+		         url('../webfont/nokiapuretext_lt-webfont.ttf') format('truetype'),
+		         url('../webfont/nokiapuretext_lt-webfont.svg#nokia_pure_textregular') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+		@font-face {
+		    font-family: 'NokiaPureHeadline-Regular';
+		    src: url('../webfont/nokiapureheadline_rg-webfont.eot');
+		    src: url('../webfont/nokiapureheadline_rg-webfont.eot?#iefix') format('embedded-opentype'),
+		         url('../webfont/nokiapureheadline_rg-webfont.woff') format('woff'),
+		         url('../webfont/nokiapureheadline_rg-webfont.ttf') format('truetype'),
+		         url('../webfont/nokiapureheadline_rg-webfont.svg#nokia_pure_textregular') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+		@font-face {
+		    font-family: 'NokiaPureHeadline-Light';
+		    src: url('../webfont/nokiapureheadline_ult-webfont.eot');
+		    src: url('../webfont/nokiapureheadline_ult-webfont.eot?#iefix') format('embedded-opentype'),
+		         url('../webfont/nokiapureheadline_ult-webfont.woff') format('woff'),
+		         url('../webfont/nokiapureheadline_ult-webfont.ttf') format('truetype'),
+		         url('../webfont/nokiapureheadline_ult-webfont.svg#nokia_pure_textregular') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+    </style>
+</defs>
+
+<font horiz-adv-x="1000">
+<!-- Copyright 1992, 1994, 1997, 2000, 2004 Adobe Systems Incorporated. All rights reserved. Myriad is either a registered trademark or a trademark of Adobe Systems Incorporated in the United States and/or other countries. -->
+<font-face font-family="NokiaPureText-Light" units-per-em="1000" underline-position="-100" underline-thickness="50"/>
+<missing-glyph horiz-adv-x="500" d="M0,0l500,0l0,700l-500,0M250,395l-170,255l340,0M280,350l170,255l0,-510M80,50l170,255l170,-255M50,605l170,-255l-170,-255z"/>
+<glyph unicode="S" horiz-adv-x="493" d="M42,33C78,9 149,-10 214,-10C373,-10 450,80 450,184C450,283 392,338 278,382C185,418 144,449 144,512C144,558 179,613 271,613C332,613 377,593 399,581l24,71C393,669 343,685 274,685C143,685 56,607 56,502C56,407 124,350 234,311C325,276 361,240 361,177C361,109 309,62 220,62C160,62 103,82 64,106z"/>
+<glyph unicode="T" horiz-adv-x="497" d="M204,0l88,0l0,600l206,0l0,74l-499,0l0,-74l205,0z"/>
+<glyph unicode="b" horiz-adv-x="569" d="M145,0l4,80l3,0C188,16 244,-11 314,-11C422,-11 531,75 531,248C532,395 447,495 327,495C249,495 193,460 162,406l-2,0l0,304l-87,0l0,-585C73,82 71,33 69,0M160,281C160,295 163,307 165,317C183,384 239,425 299,425C393,425 443,342 443,245C443,134 388,59 296,59C232,59 181,101 164,162C162,172 160,183 160,194z"/>
+<glyph unicode="d" horiz-adv-x="564" d="M403,710l0,-289l-2,0C379,460 329,495 255,495C137,495 37,396 38,235C38,88 128,-11 245,-11C324,-11 383,30 410,84l2,0l4,-84l79,0C492,33 491,82 491,125l0,585M403,203C403,189 402,177 399,165C383,99 329,60 270,60C175,60 127,141 127,239C127,346 181,426 272,426C338,426 386,380 399,324C402,313 403,298 403,287z"/>
+<glyph unicode="e" horiz-adv-x="501" d="M462,226C463,235 465,249 465,267C465,356 423,495 265,495C124,495 38,380 38,234C38,88 127,-10 276,-10C353,-10 406,6 437,20l-15,63C389,69 351,58 288,58C200,58 124,107 122,226M123,289C130,350 169,432 258,432C357,432 381,345 380,289z"/>
+<glyph unicode="m" horiz-adv-x="834" d="M73,0l86,0l0,292C159,307 161,322 166,335C180,379 220,423 275,423C342,423 376,367 376,290l0,-290l86,0l0,299C462,315 465,331 469,343C484,386 523,423 573,423C644,423 678,367 678,274l0,-274l86,0l0,285C764,453 669,495 605,495C559,495 527,483 498,461C478,446 459,425 444,398l-2,0C421,455 371,495 305,495C225,495 180,452 153,406l-3,0l-4,78l-77,0C72,444 73,403 73,353z"/>
+<glyph unicode="p" horiz-adv-x="569" d="M73,-198l87,0l0,263l2,0C191,17 247,-11 311,-11C425,-11 531,75 531,249C531,396 443,495 326,495C247,495 190,460 154,401l-2,0l-4,83l-79,0C71,438 73,388 73,326M160,280C160,292 163,305 166,316C183,382 239,425 299,425C392,425 443,342 443,245C443,134 389,58 296,58C233,58 180,100 164,161C162,172 160,184 160,197z"/>
+<glyph unicode="s" horiz-adv-x="396" d="M39,23C73,3 122,-10 175,-10C290,-10 356,50 356,135C356,207 313,249 229,281C166,305 137,323 137,363C137,399 166,429 218,429C263,429 298,413 317,401l22,64C312,481 269,495 220,495C116,495 53,431 53,353C53,295 94,247 181,216C246,192 271,169 271,127C271,87 241,55 177,55C133,55 87,73 61,90z"/>
+<glyph unicode=" " horiz-adv-x="212"/>
+<glyph unicode="t" horiz-adv-x="331" d="M93,600l0,-116l-75,0l0,-67l75,0l0,-264C93,96 102,53 127,27C148,3 181,-10 222,-10C256,-10 283,-5 300,2l-4,66C285,65 268,62 245,62C196,62 179,96 179,156l0,261l126,0l0,67l-126,0l0,139z"/>
+</font>
+
+	<font horiz-adv-x="1000">
+<!-- Copyright 1992, 1994, 1997, 2000, 2004 Adobe Systems Incorporated. All rights reserved. Myriad is either a registered trademark or a trademark of Adobe Systems Incorporated in the United States and/or other countries. -->
+<font-face font-family="NokiaPureText-Regular" units-per-em="1000" underline-position="-100" underline-thickness="50"/>
+<missing-glyph horiz-adv-x="500" d="M0,0l500,0l0,700l-500,0M250,395l-170,255l340,0M280,350l170,255l0,-510M80,50l170,255l170,-255M50,605l170,-255l-170,-255z"/>
+<glyph unicode="A" horiz-adv-x="612" d="M424,212l72,-212l93,0l-230,674l-105,0l-229,-674l90,0l70,212M203,280l66,195C282,516 293,557 303,597l2,0C315,558 325,518 340,474l66,-194z"/>
+<glyph unicode="B" horiz-adv-x="542" d="M76,2C105,-2 151,-6 211,-6C321,-6 397,14 444,57C478,90 501,134 501,192C501,292 426,345 362,361l0,2C433,389 476,446 476,511C476,564 455,604 420,630C378,664 322,679 235,679C174,679 114,673 76,665M163,606C177,609 200,612 240,612C328,612 388,581 388,502C388,437 334,389 242,389l-79,0M163,323l72,0C330,323 409,285 409,193C409,95 326,62 236,62C205,62 180,63 163,66z"/>
+<glyph unicode="C" horiz-adv-x="580" d="M529,91C494,74 440,63 387,63C223,63 128,169 128,334C128,511 233,612 391,612C447,612 494,600 527,584l21,71C525,667 472,685 388,685C179,685 36,542 36,331C36,110 179,-10 369,-10C451,-10 515,6 547,22z"/>
+<glyph unicode="D" horiz-adv-x="666" d="M76,2C120,-3 172,-6 234,-6C365,-6 469,28 532,91C595,153 629,243 629,353C629,462 594,540 534,595C475,650 386,679 261,679C192,679 129,673 76,665M163,601C186,606 220,610 265,610C449,610 539,509 538,350C538,168 437,64 251,64C217,64 185,65 163,69z"/>
+<glyph unicode="E" horiz-adv-x="492" d="M425,388l-262,0l0,213l277,0l0,73l-364,0l0,-674l379,0l0,73l-292,0l0,243l262,0z"/>
+<glyph unicode="F" horiz-adv-x="487" d="M76,0l87,0l0,305l255,0l0,72l-255,0l0,224l276,0l0,73l-363,0z"/>
+<glyph unicode="I" horiz-adv-x="239" d="M76,674l0,-674l87,0l0,674z"/>
+<glyph unicode="J" horiz-adv-x="370" d="M214,230C214,98 168,63 90,63C61,63 35,69 17,76l-13,-71C26,-4 65,-11 97,-11C213,-11 301,44 301,223l0,451l-87,0z"/>
+<glyph unicode="K" horiz-adv-x="542" d="M76,0l87,0l0,257l64,74l222,-331l103,0l-263,388l244,286l-108,0l-206,-253C202,399 184,375 166,349l-3,0l0,325l-87,0z"/>
+<glyph unicode="L" horiz-adv-x="472" d="M76,0l375,0l0,73l-288,0l0,601l-87,0z"/>
+<glyph unicode="M" horiz-adv-x="804" d="M661,0l85,0l-42,674l-111,0l-120,-326C443,263 419,189 402,121l-3,0C382,191 359,265 331,348l-115,326l-111,0l-47,-674l83,0l18,289C165,390 170,503 172,587l2,0C193,507 220,420 252,325l109,-321l66,0l119,327C580,424 608,508 631,587l3,0C633,503 639,390 644,296z"/>
+<glyph unicode="N" horiz-adv-x="658" d="M158,0l0,288C158,400 156,481 151,566l3,1C188,494 233,417 280,342l214,-342l88,0l0,674l-82,0l0,-282C500,287 502,205 510,115l-2,-1C476,183 437,254 387,333l-216,341l-95,0l0,-674z"/>
+<glyph unicode="O" horiz-adv-x="689" d="M349,685C169,685 36,545 36,331C36,127 161,-11 339,-11C511,-11 652,112 652,344C652,544 533,685 349,685M345,614C490,614 560,474 560,340C560,187 482,60 344,60C207,60 129,189 129,333C129,481 201,614 345,614z"/>
+<glyph unicode="P" horiz-adv-x="532" d="M76,0l87,0l0,270C183,265 207,264 233,264C318,264 393,289 439,338C473,373 491,421 491,482C491,542 469,591 432,623C392,659 329,679 243,679C173,679 118,673 76,666M163,603C178,607 207,610 245,610C341,610 404,567 404,478C404,385 340,334 235,334C206,334 182,336 163,341z"/>
+<glyph unicode="S" horiz-adv-x="493" d="M42,33C78,9 149,-10 214,-10C373,-10 450,80 450,184C450,283 392,338 278,382C185,418 144,449 144,512C144,558 179,613 271,613C332,613 377,593 399,581l24,71C393,669 343,685 274,685C143,685 56,607 56,502C56,407 124,350 234,311C325,276 361,240 361,177C361,109 309,62 220,62C160,62 103,82 64,106z"/>
+<glyph unicode="T" horiz-adv-x="497" d="M204,0l88,0l0,600l206,0l0,74l-499,0l0,-74l205,0z"/>
+<glyph unicode="U" horiz-adv-x="647" d="M75,674l0,-397C75,68 179,-11 317,-11C463,-11 572,74 572,281l0,393l-88,0l0,-399C484,126 420,60 320,60C230,60 163,124 163,275l0,399z"/>
+<glyph unicode="W" horiz-adv-x="846" d="M277,0l96,351C398,438 413,504 425,571l2,0C436,503 450,437 471,351l85,-351l91,0l191,674l-89,0l-89,-340C639,250 620,175 606,101l-2,0C594,172 576,252 557,332l-82,342l-91,0l-90,-340C271,247 250,167 239,100l-2,0C225,165 207,249 187,333l-80,341l-92,0l171,-674z"/>
+<glyph unicode="a" horiz-adv-x="482" d="M421,0C415,33 413,74 413,116l0,181C413,394 377,495 229,495C168,495 110,478 70,452l20,-58C124,416 171,430 216,430C315,430 326,358 326,318l0,-10C139,309 35,245 35,128C35,58 85,-11 183,-11C252,-11 304,23 331,61l3,0l7,-61M328,163C328,154 326,144 323,135C309,94 269,54 206,54C161,54 123,81 123,138C123,232 232,249 328,247z"/>
+<glyph unicode="b" horiz-adv-x="569" d="M145,0l4,80l3,0C188,16 244,-11 314,-11C422,-11 531,75 531,248C532,395 447,495 327,495C249,495 193,460 162,406l-2,0l0,304l-87,0l0,-585C73,82 71,33 69,0M160,281C160,295 163,307 165,317C183,384 239,425 299,425C393,425 443,342 443,245C443,134 388,59 296,59C232,59 181,101 164,162C162,172 160,183 160,194z"/>
+<glyph unicode="c" horiz-adv-x="448" d="M403,84C378,73 345,60 295,60C199,60 127,129 127,241C127,342 187,424 298,424C346,424 379,413 400,401l20,68C396,481 350,494 298,494C140,494 38,386 38,237C38,89 133,-10 279,-10C344,-10 395,6 418,18z"/>
+<glyph unicode="d" horiz-adv-x="564" d="M403,710l0,-289l-2,0C379,460 329,495 255,495C137,495 37,396 38,235C38,88 128,-11 245,-11C324,-11 383,30 410,84l2,0l4,-84l79,0C492,33 491,82 491,125l0,585M403,203C403,189 402,177 399,165C383,99 329,60 270,60C175,60 127,141 127,239C127,346 181,426 272,426C338,426 386,380 399,324C402,313 403,298 403,287z"/>
+<glyph unicode="e" horiz-adv-x="501" d="M462,226C463,235 465,249 465,267C465,356 423,495 265,495C124,495 38,380 38,234C38,88 127,-10 276,-10C353,-10 406,6 437,20l-15,63C389,69 351,58 288,58C200,58 124,107 122,226M123,289C130,350 169,432 258,432C357,432 381,345 380,289z"/>
+<glyph unicode="f" horiz-adv-x="292" d="M169,0l0,417l117,0l0,67l-117,0l0,26C169,584 188,650 263,650C288,650 306,645 319,639l12,68C314,714 287,721 256,721C215,721 171,708 138,676C97,637 82,575 82,507l0,-23l-68,0l0,-67l68,0l0,-417z"/>
+<glyph unicode="&#xFB02;" horiz-adv-x="523" d="M169,0l0,417l113,0l0,67l-113,0l0,24C169,586 199,653 291,653C325,653 348,648 363,640l0,-640l87,0l0,689C414,709 361,721 305,721C238,721 188,704 150,672C105,632 82,572 82,505l0,-21l-68,0l0,-67l68,0l0,-417z"/>
+<glyph unicode="4" horiz-adv-x="513" d="M400,0l0,177l91,0l0,69l-91,0l0,404l-95,0l-290,-415l0,-58l302,0l0,-177M104,246l0,2l159,221C281,499 297,527 317,565l3,0C318,531 317,497 317,463l0,-217z"/>
+<glyph unicode="g" horiz-adv-x="559" d="M413,484l-4,-73l-2,0C386,451 340,495 256,495C145,495 38,402 38,238C38,104 124,2 244,2C319,2 371,38 398,83l2,0l0,-54C400,-93 334,-140 244,-140C184,-140 134,-122 102,-102l-22,-67C119,-195 183,-209 241,-209C302,-209 370,-195 417,-151C464,-109 486,-41 486,70l0,281C486,410 488,449 490,484M399,206C399,191 397,174 392,159C373,103 324,69 270,69C175,69 127,148 127,243C127,355 187,426 271,426C335,426 378,384 394,333C398,321 399,308 399,293z"/>
+<glyph unicode="h" horiz-adv-x="555" d="M73,0l88,0l0,292C161,309 162,322 167,334C183,382 228,422 285,422C368,422 397,356 397,278l0,-278l88,0l0,288C485,455 381,495 316,495C283,495 252,485 226,470C199,455 177,433 163,408l-2,0l0,302l-88,0z"/>
+<glyph unicode="-" horiz-adv-x="307" d="M30,303l0,-65l247,0l0,65z"/>
+<glyph unicode="i" horiz-adv-x="234" d="M161,0l0,484l-88,0l0,-484M117,675C85,675 62,651 62,620C62,590 84,566 115,566C150,566 172,590 171,620C171,651 150,675 117,675z"/>
+<glyph unicode="k" horiz-adv-x="469" d="M160,710l-87,0l0,-710l87,0l0,182l45,50l167,-232l107,0l-213,285l187,199l-106,0l-142,-167C191,300 174,279 162,262l-2,0z"/>
+<glyph unicode="l" horiz-adv-x="236" d="M73,0l88,0l0,710l-88,0z"/>
+<glyph unicode="m" horiz-adv-x="834" d="M73,0l86,0l0,292C159,307 161,322 166,335C180,379 220,423 275,423C342,423 376,367 376,290l0,-290l86,0l0,299C462,315 465,331 469,343C484,386 523,423 573,423C644,423 678,367 678,274l0,-274l86,0l0,285C764,453 669,495 605,495C559,495 527,483 498,461C478,446 459,425 444,398l-2,0C421,455 371,495 305,495C225,495 180,452 153,406l-3,0l-4,78l-77,0C72,444 73,403 73,353z"/>
+<glyph unicode="n" horiz-adv-x="555" d="M73,0l88,0l0,291C161,306 163,321 167,332C182,381 227,422 285,422C368,422 397,357 397,279l0,-279l88,0l0,289C485,455 381,495 314,495C234,495 178,450 154,404l-2,0l-5,80l-78,0C72,444 73,403 73,353z"/>
+<glyph unicode="o" horiz-adv-x="549" d="M278,495C144,495 38,400 38,238C38,85 139,-11 270,-11C387,-11 511,67 511,246C511,394 417,495 278,495M276,429C380,429 421,325 421,243C421,134 358,55 274,55C188,55 127,135 127,241C127,333 172,429 276,429z"/>
+<glyph unicode="1" horiz-adv-x="513" d="M236,0l85,0l0,650l-75,0l-142,-76l17,-67l113,61l2,0z"/>
+<glyph unicode="p" horiz-adv-x="569" d="M73,-198l87,0l0,263l2,0C191,17 247,-11 311,-11C425,-11 531,75 531,249C531,396 443,495 326,495C247,495 190,460 154,401l-2,0l-4,83l-79,0C71,438 73,388 73,326M160,280C160,292 163,305 166,316C183,382 239,425 299,425C392,425 443,342 443,245C443,134 389,58 296,58C233,58 180,100 164,161C162,172 160,184 160,197z"/>
+<glyph unicode="(" horiz-adv-x="284" d="M195,694C132,610 65,482 64,285C64,90 132,-38 195,-121l69,0C193,-21 138,107 138,285C138,466 191,596 264,694z"/>
+<glyph unicode=")" horiz-adv-x="284" d="M88,-121C152,-36 219,91 219,287C219,484 152,612 88,694l-68,0C92,595 146,467 146,288C146,108 91,-22 20,-121z"/>
+<glyph unicode="." horiz-adv-x="207" d="M111,-11C148,-11 171,16 171,52C171,89 147,115 112,115C77,115 52,89 52,52C52,16 76,-11 111,-11z"/>
+<glyph unicode="q" horiz-adv-x="563" d="M403,-198l88,0l0,549C491,401 492,443 494,484l-83,0l-3,-73l-2,0C382,458 332,495 257,495C155,495 38,415 38,234C38,87 130,-11 243,-11C321,-11 375,27 401,75l2,0M403,197C403,184 400,167 396,155C376,94 327,59 270,59C173,59 127,143 127,239C127,348 182,425 273,425C339,425 386,379 399,325C402,314 403,300 403,288z"/>
+<glyph unicode="&#x2019;" horiz-adv-x="207" d="M93,676C82,604 56,500 34,441l56,7C118,494 161,601 184,685z"/>
+<glyph unicode="r" horiz-adv-x="327" d="M73,0l87,0l0,258C160,273 162,287 164,299C176,365 220,412 282,412C294,412 303,411 312,409l0,83C304,494 297,495 287,495C228,495 175,454 153,389l-4,0l-3,95l-77,0C72,439 73,390 73,333z"/>
+<glyph unicode="s" horiz-adv-x="396" d="M39,23C73,3 122,-10 175,-10C290,-10 356,50 356,135C356,207 313,249 229,281C166,305 137,323 137,363C137,399 166,429 218,429C263,429 298,413 317,401l22,64C312,481 269,495 220,495C116,495 53,431 53,353C53,295 94,247 181,216C246,192 271,169 271,127C271,87 241,55 177,55C133,55 87,73 61,90z"/>
+<glyph unicode="7" horiz-adv-x="513" d="M57,650l0,-73l318,0l0,-2l-282,-575l91,0l283,592l0,58z"/>
+<glyph unicode="/" horiz-adv-x="343" d="M66,-40l280,725l-68,0l-279,-725z"/>
+<glyph unicode=" " horiz-adv-x="212"/>
+<glyph unicode="t" horiz-adv-x="331" d="M93,600l0,-116l-75,0l0,-67l75,0l0,-264C93,96 102,53 127,27C148,3 181,-10 222,-10C256,-10 283,-5 300,2l-4,66C285,65 268,62 245,62C196,62 179,96 179,156l0,261l126,0l0,67l-126,0l0,139z"/>
+<glyph unicode="2" horiz-adv-x="513" d="M460,0l0,73l-292,0l0,2l52,48C357,255 444,352 444,472C444,565 385,661 245,661C170,661 106,633 61,595l28,-62C119,558 168,588 227,588C324,588 356,527 356,461C355,363 280,279 114,121l-69,-67l0,-54z"/>
+<glyph unicode="u" horiz-adv-x="551" d="M478,484l-88,0l0,-297C390,171 387,155 382,142C366,103 325,62 266,62C186,62 158,124 158,216l0,268l-88,0l0,-283C70,31 161,-11 237,-11C323,-11 374,40 397,79l2,0l5,-79l78,0C479,38 478,82 478,132z"/>
+<glyph unicode="v" horiz-adv-x="481" d="M13,484l184,-484l84,0l190,484l-92,0l-94,-272C269,168 255,128 244,88l-3,0C231,128 218,168 202,212l-95,272z"/>
+<glyph unicode="w" horiz-adv-x="736" d="M18,484l146,-484l80,0l78,230C339,282 354,332 366,390l2,0C380,333 394,285 411,231l74,-231l80,0l156,484l-87,0l-69,-243C549,184 536,133 528,84l-3,0C514,133 500,184 482,242l-75,242l-74,0l-79,-247C238,185 222,133 211,84l-3,0C199,134 186,184 172,238l-64,246z"/>
+<glyph unicode="x" horiz-adv-x="463" d="M16,484l164,-237l-172,-247l97,0l70,109C193,138 210,164 226,193l2,0C245,164 261,137 280,109l71,-109l100,0l-170,250l165,234l-95,0l-68,-103C267,355 251,330 235,301l-3,0C216,328 201,353 183,380l-69,104z"/>
+<glyph unicode="y" horiz-adv-x="471" d="M9,484l179,-446C192,27 194,20 194,15C194,10 191,3 187,-6C167,-51 137,-85 113,-104C87,-126 58,-140 36,-147l22,-74C80,-217 123,-202 166,-164C226,-112 269,-27 332,139l132,345l-93,0l-96,-284C263,165 253,128 244,99l-2,0C234,128 222,166 211,198l-106,286z"/>
+<glyph unicode="z" horiz-adv-x="428" d="M18,0l393,0l0,70l-283,0l0,2C150,97 170,121 190,148l216,281l1,55l-369,0l0,-71l262,0l0,-2C278,385 258,362 237,336l-219,-285z"/>
+<glyph unicode="0" horiz-adv-x="513" d="M262,661C130,661 36,541 36,323C38,108 124,-11 251,-11C395,-11 477,111 477,332C477,539 399,661 262,661M257,593C348,593 389,488 389,328C389,162 346,57 256,57C176,57 124,153 124,322C124,499 180,593 257,593z"/>
+</font>
+
+	<font horiz-adv-x="1000">
+<!-- Copyright 1992, 1994, 1997, 2000, 2004 Adobe Systems Incorporated. All rights reserved. Myriad is either a registered trademark or a trademark of Adobe Systems Incorporated in the United States and/or other countries. -->
+<font-face font-family="NokiaPureHeadline-Light" units-per-em="1000" underline-position="-100" underline-thickness="50"/>
+<missing-glyph horiz-adv-x="500" d="M0,0l500,0l0,700l-500,0M250,395l-170,255l340,0M280,350l170,255l0,-510M80,50l170,255l170,-255M50,605l170,-255l-170,-255z"/>
+<glyph unicode="5" horiz-adv-x="513" d="M433,650l-311,0l-42,-312C104,341 133,345 170,345C300,345 356,285 357,201C357,114 286,60 203,60C144,60 91,80 64,96l-22,-67C73,9 133,-11 204,-11C345,-11 446,84 446,211C446,293 404,349 353,378C313,402 263,413 213,413C189,413 175,411 160,409l25,167l248,0z"/>
+<glyph unicode="4" horiz-adv-x="513" d="M400,0l0,177l91,0l0,69l-91,0l0,404l-95,0l-290,-415l0,-58l302,0l0,-177M104,246l0,2l159,221C281,499 297,527 317,565l3,0C318,531 317,497 317,463l0,-217z"/>
+<glyph unicode="9" horiz-adv-x="513" d="M96,-10C117,-11 145,-10 177,-5C247,3 316,33 366,82C430,144 478,244 478,387C478,553 396,661 263,661C130,661 41,553 41,430C41,319 116,231 233,231C298,231 350,257 386,301l3,0C377,224 346,167 303,128C266,93 218,72 167,65C137,62 115,60 96,62M256,594C348,594 389,509 389,398C389,384 386,374 381,366C358,327 312,298 253,298C177,298 128,355 128,436C128,528 181,594 256,594z"/>
+<glyph unicode="." horiz-adv-x="207" d="M111,-11C148,-11 171,16 171,52C171,89 147,115 112,115C77,115 52,89 52,52C52,16 76,-11 111,-11z"/>
+<glyph unicode="7" horiz-adv-x="513" d="M57,650l0,-73l318,0l0,-2l-282,-575l91,0l283,592l0,58z"/>
+<glyph unicode="6" horiz-adv-x="513" d="M416,660C400,660 378,659 352,655C270,645 198,612 144,559C80,495 34,394 34,266C34,97 125,-11 264,-11C399,-11 480,99 480,218C480,345 399,428 284,428C212,428 158,394 127,353l-3,0C139,460 212,561 350,584C375,588 398,589 416,588M264,57C172,57 123,136 121,243C121,259 125,272 131,282C155,329 204,362 257,362C338,362 391,306 391,213C391,120 340,57 264,57z"/>
+<glyph unicode="2" horiz-adv-x="513" d="M460,0l0,73l-292,0l0,2l52,48C357,255 444,352 444,472C444,565 385,661 245,661C170,661 106,633 61,595l28,-62C119,558 168,588 227,588C324,588 356,527 356,461C355,363 280,279 114,121l-69,-67l0,-54z"/>
+</font>
+
+	<font horiz-adv-x="1000">
+<!-- Copyright 1992, 1994, 1997, 2000, 2004 Adobe Systems Incorporated. All rights reserved. Myriad is either a registered trademark or a trademark of Adobe Systems Incorporated in the United States and/or other countries. -->
+<font-face font-family="MyriadPro-Regular" units-per-em="1000" underline-position="-100" underline-thickness="50"/>
+<missing-glyph horiz-adv-x="500" d="M0,0l500,0l0,700l-500,0M250,395l-170,255l340,0M280,350l170,255l0,-510M80,50l170,255l170,-255M50,605l170,-255l-170,-255z"/>
+<glyph unicode="A" horiz-adv-x="612" d="M424,212l72,-212l93,0l-230,674l-105,0l-229,-674l90,0l70,212M203,280l66,195C282,516 293,557 303,597l2,0C315,558 325,518 340,474l66,-194z"/>
+<glyph unicode="D" horiz-adv-x="666" d="M76,2C120,-3 172,-6 234,-6C365,-6 469,28 532,91C595,153 629,243 629,353C629,462 594,540 534,595C475,650 386,679 261,679C192,679 129,673 76,665M163,601C186,606 220,610 265,610C449,610 539,509 538,350C538,168 437,64 251,64C217,64 185,65 163,69z"/>
+<glyph unicode="E" horiz-adv-x="492" d="M425,388l-262,0l0,213l277,0l0,73l-364,0l0,-674l379,0l0,73l-292,0l0,243l262,0z"/>
+<glyph unicode="L" horiz-adv-x="472" d="M76,0l375,0l0,73l-288,0l0,601l-87,0z"/>
+<glyph unicode="N" horiz-adv-x="658" d="M158,0l0,288C158,400 156,481 151,566l3,1C188,494 233,417 280,342l214,-342l88,0l0,674l-82,0l0,-282C500,287 502,205 510,115l-2,-1C476,183 437,254 387,333l-216,341l-95,0l0,-674z"/>
+<glyph unicode="O" horiz-adv-x="689" d="M349,685C169,685 36,545 36,331C36,127 161,-11 339,-11C511,-11 652,112 652,344C652,544 533,685 349,685M345,614C490,614 560,474 560,340C560,187 482,60 344,60C207,60 129,189 129,333C129,481 201,614 345,614z"/>
+<glyph unicode="P" horiz-adv-x="532" d="M76,0l87,0l0,270C183,265 207,264 233,264C318,264 393,289 439,338C473,373 491,421 491,482C491,542 469,591 432,623C392,659 329,679 243,679C173,679 118,673 76,666M163,603C178,607 207,610 245,610C341,610 404,567 404,478C404,385 340,334 235,334C206,334 182,336 163,341z"/>
+<glyph unicode="S" horiz-adv-x="493" d="M42,33C78,9 149,-10 214,-10C373,-10 450,80 450,184C450,283 392,338 278,382C185,418 144,449 144,512C144,558 179,613 271,613C332,613 377,593 399,581l24,71C393,669 343,685 274,685C143,685 56,607 56,502C56,407 124,350 234,311C325,276 361,240 361,177C361,109 309,62 220,62C160,62 103,82 64,106z"/>
+<glyph unicode="U" horiz-adv-x="647" d="M75,674l0,-397C75,68 179,-11 317,-11C463,-11 572,74 572,281l0,393l-88,0l0,-399C484,126 420,60 320,60C230,60 163,124 163,275l0,399z"/>
+<glyph unicode="W" horiz-adv-x="846" d="M277,0l96,351C398,438 413,504 425,571l2,0C436,503 450,437 471,351l85,-351l91,0l191,674l-89,0l-89,-340C639,250 620,175 606,101l-2,0C594,172 576,252 557,332l-82,342l-91,0l-90,-340C271,247 250,167 239,100l-2,0C225,165 207,249 187,333l-80,341l-92,0l171,-674z"/>
+<glyph unicode=" " horiz-adv-x="212"/>
+</font>
+
+	<g>
+	<defs>
+		<rect id="SVGID_1_" width="1920" height="1080"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_2_)">
+		<defs>
+			<rect id="SVGID_3_" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  overflow="visible"/>
+		</clipPath>
+		<g opacity="0.5" clip-path="url(#SVGID_4_)">
+			<g>
+				<defs>
+					<rect id="SVGID_5_" x="960" width="960" height="1080"/>
+				</defs>
+				<clipPath id="SVGID_6_">
+					<use xlink:href="#SVGID_5_"  overflow="visible"/>
+				</clipPath>
+				<rect x="960" clip-path="url(#SVGID_6_)" fill="#EDF2F5" width="960" height="1080"/>
+			</g>
+		</g>
+	</g>
+	<rect x="1174.856" y="468.88" clip-path="url(#SVGID_2_)" fill="#98A2AE" width="255.614" height="255.614"/>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 1200.4766 505.9663)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16.4031">DOWN</tspan><tspan x="46.896" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16.4031">L</tspan><tspan x="53.998" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16.4031">O</tspan><tspan x="65.087" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16.4031">AD SPEED</tspan></text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 1349.5332 125.2407)"><tspan x="0" y="0" fill="#0D1023" font-family="'NokiaPureText-Light'" font-size="36">Speed </tspan><tspan x="102.238" y="0" fill="#0D1023" font-family="'NokiaPureText-Light'" font-size="36" letter-spacing="-4">T</tspan><tspan x="115.846" y="0" fill="#0D1023" font-family="'NokiaPureText-Light'" font-size="36">est</tspan></text>
+	</g>
+	<rect x="1444.823" y="468.88" clip-path="url(#SVGID_2_)" fill="#124191" width="255.615" height="255.614"/>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 1470.4453 505.9663)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16.4031">UP</tspan><tspan x="19.339" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16.4031">L</tspan><tspan x="26.458" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16.4031">O</tspan><tspan x="37.546" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16.4031">AD SPEED</tspan></text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		
+			<text transform="matrix(1 0 0 1 1474.7656 702.1348)" fill="#FFFFFF" font-family="'NokiaPureHeadline-Light'" font-size="111.5199" id="time_2">0.00</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 1657.5439 702.1348)" fill="#FFFFFF" font-family="'NokiaPureText-Light'" font-size="12.3023">mbps</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 1185.5557 702.1348)" fill="#FFFFFF" font-family="'NokiaPureHeadline-Light'" font-size="111.5199" id="time_1">0.00</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 1382.3867 702.1348)" fill="#FFFFFF" font-family="'NokiaPureText-Light'" font-size="12.3023">mbps</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<defs>
+			<rect id="SVGID_7_" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_8_">
+			<use xlink:href="#SVGID_7_"  overflow="visible"/>
+		</clipPath>
+		<path clip-path="url(#SVGID_8_)" fill="#FF3154" d="M1308.266,589.579c-2.17,0-3.702-1.724-3.702-3.958
+			c0-2.298,1.596-3.957,3.766-3.957c2.298,0,3.766,1.659,3.766,3.957c0,2.234-1.468,3.958-3.766,3.958H1308.266z M1306.16,576.494
+			l-0.894-30.637h6.128l-0.893,30.637H1306.16z"/>
+		
+			<circle clip-path="url(#SVGID_8_)" fill="none" stroke="#FF3154" stroke-width="4" stroke-miterlimit="10" cx="1309.143" cy="567.328" r="41.263"/>
+		<path clip-path="url(#SVGID_8_)" fill="#FF3154" d="M1236.27,767.788c-0.896,0-1.529-0.712-1.529-1.633
+			c0-0.949,0.659-1.634,1.555-1.634c0.949,0,1.554,0.685,1.554,1.634c0,0.921-0.605,1.633-1.554,1.633H1236.27z M1235.4,762.386
+			l-0.369-12.649h2.53l-0.37,12.649H1235.4z"/>
+		<path clip-path="url(#SVGID_8_)" fill="#FF3154" d="M1236.632,776.626c-9.94,0-18.025-8.087-18.025-18.025
+			c0-9.94,8.085-18.026,18.025-18.026c9.939,0,18.025,8.086,18.025,18.026C1254.657,768.539,1246.571,776.626,1236.632,776.626
+			 M1236.632,742.55c-8.851,0-16.05,7.2-16.05,16.051c0,8.849,7.199,16.05,16.05,16.05c8.85,0,16.05-7.201,16.05-16.05
+			C1252.682,749.75,1245.482,742.55,1236.632,742.55"/>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 1263.0713 767.7881)" fill="#0D1023" font-family="'NokiaPureText-Regular'" font-size="20.1794">Ping 147.20 ms</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 1122.8799 846.5996)"><tspan x="0" y="0" fill="#0D1023" font-family="'NokiaPureText-Regular'" font-size="24">Jackie’s iPad is experiencing sub-optimal Wi-Fi connectivity</tspan></text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<defs>
+			<rect id="SVGID_9_" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_10_">
+			<use xlink:href="#SVGID_9_"  overflow="visible"/>
+		</clipPath>
+		<rect x="95.107" y="564.297" clip-path="url(#SVGID_10_)" fill="#FF000" width="570.268" height="33.419"/>
+		<path clip-path="url(#SVGID_10_)" fill="#BEC8D2" d="M1436.994,347.861c4.734,0,8.575-3.856,8.575-8.593
+			c0-4.717-3.841-8.557-8.559-8.557l-21.557-15.639l-3.62,3.789l16.602,20.666l0.017,0.275
+			C1428.709,344.314,1432.465,347.861,1436.994,347.861">
+			<!-- <animateTransform xmlns="http://www.w3.org/2000/svg" attributeType="xml" attributeName="transform" type="rotate" from="0 1440 336" to="360 1440 336" dur="4s" repeatCount="1"/> -->
+		</path>
+		<path clip-path="url(#SVGID_10_)" fill="#BEC8D2" d="M1437.639,232.792c-57.309,0-103.94,46.631-103.94,103.94
+			c0,19.993,5.7,39.434,16.496,56.171l0.792,1.206h12.93l17.516-15.309l-7.562-8.679l-17.099,14.913l-0.552-0.93
+			c-8.419-14.396-12.863-30.789-12.863-47.372c0-0.483,0.017-0.948,0.071-1.55l0.07-1.74l20.816-0.017v-11.522h-19.696l0.172-1.068
+			c2.736-16.064,9.587-31.186,19.819-43.722l0.637-0.769l14.668,14.651l8.165-8.13l-14.843-14.858l0.688-0.64
+			c15.311-14.066,34.199-22.523,54.672-24.465l0.984-0.108l0.017,24.039h11.52v-24.228l0.93,0.053
+			c22.696,1.049,44.221,10.244,60.632,25.882l0.654,0.639l-15.188,15.22l8.162,8.144l14.793-14.826l0.637,0.811
+			c9.66,12.26,16.152,26.895,18.769,42.307l0.173,1.068l-20.458,0.018v11.521h21.577l0.086,1.861
+			c0.034,0.481,0.052,0.946,0.052,1.429c0,16.531-4.392,32.838-12.726,47.165l-0.602,1.017l-16.102-16.084l-8.127,8.146
+			l17.117,17.133h12.829l0.775-1.206c10.797-16.771,16.496-36.196,16.496-56.171
+			C1541.595,279.423,1494.964,232.792,1437.639,232.792"/>
+		<path clip-path="url(#SVGID_10_)" fill="#1D458F" d="M1364.608,277.113l0.637-0.769l14.669,14.651l8.164-8.13l-14.843-14.859
+			l0.689-0.639c7.175-6.593,15.142-11.936,23.685-15.966l-7.226-7.226c-33.62,17.236-56.685,52.253-56.685,92.556
+			c0,19.993,5.7,39.435,16.496,56.172l0.792,1.206h12.931l17.515-15.309l-7.562-8.679l-17.099,14.913l-0.552-0.93
+			c-8.419-14.396-12.863-30.79-12.863-47.373c0-0.482,0.018-0.947,0.071-1.55l0.071-1.739l20.815-0.017v-11.522h-19.695l0.172-1.068
+			C1347.525,304.771,1354.377,289.649,1364.608,277.113"/>
+		<path clip-path="url(#SVGID_10_)" fill="none" stroke="#231F20" stroke-miterlimit="10" d="M1364.608,277.113l0.637-0.769
+			l14.669,14.651l8.164-8.13l-14.843-14.859l0.689-0.639c7.175-6.593,15.142-11.936,23.685-15.966l-7.226-7.226
+			c-33.62,17.236-56.685,52.253-56.685,92.556c0,19.993,5.7,39.435,16.496,56.172l0.792,1.206h12.931l17.515-15.309l-7.562-8.679
+			l-17.099,14.913l-0.552-0.93c-8.419-14.396-12.863-30.79-12.863-47.373c0-0.482,0.018-0.947,0.071-1.55l0.071-1.739l20.815-0.017
+			v-11.522h-19.695l0.172-1.068C1347.525,304.771,1354.377,289.649,1364.608,277.113z"/>
+		
+			<polyline clip-path="url(#SVGID_10_)" fill="none" stroke="#1E448D" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" points="
+			423.002,618.452 423.002,609.622 480.215,609.622 480.215,520.996 		"/>
+		<polygon clip-path="url(#SVGID_10_)" fill="#1E448D" points="426.991,617.285 423.002,624.193 419.013,617.285 		"/>
+		<polygon clip-path="url(#SVGID_10_)" fill="#1E448D" points="484.204,522.164 480.215,515.256 476.226,522.164 		"/>
+		<rect x="95.107" y="564.297" clip-path="url(#SVGID_10_)" fill="#FFFFFF" width="570.268" height="33.419"/>
+		
+			<rect x="95.107" y="564.297" clip-path="url(#SVGID_10_)" fill="none" stroke="#1E448D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" width="570.268" height="33.419" class="ani_row4_stroke"/>
+		<path clip-path="url(#SVGID_10_)" fill="#124191" d="M182.297,233.126c8.897,0,16.415-2.811,16.415-6.139
+			s-7.518-6.139-16.415-6.139c-8.899,0-16.415,2.811-16.415,6.139S173.398,233.126,182.297,233.126" class="ani_row1_fill" id="row1_2"/>
+		<path clip-path="url(#SVGID_10_)" fill="#124191" d="M182.297,234.679c-8.293,0-15.061-2.263-16.934-5.402v56.275
+			c0,1.688,1.644,3.226,4.341,4.388c3.1,1.337,7.592,2.177,12.593,2.177c9.351,0,16.932-2.94,16.932-6.565v-56.275
+			C197.357,232.416,190.588,234.679,182.297,234.679" class="ani_row1_fill" id="row1_1"/>
+		<polygon clip-path="url(#SVGID_10_)" fill="#BEC8D2" points="551.354,262.226 547.872,262.226 547.872,250.774 553.899,250.774 
+			560.813,259.323 560.813,250.774 564.299,250.774 564.299,262.226 558.393,262.226 551.354,253.53 		"/>
+		<path clip-path="url(#SVGID_10_)" fill="#BEC8D2" d="M580.209,251.607c-0.742-0.785-1.825-1.022-3.892-1.022h-5.953
+			c-2.077,0-3.148,0.237-3.89,1.022c-0.475,0.526-0.775,1.075-0.775,2.667v4.412c0,1.592,0.3,2.142,0.775,2.665
+			c0.742,0.79,1.813,1.026,3.89,1.026h5.953c2.067,0,3.15-0.236,3.892-1.026c0.476-0.523,0.769-1.073,0.769-2.665v-4.412
+			C580.978,252.682,580.685,252.133,580.209,251.607 M577.694,258.227c0,0.669-0.072,0.875-0.257,1.033
+			c-0.185,0.164-0.474,0.208-1.268,0.208h-5.658c-0.797,0-1.076-0.044-1.273-0.208c-0.171-0.158-0.25-0.364-0.25-1.033v-3.494
+			c0-0.678,0.079-0.875,0.25-1.03c0.197-0.173,0.476-0.215,1.273-0.215h5.658c0.794,0,1.083,0.042,1.268,0.215
+			c0.185,0.155,0.257,0.352,0.257,1.03V258.227z"/>
+		<path clip-path="url(#SVGID_10_)" fill="#BEC8D2" d="M592.198,250.774h4.799l-6.482,5.354l7.322,6.097h-5.148l-6.644-5.971
+			L592.198,250.774z M586.045,262.225h-3.643v-11.451h3.643V262.225z"/>
+		<rect x="598.504" y="250.774" clip-path="url(#SVGID_10_)" fill="#BEC8D2" width="3.648" height="11.452"/>
+		<path clip-path="url(#SVGID_10_)" fill="#BEC8D2" d="M609.179,257.748h4.521l-2.258-4.15L609.179,257.748z M616.036,262.226
+			l-1.077-1.991h-7.044l-1.07,1.991h-4.018l6.451-11.452h4.53l6.449,11.452H616.036z"/>
+		<path clip-path="url(#SVGID_10_)" fill="#BEC8D2" d="M782.545,229.019c-15.396,0-27.877,12.481-27.877,27.878
+			c0,15.397,12.481,27.878,27.877,27.878c15.397,0,27.878-12.481,27.878-27.878C810.423,241.5,797.942,229.019,782.545,229.019
+			 M777.083,247.112c0-3.016,2.445-5.461,5.462-5.461c3.018,0,5.462,2.445,5.462,5.461v12.747c0,3.016-2.444,5.461-5.462,5.461
+			c-3.017,0-5.462-2.445-5.462-5.461V247.112z M783.152,267.717v2.459h3.034v1.214h-7.283v-1.214h3.035v-2.459
+			c-4.066-0.312-7.283-3.714-7.283-7.858h1.215c0,3.68,2.994,6.674,6.675,6.674c3.682,0,6.676-2.994,6.676-6.674h1.215
+			C790.436,264.003,787.219,267.405,783.152,267.717"/>
+		<path clip-path="url(#SVGID_10_)" fill="#BEC8D2" d="M395.933,232.815c0-2.366-1.917-4.284-4.284-4.284h-21.632
+			c-2.367,0-4.286,1.918-4.286,4.284v49.863c0,2.366,1.919,4.285,4.286,4.285h21.632c2.367,0,4.284-1.919,4.284-4.285V232.815z
+			 M384.116,233.159c0,0.344-0.279,0.624-0.624,0.624h-4.662c-0.345,0-0.622-0.28-0.622-0.624v-0.066
+			c0-0.345,0.277-0.624,0.622-0.624h4.662c0.345,0,0.624,0.279,0.624,0.624V233.159z M380.855,284.104
+			c-1.546,0-2.799-1.253-2.799-2.799c0-1.545,1.253-2.798,2.799-2.798c1.546,0,2.799,1.253,2.799,2.798
+			C383.654,282.851,382.401,284.104,380.855,284.104 M393.307,276.458h-24.949v-38.08h24.949V276.458z"/>
+		<polyline clip-path="url(#SVGID_10_)" fill="none" stroke="#50C2F0" stroke-width="4" stroke-miterlimit="10" points="
+			151.057,256.658 95.302,256.658 95.302,329.229 264.29,329.229 264.29,256.658 213.341,256.658 		" class="ani_row1_stroke" id="row1_3"/>
+		<rect x="95.106" y="305.448" clip-path="url(#SVGID_10_)" fill="#50C2F0" width="168.988" height="23.555" class="ani_row1_fill" id="row1_4"/>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 140.5361 322.918)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">Ama</tspan><tspan x="24.339" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">z</tspan><tspan x="29.502" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">on Al</tspan><tspan x="56.82" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">e</tspan><tspan x="62.893" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">xa</tspan></text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<defs>
+			<rect id="SVGID_11_" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_12_">
+			<use xlink:href="#SVGID_11_"  overflow="visible"/>
+		</clipPath>
+		
+			<polyline clip-path="url(#SVGID_12_)" fill="none" stroke="#BEC8D2" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" points="
+			351.975,256.658 296.436,256.658 296.436,329.229 465.425,329.229 465.425,256.658 409.805,256.658 		"/>
+		<rect x="296.241" y="305.448" clip-path="url(#SVGID_12_)" fill="#BEC8D2" width="168.988" height="23.555"/>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 341.2275 322.918)" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">FB Messenger</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 764.3496 398.8896)"><tspan x="0" y="0" fill="#124191" font-family="'NokiaPureText-Regular'" font-size="12.6241">F</tspan><tspan x="5.58" y="0" fill="#124191" font-family="'NokiaPureText-Regular'" font-size="12.6241">u</tspan><tspan x="12.536" y="0" fill="#124191" font-family="'NokiaPureText-Regular'" font-size="12.6241">t</tspan><tspan x="16.601" y="0" fill="#124191" font-family="'NokiaPureText-Regular'" font-size="12.6241">u</tspan><tspan x="23.556" y="0" fill="#124191" font-family="'NokiaPureText-Regular'" font-size="12.6241">r</tspan><tspan x="27.381" y="0" fill="#124191" font-family="'NokiaPureText-Regular'" font-size="12.6241">e</tspan></text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<defs>
+			<rect id="SVGID_13_" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_14_">
+			<use xlink:href="#SVGID_13_"  overflow="visible"/>
+		</clipPath>
+		
+			<polyline clip-path="url(#SVGID_14_)" fill="none" stroke="#BEC8D2" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" points="
+			534.114,256.658 496.581,256.658 496.581,329.229 665.571,329.229 665.571,256.658 632.449,256.658 		"/>
+		<rect x="496.386" y="305.448" clip-path="url(#SVGID_14_)" fill="#BEC8D2" width="168.989" height="23.555"/>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 553.1699 322.918)" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">Nokia IMS</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<defs>
+			<rect id="SVGID_15_" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_16_">
+			<use xlink:href="#SVGID_15_"  overflow="visible"/>
+		</clipPath>
+		
+			<polyline clip-path="url(#SVGID_16_)" fill="none" stroke="#BEC8D2" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" points="
+			741.003,256.658 698.149,256.658 698.149,329.229 867.138,329.229 867.138,256.658 824.181,256.658 		"/>
+		<rect x="697.953" y="305.448" clip-path="url(#SVGID_16_)" fill="#BEC8D2" width="168.989" height="23.555"/>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 765.9658 322.918)" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">Other</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<defs>
+			<rect id="SVGID_17_" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_18_">
+			<use xlink:href="#SVGID_17_"  overflow="visible"/>
+		</clipPath>
+		<path clip-path="url(#SVGID_18_)" fill="none" stroke="#00C9FF" stroke-width="1.714" stroke-miterlimit="10" d="M182.297,223.435
+			c-7.14,0-11.508,2.3-11.508,3.552c0,1.252,4.368,3.552,11.508,3.552c7.138,0,11.507-2.3,11.507-3.552
+			C193.804,225.735,189.435,223.435,182.297,223.435z" class="ani_row1_stroke" id="row1_5"/>
+		<path clip-path="url(#SVGID_18_)" fill="#BEC8D2" d="M377.335,269.225h5.181v-11.48h3.101l0.421-3.868h-3.522l0.006-2.171
+			c0-1.034,0.096-1.584,1.579-1.584h2.24v-3.854h-3.858c-3.806,0-5.148,1.917-5.148,5.147v2.462h-2.009v3.868h2.009V269.225z"/>
+		
+			<rect x="95.107" y="378.001" clip-path="url(#SVGID_18_)" fill="none" stroke="#1E448D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" width="570.268" height="33.42" class="ani_row2__" id="row2_12"/>
+		<rect x="295.056" y="465.249" clip-path="url(#SVGID_18_)" fill="#124191" width="370.319" height="45.219" class="ani_row3" id="row3_1"/>
+		<rect x="95.302" y="465.249" clip-path="url(#SVGID_18_)" fill="#00C9FF" width="168.792" height="45.219" class="ani_row3" id="row3_2"/>
+		<rect x="698.509" y="465.249" clip-path="url(#SVGID_18_)" fill="#BEC8D2" width="168.793" height="45.219"/>
+		<path clip-path="url(#SVGID_18_)" fill="#1E448D" d="M246.965,360.873h-134.73c-9.46,0-17.129,7.669-17.129,17.128h168.988
+			C264.094,368.542,256.426,360.873,246.965,360.873" class="ani_row2" id="row2_1"/>
+		
+			<path clip-path="url(#SVGID_18_)" fill="none" stroke="#1E448D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="
+			M246.965,360.873h-134.73c-9.46,0-17.129,7.669-17.129,17.128h168.988C264.094,368.542,256.426,360.873,246.965,360.873z" class="ani_row2" id="row2_2"/>
+		<path clip-path="url(#SVGID_18_)" fill="#1E448D" d="M448.296,360.873H313.567c-9.461,0-17.13,7.669-17.13,17.128h168.989
+			C465.426,368.542,457.757,360.873,448.296,360.873" class="ani_row2" id="row2_3"/>
+		
+			<path clip-path="url(#SVGID_18_)" fill="none" stroke="#1E448D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="
+			M448.296,360.873H313.567c-9.461,0-17.13,7.669-17.13,17.128h168.989C465.426,368.542,457.757,360.873,448.296,360.873z" class="ani_row2" id="row2_4"/>
+		<path clip-path="url(#SVGID_18_)" fill="#1E448D" d="M648.246,360.873H513.515c-9.459,0-17.129,7.669-17.129,17.128h168.989
+			C665.375,368.542,657.706,360.873,648.246,360.873" class="ani_row2" id="row2_5"/>
+		
+			<path clip-path="url(#SVGID_18_)" fill="none" stroke="#1E448D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="
+			M648.246,360.873H513.515c-9.459,0-17.129,7.669-17.129,17.128h168.989C665.375,368.542,657.706,360.873,648.246,360.873z" class="ani_row2" id="row2_6"/>
+		<path clip-path="url(#SVGID_18_)" fill="#1E448D" d="M513.514,428.55h134.731c9.46,0,17.129-7.669,17.129-17.129H496.385
+			C496.385,420.881,504.055,428.55,513.514,428.55" class="ani_row2" id="row2_7"/>
+		
+			<path clip-path="url(#SVGID_18_)" fill="none" stroke="#1E448D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="
+			M513.514,428.55h134.731c9.46,0,17.129-7.669,17.129-17.129H496.385C496.385,420.881,504.055,428.55,513.514,428.55z" class="ani_row2" id="row2_8"/>
+		
+			<rect x="698.149" y="378.001" clip-path="url(#SVGID_18_)" fill="none" stroke="#BEC8D2" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" width="168.988" height="33.42"/>
+		<path clip-path="url(#SVGID_18_)" fill="#BEC8D2" d="M850.008,360.873H715.277c-9.46,0-17.128,7.669-17.128,17.128h168.988
+			C867.137,368.542,859.468,360.873,850.008,360.873"/>
+		
+			<path clip-path="url(#SVGID_18_)" fill="none" stroke="#BEC8D2" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="
+			M850.008,360.873H715.277c-9.46,0-17.128,7.669-17.128,17.128h168.988C867.137,368.542,859.468,360.873,850.008,360.873z"/>
+		<path clip-path="url(#SVGID_18_)" fill="#BEC8D2" d="M715.278,428.55h134.731c9.46,0,17.129-7.669,17.129-17.129H698.149
+			C698.149,420.881,705.817,428.55,715.278,428.55"/>
+		
+			<path clip-path="url(#SVGID_18_)" fill="none" stroke="#BEC8D2" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="
+			M715.278,428.55h134.731c9.46,0,17.129-7.669,17.129-17.129H698.149C698.149,420.881,705.817,428.55,715.278,428.55z"/>
+		<path clip-path="url(#SVGID_18_)" fill="#1E448D" d="M312.184,428.55h134.731c9.461,0,17.129-7.669,17.129-17.129H295.055
+			C295.055,420.881,302.724,428.55,312.184,428.55" class="ani_row2" id="row2_9"/>
+		
+			<path clip-path="url(#SVGID_18_)" fill="none" stroke="#1E448D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="
+			M312.184,428.55h134.731c9.461,0,17.129-7.669,17.129-17.129H295.055C295.055,420.881,302.724,428.55,312.184,428.55z" class="ani_row2" id="row2_10"/>
+		<path clip-path="url(#SVGID_18_)" fill="#1E448D" d="M112.235,428.55h134.73c9.461,0,17.129-7.669,17.129-17.129H95.106
+			C95.106,420.881,102.775,428.55,112.235,428.55" class="ani_row2" id="row2_11"/>
+		
+			<path clip-path="url(#SVGID_18_)" fill="none" stroke="#1E448D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="
+			M112.235,428.55h134.73c9.461,0,17.129-7.669,17.129-17.129H95.106C95.106,420.881,102.775,428.55,112.235,428.55z" class="ani_row2" id="row2_12"/>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 156.6123 373.6206)" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">Plug - In</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 357.8403 373.6206)" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">Plug - In</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 557.7935 373.6206)" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">Plug - In</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 759.5518 373.6206)" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">Plug - In</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 759.5518 424.1675)" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">Plug - In</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 731.0215 492.0474)" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">Knowledge Engine</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 134.1543 492.0474)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">ML Engine (N</tspan><tspan x="69.911" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">L</tspan><tspan x="75.629" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">U)</tspan></text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 433.4209 492.0474)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">W</tspan><tspan x="10.503" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">or</tspan><tspan x="21.562" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">k</tspan><tspan x="27.369" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">ﬂow Engine</tspan></text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 156.5996 424.1675)" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">Plug - In</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 357.8276 424.1675)" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">Plug - In</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 557.7808 424.1675)" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">Plug - In</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 739.6943 576.6289)"><tspan x="0" y="0" fill="#124191" font-family="'NokiaPureText-Regular'" font-size="12.6241">C</tspan><tspan x="7.208" y="0" fill="#124191" font-family="'NokiaPureText-Regular'" font-size="12.6241">ontact </tspan><tspan x="43.918" y="0" fill="#124191" font-family="'NokiaPureText-Regular'" font-size="12.6241">C</tspan><tspan x="51.126" y="0" fill="#124191" font-family="'NokiaPureText-Regular'" font-size="12.6241">en</tspan><tspan x="64.458" y="0" fill="#124191" font-family="'NokiaPureText-Regular'" font-size="12.6241">t</tspan><tspan x="68.396" y="0" fill="#124191" font-family="'NokiaPureText-Regular'" font-size="12.6241">er</tspan></text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<defs>
+			<rect id="SVGID_19_" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_20_">
+			<use xlink:href="#SVGID_19_"  overflow="visible"/>
+		</clipPath>
+		
+			<rect x="698.509" y="547.168" clip-path="url(#SVGID_20_)" fill="none" stroke="#1E448D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" width="168.433" height="50.548" class="ani_row4_stroke" id="row4_1"/>
+		<path clip-path="url(#SVGID_20_)" fill="#1E448D" d="M246.965,547.168h-134.73c-9.46,0-17.129,7.669-17.129,17.129h168.988
+			C264.094,554.837,256.426,547.168,246.965,547.168" class="ani_row4_fill" id="row4_2"/>
+		
+			<path clip-path="url(#SVGID_20_)" fill="none" stroke="#1E448D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="
+			M246.965,547.168h-134.73c-9.46,0-17.129,7.669-17.129,17.129h168.988C264.094,554.837,256.426,547.168,246.965,547.168z" class="ani_row4_stroke"/>
+		<rect x="296.437" y="547.168" clip-path="url(#SVGID_20_)" fill="#1E448D" width="168.989" height="17.129" class="ani_row4_fill" id="row4_3"/>
+		
+			<rect x="296.437" y="547.168" clip-path="url(#SVGID_20_)" fill="none" stroke="#1E448D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" width="168.989" height="17.129" class="ani_row4_stroke" id="row4_4"/>
+		<path clip-path="url(#SVGID_20_)" fill="#1E448D" d="M648.246,547.168H513.515c-9.459,0-17.129,7.669-17.129,17.129h168.989
+			C665.375,554.837,657.706,547.168,648.246,547.168" class="ani_row4_fill" id="row4_4"/>
+		
+			<path clip-path="url(#SVGID_20_)" fill="none" stroke="#1E448D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="
+			M648.246,547.168H513.515c-9.459,0-17.129,7.669-17.129,17.129h168.989C665.375,554.837,657.706,547.168,648.246,547.168z" class="ani_row4_stroke" id="row4_5"/>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 156.6123 559.916)" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">Plug - In</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 351.0864 559.916)" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">WF Builder</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 557.7935 559.916)" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">Plug - In</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<defs>
+			<rect id="SVGID_21_" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_22_">
+			<use xlink:href="#SVGID_21_"  overflow="visible"/>
+		</clipPath>
+		
+			<line clip-path="url(#SVGID_22_)" fill="none" stroke="#124191" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="179.796" y1="336.585" x2="179.796" y2="354.645"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="175.807,337.752 179.796,330.844 183.785,337.752 		"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="175.807,353.478 179.796,360.386 183.785,353.478 		"/>
+		
+			<line clip-path="url(#SVGID_22_)" fill="none" stroke="#124191" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="380.833" y1="336.585" x2="380.833" y2="354.645"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="376.844,337.752 380.833,330.844 384.822,337.752 		"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="376.844,353.478 380.833,360.386 384.822,353.478 		"/>
+		
+			<line clip-path="url(#SVGID_22_)" fill="none" stroke="#124191" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="581.87" y1="336.585" x2="581.87" y2="354.645"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="577.881,337.752 581.87,330.844 585.859,337.752 		"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="577.881,353.478 581.87,360.386 585.859,353.478 		"/>
+		
+			<line clip-path="url(#SVGID_22_)" fill="none" stroke="#124191" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="782.907" y1="336.585" x2="782.907" y2="354.645"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="778.918,337.752 782.907,330.844 786.896,337.752 		"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="778.918,353.478 782.907,360.386 786.896,353.478 		"/>
+		
+			<line clip-path="url(#SVGID_22_)" fill="none" stroke="#124191" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="179.796" y1="437.87" x2="179.796" y2="455.929"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="175.807,439.038 179.796,432.13 183.785,439.038 		"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="175.807,454.762 179.796,461.67 183.785,454.762 		"/>
+		
+			<line clip-path="url(#SVGID_22_)" fill="none" stroke="#124191" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="380.833" y1="437.87" x2="380.833" y2="455.929"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="376.844,439.038 380.833,432.13 384.822,439.038 		"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="376.844,454.762 380.833,461.67 384.822,454.762 		"/>
+		
+			<line clip-path="url(#SVGID_22_)" fill="none" stroke="#124191" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="581.87" y1="437.87" x2="581.87" y2="455.929"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="577.881,439.038 581.87,432.13 585.859,439.038 		"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="577.881,454.762 581.87,461.67 585.859,454.762 		"/>
+		
+			<line clip-path="url(#SVGID_22_)" fill="none" stroke="#124191" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="179.796" y1="519.789" x2="179.796" y2="537.848"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="175.807,520.956 179.796,514.049 183.785,520.956 		"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="175.807,536.681 179.796,543.589 183.785,536.681 		"/>
+		
+			<line clip-path="url(#SVGID_22_)" fill="none" stroke="#124191" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="380.833" y1="519.789" x2="380.833" y2="537.848"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="376.844,520.956 380.833,514.049 384.822,520.956 		"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="376.844,536.681 380.833,543.589 384.822,536.681 		"/>
+		
+			<line clip-path="url(#SVGID_22_)" fill="none" stroke="#124191" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="581.87" y1="519.789" x2="581.87" y2="537.848"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="577.881,520.956 581.87,514.049 585.859,520.956 		"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="577.881,536.681 581.87,543.589 585.859,536.681 		"/>
+		
+			<line clip-path="url(#SVGID_22_)" fill="none" stroke="#124191" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="782.907" y1="437.87" x2="782.907" y2="455.929"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="778.918,439.038 782.907,432.13 786.896,439.038 		"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="778.918,454.762 782.907,461.67 786.896,454.762 		"/>
+		
+			<line clip-path="url(#SVGID_22_)" fill="none" stroke="#124191" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="782.907" y1="528.819" x2="782.907" y2="537.849"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="778.918,536.681 782.907,543.589 786.896,536.681 		"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#BEC8D2" points="308.072,692.825 260.062,659.594 308.072,626.36 356.081,659.594 		
+			"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#124191" points="423.002,692.825 374.992,659.594 423.002,626.36 471.011,659.594 		
+			" class="ani_row5_fill"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#BEC8D2" points="537.814,692.825 489.803,659.594 537.814,626.36 585.822,659.594 		
+			"/>
+		<polygon clip-path="url(#SVGID_22_)" fill="#BEC8D2" points="652.276,692.825 604.266,659.594 652.276,626.36 700.286,659.594 		
+			"/>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 405.6719 658.334)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="10.2701" letter-spacing="-1">T</tspan><tspan x="4.077" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="10.2701">r</tspan><tspan x="7.189" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="10.2701">ouble</tspan></text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 409.0713 667.998)" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="10.2701">Shoot</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 521.7754 663.2627)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="10.2701">Inqui</tspan><tspan x="21.998" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="10.2701">r</tspan><tspan x="25.449" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="10.2701">y</tspan></text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 648.2002 660.2441)" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="10.2701">...</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 297.9932 399.9946)"><tspan x="0" y="0" fill="#124191" font-family="'NokiaPureText-Regular'" font-size="12.6241">In</tspan><tspan x="10.023" y="0" fill="#124191" font-family="'NokiaPureText-Regular'" font-size="12.6241">t</tspan><tspan x="13.962" y="0" fill="#124191" font-family="'NokiaPureText-Regular'" font-size="12.6241">e</tspan><tspan x="20.287" y="0" fill="#124191" font-family="'NokiaPureText-Regular'" font-size="12.6241">r</tspan><tspan x="24.048" y="0" fill="#124191" font-family="'NokiaPureText-Regular'" font-size="12.6241">action Engine (Dialogue)</tspan></text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 285.7324 657.623)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="10.2701">P</tspan><tspan x="5.371" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="10.2701">r</tspan><tspan x="8.483" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="10.2701">o</tspan><tspan x="14.08" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="10.2701">vision</tspan></text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 288.875 667.2871)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="10.2701">D</tspan><tspan x="6.84" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="10.2701">e</tspan><tspan x="11.944" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="10.2701">vi</tspan><tspan x="19.287" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="10.2701">c</tspan><tspan x="23.785" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="10.2701">es</tspan></text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<defs>
+			<rect id="SVGID_23_" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_24_">
+			<use xlink:href="#SVGID_23_"  overflow="visible"/>
+		</clipPath>
+		<rect x="95.106" y="725.182" clip-path="url(#SVGID_24_)" fill="#1E448D" width="270.625" height="33.419" class="ani_row6_fill" id="btn_Next"/>
+		<rect x="388.903" y="725.182" clip-path="url(#SVGID_24_)" fill="#BEC8D2" width="270.624" height="33.419"/>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 495.0469 746.0742)" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">Analytics</text>
+	</g>
+	<g clip-path="url(#SVGID_2_)" id="btn_Text">
+		<text transform="matrix(1 0 0 1 153.123 746.0742)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">C</tspan><tspan x="7.208" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">onnec</tspan><tspan x="40.131" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">t</tspan><tspan x="44.07" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">ed D</tspan><tspan x="68.598" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">e</tspan><tspan x="74.86" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">vi</tspan><tspan x="83.886" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">c</tspan><tspan x="89.428" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">e Plat</tspan><tspan x="118.387" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">f</tspan><tspan x="121.77" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">orm</tspan></text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<defs>
+			<rect id="SVGID_25_" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_26_">
+			<use xlink:href="#SVGID_25_"  overflow="visible"/>
+		</clipPath>
+		<rect x="683.24" y="725.182" clip-path="url(#SVGID_26_)" fill="#BEC8D2" width="183.702" height="33.419"/>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 749.4365 746.0742)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">O</tspan><tspan x="8.698" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">S</tspan><tspan x="14.808" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">S/B</tspan><tspan x="32.204" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">S</tspan><tspan x="38.313" y="0" fill="#FFFFFF" font-family="'NokiaPureText-Regular'" font-size="12.6241">S</tspan></text>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<defs>
+			<rect id="SVGID_27_" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_28_">
+			<use xlink:href="#SVGID_27_"  overflow="visible"/>
+		</clipPath>
+		
+			<line clip-path="url(#SVGID_28_)" fill="none" stroke="#124191" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="480.216" y1="528.819" x2="782.906" y2="528.819"/>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<text transform="matrix(1 0 0 1 349.5068 585.1895)" fill="#124191" font-family="'NokiaPureText-Regular'" font-size="12.6241">Bot Builder</text>
+	</g>
+	<polygon clip-path="url(#SVGID_2_)" fill="#124191" points="1674.125,1009.611 1665.236,1009.611 1665.236,980.381 
+		1680.621,980.381 1698.271,1002.199 1698.271,980.381 1707.169,980.381 1707.169,1009.611 1692.094,1009.611 1674.125,987.414 	"/>
+	<g clip-path="url(#SVGID_2_)">
+		<defs>
+			<rect id="SVGID_29_" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_30_">
+			<use xlink:href="#SVGID_29_"  overflow="visible"/>
+		</clipPath>
+		<path clip-path="url(#SVGID_30_)" fill="#124191" d="M1747.777,982.508c-1.895-2.004-4.66-2.61-9.934-2.61h-15.197
+			c-5.299,0-8.037,0.606-9.93,2.61c-1.212,1.341-1.974,2.744-1.974,6.802v11.266c0,4.064,0.762,5.465,1.974,6.801
+			c1.893,2.019,4.631,2.621,9.93,2.621h15.197c5.274,0,8.039-0.602,9.934-2.621c1.212-1.336,1.963-2.737,1.963-6.801V989.31
+			C1749.74,985.252,1748.989,983.849,1747.777,982.508 M1741.357,999.406c0,1.705-0.187,2.231-0.654,2.635
+			c-0.475,0.42-1.211,0.531-3.239,0.531h-14.442c-2.036,0-2.747-0.111-3.249-0.531c-0.437-0.404-0.637-0.93-0.637-2.635v-8.924
+			c0-1.726,0.2-2.228,0.637-2.627c0.502-0.439,1.213-0.547,3.249-0.547h14.442c2.028,0,2.764,0.108,3.239,0.547
+			c0.467,0.399,0.654,0.901,0.654,2.627V999.406z"/>
+		<path clip-path="url(#SVGID_30_)" fill="#124191" d="M1778.379,980.379h12.248l-16.541,13.67l18.685,15.562h-13.138l-16.96-15.242
+			L1778.379,980.379z M1762.673,1009.611h-9.296v-29.232h9.296V1009.611z"/>
+		<rect x="1794.472" y="980.381" clip-path="url(#SVGID_30_)" fill="#124191" width="9.313" height="29.23"/>
+		<path clip-path="url(#SVGID_30_)" fill="#124191" d="M1821.721,998.181h11.541l-5.766-10.591L1821.721,998.181z
+			 M1839.225,1009.611l-2.748-5.082h-17.981l-2.734,5.082h-10.252l16.463-29.23h11.566l16.461,29.23H1839.225z"/>
+	</g>
+</g>
+</svg>

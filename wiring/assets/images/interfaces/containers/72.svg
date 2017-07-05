@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="62px" height="33px" viewBox="0 0 62 33" enable-background="new 0 0 62 33" xml:space="preserve">
+<g>
+	<path fill="#FFCDC9" d="M6.904,2.444h49.08c2.209,0,4,1.791,4,4v19.568c0,2.209-1.791,4-4,4H6.904c-2.21,0-4-1.791-4-4l0,0V6.444
+		C2.904,4.235,4.694,2.444,6.904,2.444L6.904,2.444z"/>
+	<path fill="#BF2628" d="M6.779,2.516c-2.21,0-4,1.791-4,4v19.568c0,2.209,1.79,4,4,4h6.85V2.516H6.779z"/>
+	<text transform="matrix(1 0 0 1 42.1201 22.6904)" fill="#0F1E9E" font-family="'HelveticaNeue-Medium'" font-size="21"> </text>
+	<text transform="matrix(0 -1 1 0 11.042 27.3242)" fill="#FFCDC9" font-family="'Arial-Black'" font-size="7">TEMP</text>
+	<text transform="matrix(1 0 0 1 21.1641 24.9414)" fill="#BF2628" font-family="'Arial-BoldMT'" font-size="22">72</text>
+	<text transform="matrix(1 0 0 1 45.709 13.5459)" fill="#BF2628" font-family="'ArialNarrow-Bold'" font-size="8">°F</text>
+</g>
+</svg>

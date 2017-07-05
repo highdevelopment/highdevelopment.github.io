@@ -1,0 +1,206 @@
+[
+    {
+        "name": "SENSORS",
+        "sensors": [
+            {
+                "id": "temperature",
+                "name": "Temperature Sensor",
+                "url": "images/sensor/t.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "thermostat",
+                "name": "Thermostat",
+                "url": "images/sensor/th.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "occupancy-sensor",
+                "name": "Occupancy Sensor",
+                "url": "images/sensor/ir.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "floor-temperature",
+                "name": "Floor Temperature",
+                "url": "images/sensor/ft.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "hudimity-sensor",
+                "name": "Humidity Sensor",
+                "url": "images/sensor/h.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "co2-sensor",
+                "name": "CO2 Sensor",
+                "url": "images/sensor/co.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "VOC-sensor",
+                "name": "VOC Sensor",
+                "url": "images/sensor/voc.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "water-sensor",
+                "name": "Water Sensor",
+                "url": "images/sensor/w.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "rain-sensor",
+                "name": "Rain Sensor",
+                "url": "images/sensor/r.svg",
+                "width": 21,
+                "height": 21
+            }
+        ]
+    },
+    {
+        "name": "USER INPUTS",
+        "sensors": [
+            {
+                "id": "temperature",
+                "name": "Temperature Sensor",
+                "url": "images/sensor/t.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "thermostat",
+                "name": "Thermostat",
+                "url": "images/sensor/th.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "occupancy-sensor",
+                "name": "Occupancy Sensor",
+                "url": "images/sensor/ir.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "floor-temperature",
+                "name": "Floor Temperature",
+                "url": "images/sensor/ft.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "hudimity-sensor",
+                "name": "Humidity Sensor",
+                "url": "images/sensor/h.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "co2-sensor",
+                "name": "CO2 Sensor",
+                "url": "images/sensor/co.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "VOC-sensor",
+                "name": "VOC Sensor",
+                "url": "images/sensor/voc.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "water-sensor",
+                "name": "Water Sensor",
+                "url": "images/sensor/w.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "rain-sensor",
+                "name": "Rain Sensor",
+                "url": "images/sensor/r.svg",
+                "width": 21,
+                "height": 21
+            }
+        ]
+    },
+    {
+        "name": "INDICATORS",
+        "sensors": [
+            {
+                "id": "temperature",
+                "name": "Temperature Sensor",
+                "url": "images/sensor/t.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "thermostat",
+                "name": "Thermostat",
+                "url": "images/sensor/th.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "occupancy-sensor",
+                "name": "Occupancy Sensor",
+                "url": "images/sensor/ir.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "floor-temperature",
+                "name": "Floor Temperature",
+                "url": "images/sensor/ft.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "hudimity-sensor",
+                "name": "Humidity Sensor",
+                "url": "images/sensor/h.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "co2-sensor",
+                "name": "CO2 Sensor",
+                "url": "images/sensor/co.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "VOC-sensor",
+                "name": "VOC Sensor",
+                "url": "images/sensor/voc.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "water-sensor",
+                "name": "Water Sensor",
+                "url": "images/sensor/w.svg",
+                "width": 21,
+                "height": 21
+            },
+            {
+                "id": "rain-sensor",
+                "name": "Rain Sensor",
+                "url": "images/sensor/r.svg",
+                "width": 21,
+                "height": 21
+            }
+        ]
+    }
+]

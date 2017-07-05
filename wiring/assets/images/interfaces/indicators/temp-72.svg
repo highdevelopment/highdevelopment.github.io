@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="62px" height="33px" viewBox="0 0 62 33" enable-background="new 0 0 62 33" xml:space="preserve">
+<path fill="#FFCDC9" d="M6.576,2.828h49.081c2.209,0,4,1.791,4,4v19.568c0,2.209-1.791,4-4,4H6.576c-2.209,0-4-1.791-4-4l0,0V6.828
+	C2.576,4.619,4.366,2.828,6.576,2.828L6.576,2.828z"/>
+<path fill="#BF2628" d="M6.451,3.187c-2.209,0-4,1.791-4,4v19.568c0,2.209,1.791,4,4,4h6.85V3.187H6.451z"/>
+<path fill="none" stroke="#BF2628" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M6.576,3.187h49.081c2.209,0,4,1.791,4,4v19.568c0,2.209-1.791,4-4,4H6.576c-2.209,0-4-1.791-4-4l0,0V7.187
+	C2.576,4.978,4.367,3.187,6.576,3.187L6.576,3.187z"/>
+<text transform="matrix(0 -1 1 0 9.9941 27.8564)" fill="#FFCDC9" font-family="'Arial-Black'" style="font-family:Arial Black" font-size="7">TEMP</text>
+<text transform="matrix(1 0 0 1 20.8359 25.3271)" fill="#BF2628" font-family="'Arial-BoldMT'" style="font-family:Arial;font-weight:bold" font-size="22">72</text>
+<text transform="matrix(1 0 0 1 45.3809 13.9316)" fill="#BF2628" font-family="'ArialNarrow-Bold'" style="font-family:Arial Narrow;font-weight:bold;font-size:9px" font-size="8">°F</text>
+</svg>

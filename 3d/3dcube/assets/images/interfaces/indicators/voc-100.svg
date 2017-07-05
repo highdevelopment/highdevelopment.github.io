@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="62px" height="33px" viewBox="0 0 62 33" enable-background="new 0 0 62 33" xml:space="preserve">
+<path fill="#BCC2F3" d="M6.576,2.911h49.081c2.209,0,4,1.791,4,4v19.568c0,2.209-1.791,4-4,4H6.576c-2.209,0-4-1.791-4-4l0,0V6.911
+	C2.576,4.702,4.366,2.911,6.576,2.911L6.576,2.911z"/>
+<path fill="#151989" d="M6.451,3.27c-2.209,0-4,1.791-4,4v19.568c0,2.209,1.791,4,4,4h6.85V3.27H6.451z"/>
+<path fill="none" stroke="#161989" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M6.576,3.27h49.081c2.209,0,4,1.791,4,4v19.568c0,2.209-1.791,4-4,4H6.576c-2.209,0-4-1.791-4-4l0,0V7.27
+	C2.576,5.061,4.367,3.27,6.576,3.27L6.576,3.27z"/>
+<text transform="matrix(1 0 0 1 16.1348 23.4688)" fill="#1C1A8D" font-family="'Arial-BoldMT'" style="font-family:Arial;font-weight:bold" font-size="17">100</text>
+<text transform="matrix(1 0 0 1 45.2822 13.6006)" fill="#131E9E" font-family="'ArialNarrow-Bold'" style="font-family:Arial Narrow;font-weight:bold;font-size:7px" font-size="6">PPM</text>
+<text transform="matrix(0 -1 1 0 9.9941 25.4141)" fill="#B4B6E7" font-family="'Arial-Black'" style="font-family:Arial Black" font-size="7">VOC</text>
+</svg>

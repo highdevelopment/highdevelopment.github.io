@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="41px" height="16px" viewBox="0 0 41 16" enable-background="new 0 0 41 16" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<rect x="7.167" y="2.144" fill="#CFBF30" stroke="#231F20" stroke-width="0.25" width="26.667" height="11.711"/>
+			<rect x="0.5" y="0.5" fill="#CFBF30" stroke="#231F20" stroke-width="0.25" width="6.667" height="15"/>
+			<rect x="33.833" y="0.5" fill="#FFFFFF" stroke="#231F20" stroke-width="0.25" width="6.667" height="15"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="0.5" y1="11.936" x2="0.5" y2="15.5"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="0.5" y1="0.5" x2="0.5" y2="4.063"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="6.425" y1="11.936" x2="7.167" y2="12.682"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="6.425" y1="11.936" x2="7.167" y2="11.189"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="6.425" y1="4.063" x2="7.167" y2="4.809"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="6.425" y1="4.063" x2="7.167" y2="3.317"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="1.24" y1="4.063" x2="0.5" y2="3.317"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="1.24" y1="4.063" x2="0.5" y2="4.809"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="1.24" y1="11.936" x2="0.5" y2="11.189"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="1.24" y1="11.936" x2="0.5" y2="12.682"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="6.425" y1="11.936" x2="1.24" y2="11.936"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="6.425" y1="4.063" x2="1.24" y2="4.063"/>
+			<rect x="33.833" y="0.5" fill="#CFBF30" stroke="#231F20" stroke-width="0.25" width="6.667" height="15"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="33.833" y1="11.936" x2="33.833" y2="15.5"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="33.833" y1="0.5" x2="33.833" y2="4.063"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="39.761" y1="11.936" x2="40.5" y2="12.682"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="39.761" y1="11.936" x2="40.5" y2="11.189"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="39.761" y1="4.063" x2="40.5" y2="4.809"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="39.761" y1="4.063" x2="40.5" y2="3.317"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="34.574" y1="4.063" x2="33.833" y2="3.317"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="34.574" y1="4.063" x2="33.833" y2="4.809"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="34.574" y1="11.936" x2="33.833" y2="11.189"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="34.574" y1="11.936" x2="33.833" y2="12.682"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="39.761" y1="11.936" x2="34.574" y2="11.936"/>
+			<line fill="none" stroke="#231F20" stroke-width="0.25" x1="39.761" y1="4.063" x2="34.574" y2="4.063"/>
+		</g>
+		
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="491.5156" y1="-444.0664" x2="503.2266" y2="-444.0664" gradientTransform="matrix(0 -1 1 0 464.5664 505.3711)">
+			<stop  offset="0" style="stop-color:#000000"/>
+			<stop  offset="1" style="stop-color:#FFFFFF"/>
+		</linearGradient>
+		
+			<rect x="7.167" y="2.144" opacity="0.2" fill="url(#SVGID_1_)" stroke="#231F20" stroke-width="0.25" width="26.667" height="11.711"/>
+		<polygon opacity="0.2" fill="#231F20" stroke="#231F20" stroke-width="0.25" points="39.761,11.936 40.5,12.682 40.5,15.5 
+			33.833,15.5 33.833,12.682 34.574,11.936 		"/>
+		<polygon opacity="0.2" fill="#231F20" stroke="#231F20" stroke-width="0.25" points="6.425,11.936 7.167,12.682 7.167,15.5 
+			0.5,15.5 0.5,12.682 1.24,11.936 		"/>
+		<polygon opacity="0.2" fill="#FFFFFF" stroke="#231F20" stroke-width="0.25" points="1.24,4.063 0.5,3.317 0.5,0.5 7.167,0.5 
+			7.167,3.317 6.425,4.063 		"/>
+		<polygon opacity="0.2" fill="#FFFFFF" stroke="#231F20" stroke-width="0.25" points="34.574,4.063 33.833,3.317 33.833,0.5 
+			40.5,0.5 40.5,3.317 39.761,4.063 		"/>
+	</g>
+	<g>
+		<ellipse fill="#231F20" stroke="#231F20" stroke-width="0.25" cx="11.806" cy="7.999" rx="3.857" ry="3.881"/>
+		<ellipse fill="none" stroke="#231F20" stroke-width="0.25" cx="11.806" cy="8" rx="3.027" ry="3.048"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="9.731" y1="10.114" x2="9.251" y2="10.598"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="9.083" y1="9.146" x2="8.461" y2="9.405"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="8.174" y1="8" x2="8.853" y2="8"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="8.461" y1="6.594" x2="9.083" y2="6.854"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="9.251" y1="5.401" x2="9.731" y2="5.884"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="10.435" y1="4.605" x2="10.698" y2="5.244"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="11.806" y1="4.343" x2="11.806" y2="5.028"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="13.229" y1="4.605" x2="12.959" y2="5.263"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="14.388" y1="5.427" x2="13.908" y2="5.912"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="15.206" y1="6.594" x2="14.539" y2="6.871"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="15.439" y1="8" x2="14.761" y2="8"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="15.206" y1="9.405" x2="14.539" y2="9.129"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="14.388" y1="10.571" x2="13.908" y2="10.088"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="13.229" y1="11.395" x2="12.959" y2="10.737"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="11.806" y1="11.657" x2="11.806" y2="10.973"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="10.435" y1="11.395" x2="10.698" y2="10.755"/>
+		<line fill="#BE202E" stroke="#BE202E" stroke-width="0.25" x1="11.806" y1="8" x2="9.939" y2="7.386"/>
+	</g>
+	<g>
+		<rect x="17.657" y="4.87" fill="#231F20" stroke="#231F20" stroke-width="0.25" width="14.577" height="6.26"/>
+		<rect x="18.343" y="9.587" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.25" width="13.431" height="1.113"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="18.343" y1="9.587" x2="18.343" y2="9.009"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="19.686" y1="9.587" x2="19.686" y2="9.009"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="22.372" y1="9.587" x2="22.372" y2="9.009"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="21.029" y1="9.587" x2="21.029" y2="9.009"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="23.716" y1="9.587" x2="23.716" y2="9.009"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="26.402" y1="9.587" x2="26.402" y2="9.009"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="25.059" y1="9.587" x2="25.059" y2="9.009"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="27.745" y1="9.587" x2="27.745" y2="9.009"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="27.722" y1="9.587" x2="27.722" y2="9.009"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="29.088" y1="9.587" x2="29.088" y2="9.009"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="30.432" y1="9.587" x2="30.432" y2="9.009"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="0.25" x1="31.774" y1="9.587" x2="31.774" y2="9.009"/>
+		<polygon fill="#EB2227" stroke="#EB2227" stroke-width="0.25" points="23.385,5.148 24.443,5.148 24.443,7.554 23.914,8.086 
+			23.385,7.554 		"/>
+	</g>
+</g>
+</svg>

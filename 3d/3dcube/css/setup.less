@@ -1,0 +1,490 @@
+.form-setup {
+    font-size: 12px;
+    color: grey;
+    .outer-box {
+        padding: 0px 40px 0px 40px;
+        overflow: hidden;
+    }
+    .inner-box {
+        padding: 10px 20px;
+    }
+    .enyo-border-box {
+        height: 100%;
+        width: 100%;
+    }
+    .checkgroup {
+        .checkgroup-box {
+            border: solid 1px #7d7d7d;
+            width: 150px;
+            padding: 5px;
+            height: 145px;
+            font-weight: bold;
+            color: #424242;
+            .checkbox-style2 {
+                display: block;
+                margin: 6px 0 10px 0;
+                color: #424242;
+                font-weight: bold;
+                white-space: nowrap;
+                height: 35px;
+                width: 35px;
+            }
+            &.single {
+                .checkbox-style2 {
+                    position: relative;
+                    padding-left: 40px;
+                    line-height: 35px;
+                    background: none;
+                    &:before {
+                        background: url('@{images}/default/setup-checkbox.png') -1px -85px no-repeat;
+                        content: "";
+                        height: 35px;
+                        width: 35px;
+                        display: inline-block;
+                        position: absolute;
+                        left: 0;
+                        top: 0
+                    }
+                    &.commercial {
+                        &:before {
+                            background-position: -106px -40px;
+                        }
+                        &[checked] {
+                            &:before {
+                                background-position: -162px -40px
+                            }
+                        }
+                    }
+                    &.residential {
+                        &:before {
+                            background-position: -108px -1px;
+                        }
+                        &[checked] {
+                            &:before {
+                                background-position: -163px -1px;
+                            }
+                        }
+                    }
+                    &.industrial {
+                        &:before {
+                            background-position: -107px -82px;
+                        }
+                        &[checked] {
+                            &:before {
+                                background-position: -163px -82px;
+                            }
+                        }
+                    }
+                }
+            }
+            &.multiple {
+                > div {
+                    margin: 6px 0 10px 0;
+                    line-height: 35px;
+                    .checkbox-style2 {
+                        display: inline-block;
+                        padding-left: 35px;
+                        margin-right: 5px;
+                        background: url('@{images}/default/setup-checkbox.png') -1px -85px no-repeat;
+                        &.hvac-system {
+                            background-position: -1px -85px;
+                            &[checked] {
+                                background-position: -52px -85px
+                            }
+                        }
+                        &.lighting {
+                            background-position: 1px -42px;
+                            &[checked] {
+                                background-position: -50px -42px
+                            }
+                        }
+                        &.irrigation {
+                            background-position: 0px -1px;
+                            &[checked] {
+                                background-position: -52px -1px
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .textCoordinates {
+        line-height: 30px;
+        margin: 0 35px 0 10px;
+        font-weight: bold;
+        color: grey;
+    }
+    textarea {
+        color: #424242;
+        font-weight: bold;
+        .placeholder(@input-color-placeholder; @input-font-style-placeholder);
+
+        &.txt-note {
+            height: 94px !important;
+            width: 100%;
+        }
+        &.txt-address {
+            width: 100%;
+            height: 80px;
+        }
+    }
+    input {
+        color: #424242;
+        font-weight: bold;
+        .placeholder(@input-color-placeholder; @input-font-style-placeholder);
+
+        .txt-coordinates {
+            width: 120px;
+        }
+        &.txt-altitude {
+            width: 100%;
+        }
+        &.txt-project-name {
+            width: 100%;
+        }
+        &.txt-total {
+            width: 300px;
+            color: #000000;
+        }
+    }
+    .item-row {
+        margin-bottom: 5px;
+    }
+    .item-title {
+        font-weight: bold;
+        color: grey;
+        margin-bottom: 5px;
+    }
+    .item-note {
+        color: grey;
+        margin-left: 5px;
+        margin-top: 2px;
+    }
+    .button-style-wrap {
+        position: absolute;
+        left: 0;
+        top: 0px;
+        height: 30px;
+        width: 150px;
+        background: url("@{images}/default/bg-setup-type.png") 0 0 no-repeat;
+        padding-left: 18px;
+        .border-radius(0 5px 5px 0);
+        button {
+            height: 26px;
+            padding: 2px 6px !important;
+            margin-top: 2px !important;
+            font-size: 12px;
+            line-height: 20px;
+            font-weight: bold;
+            color: #FFF;
+            .border-radius(5px);
+            &.bt-estimate {
+                .linear-gradient(#b08a44; #89612a; #785322; #634b23);
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+            &.bt-accurate {
+                .linear-gradient(#87a97c; #508942; #417c3b; #376732);
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+        }
+    }
+    .site-info {
+        padding: 10px 0;
+        .checkgroup {
+            padding-left: 40px;
+        }
+        .google-map-wrap {
+            width: 50%;
+            margin-left: 40px;
+            .google-map {
+                border: solid 3px #000;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .building-info {
+        .building-option {
+            padding: 10px 40px;
+            .building-option-data {
+                padding: 10px 20px 0;
+            }
+            .file-input-group {
+                max-width: 600px;
+                .display-flex();
+                .txt-open-file {
+                    .calc-width(~'100% - 110px');
+                    margin-right: 20px;
+                }
+                .bt-file-input {
+                }
+            }
+        }
+        .building-data {
+            position: relative;
+            padding: 0 40px;
+            .txt-name {
+                margin: 0 10px;
+                line-height: 26px;
+                font-weight: bold;
+            }
+            .building-data-drawer {
+                padding: 0 20px;
+                .building-data-content {
+                    min-height: 400px;
+                    padding-top: 10px;
+                }
+            }
+        }
+        .manual-build {
+            .calc-width(~'100% - 280px');
+            margin-right: 20px;
+            input {
+                .placeholder(@input-color-placeholder; @input-font-style-placeholder);
+            }
+            .manual-build-title {
+                line-height: 16px;
+                font-weight: bold;
+                background: #FFF;
+                padding: 4px 0;
+            }
+            .sumfloor-input {
+                width: 160px;
+                color: grey;
+                font-weight: bold;
+            }
+            .building-information-content {
+                padding-bottom: 0;
+                padding-top: 5px;
+            }
+            .floors {
+                font-weight: bold;
+                overflow: auto;
+                max-height: 200px;
+                .floor-level {
+                    position: relative;
+                    line-height: 26px;
+                    padding-left: 10px;
+                    margin-bottom: -1px;
+                    overflow: hidden;
+                    &:first-child {
+                    }
+                    &:last-child {
+                    }
+                    > * {
+                        position: relative;
+                        display: table-cell;
+                        line-height: 35px;
+                        float: left;
+                        vertical-align: middle;
+                        text-align: left;
+                    }
+                    .button-style-wrap {
+                        top: -2px;
+                        left: 95px;
+                        z-index: 100;
+                    }
+                    .remove {
+                        width: 16px;
+                        height: 16px;
+                        cursor: pointer;
+                        margin-top: 9px !important;
+                        z-index: 2;
+                        background: transparent url("@{images}/svg/-.svg");
+                        background-size: 16px;
+                    }
+                    .add {
+                        position: relative;
+                        width: 16px;
+                        height: 16px;
+                        cursor: pointer;
+                        margin-top: 9px !important;
+                        z-index: 2;
+                        text-align: center;
+                        span.line {
+                            position: absolute;
+                            left: 7px;
+                            top: -15px;
+                            display: block;
+                            height: 20px;
+                            width: 3px;
+                            background: #4b6796;
+                        }
+                        span.img {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 16px;
+                            height: 16px;
+                            background: transparent url("@{images}/svg/+.svg");
+                            background-size: 16px;
+                        }
+                    }
+                    .level-title {
+                        color: #4B6796;
+                        background: #FFF;
+                        padding: 0 10px 0 12px;
+                        border-left: 3px solid #4b6796;
+                        margin-left: -9px;
+                        z-index: 1;
+                        span.line {
+                            width: 100%;
+                            height: 3px;
+                            display: block;
+                            position: absolute;
+                            margin: auto;
+                            top: 0;
+                            bottom: 0;
+                            left: 0;
+                            background: #4b6796;
+                            z-index: -1;
+                        }
+                        span.text {
+                            background: #ffffff;
+                            display: block;
+                            padding: 0 2px;
+                        }
+                    }
+                    .level-input {
+                        width: 100px;
+                        color: green;
+                        font-weight: bold;
+                        background: #FFF;
+                        position: relative;
+                    }
+                    .bg-check {
+                        width: 20px;
+                        height: 20px;
+                        .box-center-left(77px);
+                        &.estimate {
+                            background: url("@{images}/default/u-value-estimate.png") 0 0 no-repeat;
+                        }
+                        &.accurate {
+                            background: url("@{images}/default/u-value-accurate.png") 0 0 no-repeat;
+                        }
+                    }
+                    &.add {
+                        .level-title {
+                            display: block;
+                            color: #888;
+                            font-weight: bold;
+                            font-style: italic;
+                            border: none;
+                        }
+                    }
+                    &.line {
+                        span.line {
+                            display: block;
+                            height: 13px;
+                            width: 3px;
+                            background: #4b6796;
+                            margin-left: 7px;
+                        }
+                    }
+                }
+            }
+            .manual-build-total {
+                font-weight: bold;
+                color: #4f6999;
+                margin-right: 20px;
+                .text {
+                    margin-left: 20px;
+                    margin-right: 10px;
+                    line-height: 28px;
+                }
+                input {
+                    width: 35px;
+                    text-align: center;
+                    font-weight: bold;
+                    color: #4f6999;
+                    border: 2px solid #4f6999;
+                }
+            }
+            table {
+                background: url("@{images}/default/bg-build-info.png") 0px 31px no-repeat;
+                tr td {
+                    padding: 0px 0 9px 0;
+                    &:first-child {
+                        padding-left: 15px;
+                    }
+                }
+            }
+            .building-mechanical-input {
+                width: 140px;
+                color: grey;
+                font-weight: bold;
+            }
+            .u-value-wrap {
+                display: inline-block;
+                position: relative;
+                .bg-check {
+                    width: 20px;
+                    height: 20px;
+                    .box-center-left(117px);
+                    &.estimate {
+                        background: url("@{images}/default/u-value-estimate.png") 0 0 no-repeat;
+                    }
+                    &.accurate {
+                        background: url("@{images}/default/u-value-accurate.png") 0 0 no-repeat;
+                    }
+                }
+                .button-style-wrap {
+                    top: -2px;
+                    left: 136px;
+                }
+            }
+        }
+        .chart {
+            width: 260px;
+            min-height: 400px;
+            text-align: center;
+            > div {
+                width: 200px;
+                text-align: center;
+                margin: 0 auto;
+                &.draw-area {
+                    height: 150px;
+                }
+                &.text {
+                    color: #4B6796;
+                    font-weight: bold;
+                    height: 30px;
+                    margin: 10px auto 5px auto;
+                }
+            }
+        }
+    }
+    .estimate {
+        color: #a07433 !important;
+    }
+    .accurate {
+        color: green !important;
+    }
+    button.bt-select {
+        width: 130px !important;
+        padding: 2px 10px !important;
+        border: solid 1px #999899;
+        font-size: 12px;
+        text-align: left;
+        line-height: 20px;
+        font-weight: bold;
+        .background(~"@{images}/default/picker.png"; ~"117px 9px"; ~"#fcfbfb, #f2f2f2, #ececed"; ~"0 0 !important");
+        background-size: 8px 5px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .footer {
+        .footer-status {
+            padding-top: 5px;
+            padding-left: 40px;
+            font-weight: bold;
+        }
+        .onyx-icon {
+            margin: 0 30px 0 20px !important;
+        }
+    }
+}
+

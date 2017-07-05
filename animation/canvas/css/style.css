@@ -1,0 +1,27 @@
+body {
+	margin: 30px;
+	/*background: #909dd0;*/
+}
+
+div
+{
+	position: relative;
+	margin: 200px;
+	background: #909dd0;
+	width: 400px;
+	height: 83px;
+}
+
+#image
+{
+	display: none;
+}
+
+#myCanvas
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 400px;
+	height: 83px;
+}

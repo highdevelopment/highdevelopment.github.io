@@ -1,0 +1,120 @@
+{
+    "name": "New Project",
+    "notes": "Project's Description",
+    "hvacSystem": false,
+    "lighting": false,
+    "irrigation": false,
+    "buildingSiteType": "residential",
+    "address": "",
+    "north": 0,
+    "west": 0,
+    "altitude": "42.588749",
+    "importBuildingModelOption": "",
+    "uValueArea": "2",
+    "uValueType": "accurate",
+    "heatingDesignDay": 0,
+    "coolingDesignDay": 0,
+    "pickerDesignDay": 99.6,
+    "floors": [
+        {
+            "id": "0",
+            "name": "OUTDOOR",
+            "value": 0,
+            "type": "accurate",
+            "zones": []
+        },
+        {
+            "id": "1",
+            "name": "Floor #1",
+            "value": 0,
+            "type": "accurate",
+            "zones": [
+                {
+                    "id": "0",
+                    "name": "ENTRY",
+                    "type": "none",
+                    "color": "#c2fca2",
+                    "sensors": []
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Floor #2",
+            "value": "11",
+            "type": "estimate",
+            "zones": [
+                {
+                    "id": "0",
+                    "name": "ENTRY",
+                    "type": "none",
+                    "color": "#c2fca2",
+                    "sensors": []
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Floor #3",
+            "value": "1",
+            "type": "accurate",
+            "zones": [
+                {
+                    "id": "0",
+                    "name": "ENTRY",
+                    "type": "none",
+                    "color": "#c2fca2",
+                    "sensors": []
+                },
+                {
+                    "id": "1",
+                    "name": "DINING",
+                    "type": "none",
+                    "color": "#e3fc91",
+                    "sensors": []
+                },
+                {
+                    "id": "2",
+                    "name": "SITTING",
+                    "type": "none",
+                    "color": "#fff0a2",
+                    "sensors": []
+                },
+                {
+                    "id": "3",
+                    "name": "KITCHEN",
+                    "type": "none",
+                    "color": "#ffbd91",
+                    "sensors": []
+                },
+                {
+                    "id": "4",
+                    "name": "LIVING",
+                    "type": "none",
+                    "color": "#94fcc7",
+                    "sensors": []
+                },
+                {
+                    "id": "5",
+                    "name": "EXERCISE",
+                    "type": "none",
+                    "color": "#9884fe",
+                    "sensors": []
+                },
+                {
+                    "id": "6",
+                    "name": "ART STUDIO",
+                    "type": "none",
+                    "color": "#fbcfe1",
+                    "sensors": []
+                },
+                {
+                    "id": "7",
+                    "name": "BATH",
+                    "type": "none",
+                    "sensors": []
+                }
+            ]
+        }
+    ]
+}

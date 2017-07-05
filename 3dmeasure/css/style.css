@@ -1,0 +1,313 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#header
+{
+    background-color: #ff8300;
+    height: 80px;
+}
+
+#header section
+{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    float: right;
+    margin-right: 41px;
+    margin-top: 30px;
+}
+
+#footer_background {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #232323;
+    height: 85px;
+}
+#footer
+{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+#footer ul
+{
+    list-style: none;
+    margin-top: 11px;
+    float: left;
+}
+#footer li
+{
+    float: left;
+}
+#footer button
+{
+    background: none;
+    border: none;
+    padding: 8px 12px;
+}
+#footer button:focus
+{
+    outline: none;
+}
+#footer section
+{
+    float: right;
+    padding: 10px 15px;
+}
+
+.btn-default
+{
+    background: #03A9F4;
+    color: white;
+}
+
+.container-fluid
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.padding-15 {
+  padding: 15px !important;
+}
+
+#background
+{
+    background-color: #000;
+    margin-left: 230px;
+}
+#background img
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+    background: black;
+}
+
+#canvasview
+{
+}
+
+/*#btn_caliberation.btn_active
+{
+	background-color: #e35151 !important;
+}*/
+
+.select_option li
+{
+    list-style: none;
+    float: left;
+    padding: 30px;
+    background-color: #2196F3;
+    margin: 25px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.select_option li.active
+{
+	border: 2px solid #FF5722;
+}
+
+.select_option li:hover
+{
+	filter: alpha(opacity=45);
+	opacity: 0.45;
+	cursor:pointer;
+	#-webkit-transition: opacity .3s ease-in-out;
+	#-moz-transition: opacity .3s ease-in-out;
+	#-ms-transition: opacity .3s ease-in-out;
+	#-o-transition: opacity .3s ease-in-out;
+	#transition: opacity .3s ease-in-out;
+}
+
+
+#toolbar
+{
+	position: absolute;
+	z-index: 100;
+}
+
+form
+{
+	display: none;
+}
+
+#calculator
+{
+    position: absolute;
+    /*display: none;*/
+    font-size: 14px;
+    width: 230px;
+    height: 1000px;
+    background-color: #232d32;
+    color: white;
+}
+#calculator div {
+    margin: 28px;
+}
+#calculator h2 {
+    font-size: 14px;
+}
+#calculator h3 {
+    font-size: 14px;
+}
+#calculator p {
+    font-size: 14px;
+    float: left;
+}
+#calculator input {
+    background: #272727;
+    text-align: right;
+    border: 1px solid grey;
+    padding-right: 2px;
+    border-radius: 3px;
+}
+
+.layer {
+    position: absolute;
+    display: none;
+    /*pointer-events: none;*/
+}
+.layer section {
+    position: absolute;
+}
+.layer ul {
+    list-style: none;
+}
+
+.pull_left {
+    float: left;
+}
+
+
+.tab li {
+    cursor: pointer;
+    opacity: 0;
+}
+.tab li.active {
+    opacity: 1;
+}
+
+
+
+#layer_reference {
+    display: none;
+    bottom: 24px;
+    left: 51px;
+}
+#layer_reference .tab {
+    left: -32px;
+    top: 64px;
+}
+#layer_reference .tab #btn_a4 {
+    margin-left: 2px;
+}
+#layer_reference .tab #btn_custom {
+    margin-left: 4px;
+    margin-top: 2px;
+}
+#layer_reference .size {
+    left: 141px;
+    top: 109px;
+}
+#layer_reference input {
+    width: 82px;
+    background: transparent; 
+    border: none;
+    text-align: right;
+    color: white;
+}
+input[disabled] {
+    color: #aaaaaa !important;
+}
+
+#layer_reference .size .input_number {
+    margin-bottom: 45px;
+}
+#layer_reference .size .input_number .btn_up {
+    width: 20px;
+    height: 12px;
+}
+#layer_reference .size .input_number .btn_down {
+    width: 20px;
+    height: 12px;
+}
+
+
+#layer_calibration {
+    display: none;
+    left: 47px;
+    bottom: 22px;
+}
+
+#layer_measure {
+    left: 41px;
+    bottom: 22px;
+}
+#layer_measure ul {
+    padding: 0px;
+}
+#layer_measure li {
+    float: left;
+    margin-right: 23px;
+}
+#layer_measure .tab {
+    top: 57px;
+    left: 18px;
+}
+
+
+/*#btn_rotate {
+    color: white;
+    border: 1px solid grey !important;
+}*/
+
+.zoom button {
+    color: white;
+    border: 1px solid white !important;
+    background-color: #337ab7 !important;
+    margin-left: 10px !important;
+}
+
+#slider_ul {
+    padding: 0px 12px;
+}
+
+#span_slider {
+    margin-left: 60px;
+    color: white;
+    background-color: #484848;
+    padding: 2px 14px;
+    font-size: 10px;
+}
+#slider_zoom {
+    margin-top: 27px;
+    width: 150px;
+    height: 6px;
+    background: #686868;
+}
+#slider_zoom a {
+    width: 13px;
+    height: 13px;
+    border: 0px none;
+    margin-left: -1px;
+    margin-top: 0px;
+    margin-bottom: -2px;
+    /*background: url(../images/zoom_bar/slider_point.png) no-repeat;*/
+    background-size: 100% 100%;
+    cursor: pointer;
+    border-radius: 6px;
+}
+#btn_zoom_reset {
+    color: white;
+    margin-left: 53px;
+    margin-top: -2px;
+    font-size: 10px;
+}

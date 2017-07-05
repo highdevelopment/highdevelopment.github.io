@@ -1,0 +1,281 @@
+.form-commission {
+    .panel {
+        background: #FFF;
+    }
+    .bt-deploy {
+        margin: 5px 0 0 0 !important;
+    }
+    .setup {
+        width: 530px;
+        .setup-menu {
+            width: 200px;
+            z-index: 100;
+            ul, li {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            .item {
+                div.item-name {
+                    padding: 0 0 0 30px;
+                    height: 30px;
+                    color: #000;
+                    border-bottom: 1px solid #0E0E0E;
+                    line-height: 30px;
+                    font-size: 12px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                    .background(~"@{images}/default/sidebar.png"; ~"-5px -39px"; ~"#f7f7f7, #dbdbdb, #bfbfbf"; ~"0 0"; #dbdbdb);
+                    &.selected {
+                        .background(~"@{images}/default/sidebar.png"; ~"-5px -4px"; ~"#f7f7f7, #dbdbdb, #bfbfbf"; ~"0 0"; #dbdbdb);
+                    }
+                }
+            }
+            ul li {
+                padding: 0 0 0 25px;
+                height: 30px;
+                color: #000;
+                border-bottom: 1px solid #0E0E0E;
+                line-height: 32px;
+                font-size: 12px;
+                font-weight: bold;
+                text-transform: uppercase;
+                cursor: pointer;
+                position: relative;
+                &.selected, &.active, &:hover {
+                    background-color: #919191 !important;
+                }
+                &.active {
+                    margin-right: -1px;
+                }
+                span.apply {
+                    width: 25px;
+                    height: 25px;
+                    background-position: 2px 1px;
+                    background-size: 70px;
+                    top: 3px;
+                    right: 5px;
+                }
+            }
+        }
+        .setup-submenu {
+            background-color: #919192;
+            overflow-y: hidden;
+            .device-list {
+                .enyo-touch-scroller {
+                    margin-top: -1px;
+                }
+                .device-item {
+                    &:first-child {
+                        .device-detail {
+                            border-top: 1px solid #000000;
+                        }
+                    }
+                    .device-detail {
+                        position: relative;
+                        font-weight: bold;
+                        width: 300px;
+                        border-bottom: 1px solid #000000;
+                        &:before {
+                            position: absolute;
+                            content: "";
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            background-color: #FFFFFF;
+                            z-index: -1;
+                        }
+                        .number {
+                            width: 33px;
+                            height: 30px;
+                            line-height: 30px;
+                            text-align: center;
+                            border-left: 1px solid #000000;
+                            color: #ffffff;
+                            background-color: #919191;
+                        }
+                        .column-1 {
+                            width: 63px;
+                            position: relative;
+                            &:after {
+                                content: "";
+                                width: 50px;
+                                display: inline-block;
+                                position: absolute;
+                                top: 0;
+                                right: -20px;
+                                z-index: -1;
+                            }
+                            > div + div {
+                                .number {
+                                    border-top: 1px solid #000000;
+                                }
+                            }
+                            .image {
+                                width: 30px;
+                                height: 30px;
+                                border-left: 1px solid #000000;
+                                background-position: right center;
+                                background-size: 22px 22px;
+                                background-repeat: no-repeat;
+                            }
+                        }
+                        .column-2 {
+                            position: relative;
+                            width: 169px;
+                            height: 30px;
+                            padding-left: 25px;
+                            line-height: 30px;
+                            color: #000;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            .zone-name {
+                                color: #18161E;
+                            }
+                            .sensor-name {
+                                color: #423B54;
+                            }
+                        }
+                        .column-3 {
+                            position: relative;
+                            height: 60px;
+                            width: 50px;
+                            color: #FFF;
+                            font-size: 13px;
+                            span {
+                                width: 100%;
+                                height: 20px;
+                                line-height: 20px;
+                                text-align: center;
+                                .box-center();
+                            }
+                        }
+                        .column-4 {
+                            position: relative;
+                            width: 20px;
+                            > div {
+                                height: 30px;
+                                width: 30px;
+                                z-index: 1;
+                                .box-center();
+                                right: -20px;
+                                left: auto;
+                            }
+                            &:before {
+                                content: "";
+                                background-color: #919192;
+                                width: 20px;
+                                height: 50%;
+                                position: absolute;
+                                top: 0px;
+                                left: 0;
+                                border-left: solid 1px #000;
+                                .transform(~"rotate(-24deg) translate(10px, -2px)");
+                            }
+                            &:after {
+                                content: "";
+                                background-color: #919192;
+                                width: 20px;
+                                height: 50%;
+                                position: absolute;
+                                bottom: 0px;
+                                left: 0;
+                                border-left: solid 1px #000;
+                                .transform(~"rotate(24deg) translate(10px, 2px)");
+                            }
+                        }
+                        &.quantity-1 {
+                            .column-1 {
+                                &:after {
+                                    height: 30px;
+                                    background: url("@{images}/chop-1.png") 0 0 no-repeat;
+                                }
+                            }
+                            .column-4 {
+                                &:before {
+                                    .transform(~"rotate(-42deg) translate(11px, -3px)");
+                                    height: 80%;
+                                }
+                                &:after {
+                                    .transform(~"rotate(42deg) translate(9px, 3px)");
+                                    height: 80%;
+                                }
+                            }
+                        }
+                        &.quantity-2 {
+                            .column-1 {
+                                &:after {
+                                    height: 60px;
+                                    background: url("@{images}/chop-2.png") 0 0 no-repeat;
+                                }
+                            }
+                            .column-4 {
+                                &:before {
+                                    .transform(~"rotate(-32deg) translate(10px, -2px)");
+                                }
+                                &:after {
+                                    .transform(~"rotate(32deg) translate(10px, 2px)");
+                                }
+                            }
+                        }
+                        &.quantity-3 {
+                            .column-1 {
+                                &:after {
+                                    height: 90px;
+                                    background: url("@{images}/chop-3.png") 0 0 no-repeat;
+                                }
+                            }
+                            .column-4 {
+                                &:before {
+                                    .transform(~"rotate(-24deg) translate(10px, -2px)");
+                                }
+                                &:after {
+                                    .transform(~"rotate(24deg) translate(10px, 2px)");
+                                }
+                            }
+                        }
+                        &.quantity-4 {
+                            .column-1 {
+                                &:after {
+                                    height: 120px;
+                                    background: url("@{images}/chop-4.png") 0 0 no-repeat;
+                                }
+                            }
+                            .column-4 {
+                                &:before {
+                                    .transform(~"rotate(-18deg) translate(10px, -2px)");
+                                }
+                                &:after {
+                                    .transform(~"rotate(18deg) translate(10px, 2px)");
+                                }
+                            }
+                        }
+                        &.quantity-unused {
+                            background-color: #fff;
+                            display: inline-block;
+                            width: auto;
+                            &:before {
+                                display: none;
+                            }
+                            .unused {
+                                width: 221px;
+                                height: 30px;
+                                vertical-align: middle;
+                                border-left: 1px solid #000000;
+                                background-color: #ffffff;
+                                border-right: 1px solid #000;
+                                color: #949494;
+                                font-style: italic;
+                                padding-left: 6px;
+                                line-height: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

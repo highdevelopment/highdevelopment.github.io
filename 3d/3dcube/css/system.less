@@ -1,0 +1,283 @@
+.form-system {
+    .widget {
+        width: 200px;
+    }
+    .panel {
+        background: #FFF;
+    }
+    .side-bar {
+        &.template {
+            ul.slidebar-content {
+                li {
+                    width: auto;
+                    display: block;
+                    float: none;
+                    .name {
+                        display: none;
+                    }
+                }
+            }
+        }
+        ul.slidebar-content {
+            padding: 0;
+            li {
+                position: relative;
+                .calc-width(~'50% - 24px');
+                min-height: 80px;
+                padding: 5px;
+                margin: 5px 7px;
+                &.selected {
+                    background-color: #C7D3EB;
+                    .border-radius(10px);
+                }
+                .image {
+                    height: 60px;
+                    position: relative;
+                    .content {
+                        max-width: 100%;
+                        max-height: 60px;
+                        .box-center();
+                        img {
+                            max-width: 100%;
+                            max-height: 100%;
+                        }
+                        .badge {
+                            position: absolute;
+                            right: -10px;
+                            top: -10px;
+                            height: 16px;
+                            width: 16px;
+                            line-height: 16px;
+                            text-align: center;
+                            display: inline-block;
+                            background: red;
+                            color: #fff;
+                            font-weight: bold;
+                            .border-radius(8px);
+                            .opacity(0.8);
+                        }
+                    }
+                }
+                &:nth-child(2n) {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .menu-bar .title {
+        font-size: 12px;
+    }
+    .heading-title {
+        background: #4c4c4c url("@{img}/gradient.png") repeat-x 0 bottom;
+        padding: 10px 20px;
+        color: #FFF;
+        font-weight: bold;
+        line-height: 15px;
+        border-bottom: solid 1px #000;
+        text-align: center;
+    }
+    .bt-footer-default {
+        margin: 0 !important;
+    }
+    button.option {
+        width: 159px !important;
+        padding: 2px 10px !important;
+        border: solid 1px #999899;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: bold;
+        .background(~"@{images}/default/picker.png"; ~"145px 10px"; ~"#fcfbfb, #f2f2f2, #ececed"; ~"0 0 !important");
+        background-size: 8px 5px;
+    }
+    .tank-settings {
+        width: 200px;
+        background: #FFF;
+        .text-mode {
+            margin-top: 27px;
+            margin-left: 25px;
+            margin-bottom: 5px;
+            color: #4a6992;
+            line-height: 16px;
+        }
+        .text-volume {
+            margin-top: 8px;
+            margin-left: 25px;
+            margin-bottom: 5px;
+            color: #4a6992;
+            line-height: 16px;
+        }
+        .heading-advanced-option {
+            position: relative;
+            margin-top: 21px;
+            margin-left: 6px;
+            padding-left: 14px;
+            color: #FFF;
+            font-size: 9px;
+            line-height: 12px;
+            background-color: #4B6796;
+            cursor: pointer;
+            white-space: nowrap;
+            .border-radius(0 6px 0 6px);
+            &:before {
+                text-align: center;
+                line-height: 17px;
+                font-size: 16px;
+                content: "+";
+                position: absolute;
+                left: -7px;
+                top: -2px;
+                width: 16px;
+                height: 16px;
+                background-color: #4B6796;
+                .border-radius(100%);
+            }
+            &.unactive {
+                &:before {
+                    line-height: 12px;
+                    font-size: 26px;
+                    font-family: initial;
+                    font-weight: bold;
+                    content: "-";
+                }
+            }
+        }
+        .drawer-advanced-option {
+            &:before {
+                content: "\a0";
+                position: absolute;
+                background-color: #4B6796;
+                top: 0;
+                left: 6px;
+                .calc-height(~"100% - 10px");
+            }
+
+            .input-control {
+                &:before {
+                    content: "\a0";
+                    top: calc(48%);
+                    left: 6px;
+                    position: absolute;
+                    width: 14px;
+                    height: 3px;
+                    background-color: #4B6796;
+                }
+            }
+            .text-variable-1 {
+                margin-top: 24px;
+                margin-left: 25px;
+                margin-bottom: 5px;
+                color: #4a6992;
+                line-height: 16px;
+            }
+            .text-variable-2 {
+                margin-top: 10px;
+                margin-left: 25px;
+                margin-bottom: 5px;
+                color: #4a6992;
+                line-height: 16px;
+            }
+        }
+    }
+    .zone-setting {
+        width: 450px;
+        background: #FFF;
+        .zone-manifold-settings {
+            width: 250px;
+        }
+        .zone-list {
+            width: 200px;
+        }
+    }
+
+    .box {
+        padding: 20px 10px 0 10px;
+        color: #919191;
+        font-weight: bold;
+        input {
+            width: 100%;
+            font-style: italic;
+            font-weight: bold;
+        }
+        .title {
+            background-color: #4B6796;
+            height: 25px;
+            line-height: 25px;
+            color: #FFF;
+            font-weight: bold;
+            padding-left: 10px;
+            .border-radius(10px);
+        }
+        .item {
+            padding-bottom: 10px;
+            background: #FFF;
+        }
+        .child {
+            color: #4B6796;
+        }
+        .box-content {
+            margin: 10px 10px 0 10px;
+            &.bg {
+                background: url("@{images}/default/bg-tank-settings.png") 0px 20px no-repeat;
+            }
+        }
+    }
+    input.mfg-input {
+        margin-left: 20px;
+        width: 60px;
+        margin-right: 10px;
+    }
+    button {
+        &.mfg {
+            width: 160px !important;
+        }
+        &.model {
+            margin-left: 20px;
+            width: 140px !important;
+            .background(~"@{images}/default/picker.png"; ~"125px 10px"; ~"#fcfbfb, #f2f2f2, #ececed"; ~"0 0 !important");
+            background-size: 8px 5px;
+        }
+    }
+    .zone-table-name {
+        color: #4a6992;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .zone-table-content {
+        overflow: auto;
+        > div {
+            background: #FFF url("@{images}/default/sidebar-li.png") 8px 8px no-repeat;
+            color: #000;
+            border: solid 1px #4a6992;
+            line-height: 30px;
+            padding: 0 0 0 30px;
+            &:hover {
+                background-color: #909299 !important;
+                position: relative;
+                .remove {
+                    position: absolute;
+                    top: 0;
+                    right: 7px;
+                    width: 17px;
+                    height: 30px;
+                    text-align: center;
+                    cursor: pointer;
+                    background: transparent url("@{images}/default/actions.png") 0 6px no-repeat;
+                    cursor: pointer;
+                }
+            }
+        }
+        > div + div {
+            border-top: none;
+        }
+
+        > div:nth-child(2n) {
+            background-color: #ebeff8;
+        }
+    }
+    .bt-move {
+        margin-left: 50px !important;
+    }
+    .bt-connector, .bt-rotate-left, .bt-look, .bt-multiselect, .bt-go-back, .bt-delete {
+        margin-left: 30px !important;
+    }
+}

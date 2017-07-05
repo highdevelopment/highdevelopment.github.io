@@ -1,0 +1,165 @@
+[
+    {
+        "item": "CONTROLS",
+        "items": [
+            {
+                "id": "interface_control_1",
+                "type": "control",
+                "name": "Zone Control",
+                "nameDefault": "Zone",
+                "url": "images/controls/zone.svg",
+                "w": 47,
+                "h": 44
+            },
+            {
+                "id": "interface_control_2",
+                "type": "control",
+                "name": "Floor Level Zone Control",
+                "url": "images/controls/floor.svg",
+                "w": 47,
+                "h": 44
+            },
+            {
+                "id": "interface_control_3",
+                "type": "control",
+                "name": "Building Level Zone Control",
+                "nameDefault": "Building",
+                "url": "images/controls/all.svg",
+                "w": 47,
+                "h": 44
+            },
+            {
+                "id": "interface_control_4",
+                "type": "control",
+                "name": "Water Control",
+                "nameDefault": "Water",
+                "url": "images/controls/water.svg",
+                "w": 47,
+                "h": 44
+            }
+        ]
+    },
+    {
+        "item": "INDICATORS",
+        "items": [
+            {
+                "id": "interface_indicator_1",
+                "type": "indicator",
+                "name": "TEMPERATURE INDICATOR",
+                "nameDefault": "TEMPERATURE",
+                "url": "images/indicators/temp-72.svg",
+                "w": 62,
+                "h": 33
+            },
+            {
+                "id": "interface_indicator_2",
+                "type": "indicator",
+                "name": "HUMIDITY INDICATOR",
+                "nameDefault": "HUMIDITY",
+                "url": "images/indicators/rh-35.svg",
+                "w": 62,
+                "h": 33
+            },
+            {
+                "id": "interface_indicator_3",
+                "type": "indicator",
+                "name": "CO2 INDICATOR",
+                "nameDefault": "CO2",
+                "url": "images/indicators/co2-800.svg",
+                "w": 62,
+                "h": 33
+            },
+            {
+                "id": "interface_indicator_4",
+                "type": "indicator",
+                "name": "VOC INDICATOR",
+                "nameDefault": "VOC",
+                "url": "images/indicators/voc-100.svg",
+                "w": 62,
+                "h": 33
+            },
+            {
+                "id": "interface_indicator_5",
+                "type": "indicator",
+                "name": "BAR GRAPH - SMALL",
+                "nameDefault": "BAR GRAPH",
+                "url": "images/interface/objects/bar-graph-small.png",
+                "w": 90,
+                "h": 15
+            },
+            {
+                "id": "interface_indicator_6",
+                "type": "indicator",
+                "name": "BAR GRAPH - LARGE",
+                "nameDefault": "BAR GRAPH",
+                "url": "images/containers/gauge-large.svg",
+                "w": 90,
+                "h": 21
+            }
+        ]
+    },
+    {
+        "item": "USER INPUTS",
+        "items": [
+            {
+                "id": "interface_user_input_1",
+                "type": "user_input",
+                "name": "VENTILATION TOGGLE",
+                "nameDefault": "Ventilation",
+                "url": "images/userinputs/off/ventilation-normal.png",
+                "w": 47,
+                "h": 47
+            },
+            {
+                "id": "interface_user_input_2",
+                "type": "user_input",
+                "name": "SHADE TOGGLE",
+                "nameDefault": "Shade",
+                "url": "images/userinputs/off/shade-normal.svg",
+                "w": 47,
+                "h": 47
+            },
+            {
+                "id": "interface_user_input_3",
+                "type": "user_input",
+                "name": "SNOWMELT TOGGLE",
+                "nameDefault": "Snowmelt",
+                "url": "images/userinputs/off/snowmelt-normal.svg",
+                "w": 47,
+                "h": 47
+            },
+            {
+                "id": "interface_user_input_4",
+                "type": "user_input",
+                "name": "GENERAL TOGGLE",
+                "nameDefault": "General",
+                "url": "images/userinputs/off/general-normal.svg",
+                "w": 47,
+                "h": 47
+            }
+        ]
+    },
+    {
+        "item": "CONTAINERS",
+        "items": [
+            {
+                "id": "interface_container_1",
+                "type": "container",
+                "containerType": "horizontal",
+                "name": "HORIZONTAL-CONTAINER",
+                "url": "images/interface/objects/horizontal-container.png",
+                "w": 140,
+                "h": 50
+            },
+            {
+                "id": "interface_container_2",
+                "type": "container",
+                "containerType": "vertical",
+                "name": "VERTICAL-CONTAINER",
+                "url": "images/interface/objects/vertical-container.png",
+                "w": 50,
+                "h": 140
+            }
+        ]
+    }
+]

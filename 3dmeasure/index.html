@@ -1,0 +1,261 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8"/>    
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<meta id="myViewPort" name="viewport" content="user-scalable=1, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+		
+		<title>3D Measure</title>
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/progressbar-style.css" />
+		<link type="text/css" rel="stylesheet" href="css/jquery-ui.css">
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="js/lib/jquery-2.2.4.js"></script>
+		<script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/lib/fabric.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/objects/shapeobj.js"></script>
+		<script type="text/javascript" src="js/objects/lengthobj.js"></script>
+		<script type="text/javascript" src="js/objects/labelobj.js"></script>
+		<script type="text/javascript" src="js/measure.js"></script>
+		<script type="text/javascript" src="js/lib/jquery-ui.js"></script>
+	</head>
+
+	<body>
+		<div id="header">
+			<section>
+				<span>BDEO 3DMeasure</span>
+			</section>
+		</div>
+		<div>
+			<div id="calculator">
+				<div>
+					<section id="text_Label">
+						<h2>Length</h2>
+					</section>
+					<section id="text_area">
+						<h3>Área: </h3>
+						<input type="text" name="" readonly class="result">
+					</section>
+					<section id="text_perimeter">
+						<h3>Perímetro : </h3>
+						<input type="text" name="" readonly class="result">
+					</section>
+					<section id="text_volume">
+						<h3>Volume : </h3>
+						<input type="text" name="" readonly class="result">
+					</section>
+				</div>
+			</div>
+			<div id="background">
+				<img src="" id="image_background">
+				<div id="canvasview">
+					<canvas id='canvas'></canvas>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="footer_background">
+		</div>
+
+		<div id="layer_reference" class="layer">
+			<img src="img/reference/background.png">
+			<section class="tab">
+				<ul>
+					<li id="btn_card" class="active"><img src="img/reference/btn_card_over.png"></li>
+					<li id="btn_a4"><img src="img/reference/btn_a4_over.png"></li>
+					<li id="btn_custom"><img src="img/reference/btn_custom_over.png"></li>
+				</ul>
+			</section>
+			<section class="size">
+				<div class="input_number">
+					<div class="pull_left">
+						<div class="btn_up"></div>
+						<div class="btn_down"></div>
+					</div>
+					<div class="pull_left">
+						<input type="text" name="" id="text_ref_width">
+					</div>
+				</div>
+				<div class="input_number">
+					<div class="pull_left">
+						<div class="btn_up"></div>
+						<div class="btn_down"></div>
+					</div>
+					<div class="pull_left">
+						<input type="text" name="" id="text_ref_height">
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<div id="layer_calibration" class="layer">
+			<img src="img/layer_calibration.png">
+		</div>
+
+		<div id="layer_measure" class="layer">
+			<img src="img/measure/background.png">
+			<section class="tab" id="select_measure_mode">
+				<ul>
+					<li id="btn_length" class="active"><img src="img/measure/btn_length_over.png"></li>
+					<li id="btn_area"><img src="img/measure/btn_area.png"></li>
+					<li id="btn_volume"><img src="img/measure/btn_volume_over.png"></li>
+				</ul>
+			</section>
+		</div>
+
+		<div id="footer">
+			<ul class="menu_button">
+				<li>
+					<button type="button" class="" id="btn_reference" data-toggle="modal" data-target="">
+						<img src="img/btn_reference.png">
+					</button>
+				</li>
+				<li>
+					<button type="button" class="" id="btn_caliberation">
+						<img src="img/btn_calibration.png">
+					</button>
+				</li>
+				<li>
+					<button type="button" class=""  id="btn_measure" data-toggle="modal" data-target="">
+						<img src="img/btn_measuring.png">
+					</button>
+				</li>
+				<li>
+					<button type="button" class="" id="btn_add">
+						<img src="img/btn_addMeasure.png">
+					</button>
+				</li>
+				<li>
+					<button type="button" class="" id="btn_rotate">
+						<img src="img/btn_rotate.png">
+					</button>
+				</li>
+				<!-- <li>
+					<button type="button" class="" id="btn_zoomout">ZoomOut</button>
+				</li>
+				<li>
+					<button type="button" class="" id="btn_zoomin">ZoomIn</button>
+				</li> -->
+			</ul>
+
+			<ul id="slider_ul">
+				<li>
+					<span id="span_slider">0%</span>
+				</li>
+					<div id="slider_zoom"></div>
+				<li>
+					<button type="button" class="" id="btn_zoom_reset">Reset</button>
+				</li>
+			</ul>
+			<ul id="slider_ul">
+				<li>
+					<button type="button" class="" id="btn_save">
+						<img src="img/btn_save.png">
+					</button>
+				</li>
+			</ul>
+
+			<section>
+				<img src="img/logo.png">
+			</section>
+		</div>
+
+		<!-- Modal -->
+		<div id="dlg_reference" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Reference Object</h4>
+					</div>
+					<div class="modal-body">
+						<section class="container-fluid">
+							<div class="col-sm-3">
+								<span>Reference Type</span>
+							</div>
+							<div class="col-sm-8">
+								<select class="select_form" id="select_reference">
+									<option value="credit">Credit card</option>
+									<option value="a4_paper">A4 paper</option>
+									<option value="custom">Custom size</option>
+								</select>
+							</div>
+						</section>
+						<section class="container-fluid">
+							<div class="padding-15">
+								<div class="col-sm-3">
+									<span>width</span>
+								</div>
+								<div class="col-sm-8">
+									<input type="text" name="" value="" placeholder="" id="text_ref_width">
+								</div>
+							</div>
+							<div class="padding-15">
+								<div class="col-sm-3">
+									<span>height</span>
+								</div>
+								<div class="col-sm-8">
+									<input type="text" name="" value="" placeholder="" id="text_ref_height">
+								</div>
+							</div>
+						</section>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-success btn-cons" data-dismiss="modal">OK</button>
+						<button type="button" class="btn" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="dlg_mesure_mode" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Measure Mode</h4>
+					</div>
+					<div class="modal-body">
+						<section class="container-fluid">
+							<div class="padding-15">
+								<span>Select Measure Mode</span>
+							</div>
+						</section>
+						<section class="container-fluid">
+							<div class="padding-15 select_option" id="select_measure_mode">
+								<ul>
+									<li class="active"><section>Length</section></li>
+									<li><section>Area</section></li>
+									<li><section>Volume</section></li>
+								</ul>
+							</div>
+						</section>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-success btn-cons" data-dismiss="modal">OK</button>
+						<button type="button" class="btn" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- The Modal -->
+		<div id="progressModal" class="modal">
+			<!--<div id="uploadprogress" class="uploadprogress"></div>-->
+			<div class="progress-bar blue shine stripes"><span id="uploadprogressbar" name="uploadprogressbar" style="width: 10%">Processing...</span></div>
+		</div>
+		<form enctype="multipart/form-data" onsubmit="return false;" id="SeatMapArenaUpload" name="SeatMapArenaUpload" action="uploadarena.php" method="post">
+			<input autocomplete="off" class="fileUpload" name="imagelinkvalue" id="imagelinkvalue" type="file">
+		</form>
+		
+		<iframe id="file_download_iframe" style="display:none;"></iframe>
+	</body>
+
+</html>      

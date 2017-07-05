@@ -1,0 +1,26 @@
+
+
+@font-face {
+    font-family: 'nokia_pure_textregular';
+    src: url('nokiapuretext-regular.eot');
+    src: url('nokiapuretext-regular.eot?#iefix') format('embedded-opentype'),
+         url('nokiapuretext-regular.woff2') format('woff2'),
+         url('nokiapuretext-regular.woff') format('woff'),
+         url('nokiapuretext-regular.ttf') format('truetype'),
+         url('nokiapuretext-regular.svg#nokia_pure_textregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nokiapureheadline_ult-webfont';
+    src: url('nokiapureheadline_ult-webfont.eot');
+    src: url('nokiapureheadline_ult-webfont.eot?#iefix') format('embedded-opentype'),
+         url('nokiapureheadline_ult-webfont.woff') format('woff'),
+         url('nokiapureheadline_ult-webfont.ttf') format('truetype'),
+         url('nokiapureheadline_ult-webfont.svg#nokia_pure_textregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

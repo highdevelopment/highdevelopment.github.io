@@ -1,0 +1,23 @@
+$mobile-xs:480px;
+$mobile: 640px;
+$tablet: 768px;
+$page-mid: 992px;
+$page: 1024px;
+$desktop: 1365px;
+$primary: #ffffff;
+$primaryalt: #225868;
+$secondary: #114956;
+$secondaryalt: #0084a3;
+$tertiary: #4d4d4d;
+$tertiaryalt: #ff0099;
+$placeholder:#e3e3e3;
+$serifbase: serif;
+$sanserifbase: sans-serif;
+
+@mixin back-size($val...) {
+    -webkit-background-size: $val;
+    -moz-background-size: $val;
+    -o-background-size: $val;
+    -ms-background-size: $val;
+    background-size: $val;
+}

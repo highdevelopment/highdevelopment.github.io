@@ -1,0 +1,88 @@
+.load-button
+{
+	border 			: 2px solid rgba(31,40,51,0.20);
+	border-radius	: 100px;
+	font-family		: HarmoniaSansStd-Bold;
+	font-size		: 14px;
+	color 			: #333;
+	letter-spacing	: 0;
+	line-height		: 20px;
+	background-color: #f8f8f8;
+	padding 		: 0 5%;
+}
+.question-mark{
+	margin:0px 10px;
+}
+.subscribe
+{
+	background 		: url(../images/background/balance.png) no-repeat cover;
+}
+
+.spendblue
+{
+	width 			: 100%;
+	padding-left	: 2%;
+	text-align		: left;
+	font-family 	: Ciutadella-Regular;
+	font-size		: 24px;
+	color 			: #9b9b9b;
+	background-color: #fff;
+	letter-spacing	: 0;
+	border-radius	: 5px;
+	border-width	: 0;
+	border: 2px solid #9b9b9b;
+}
+.spendblue:active, .spendblue:focus{
+	background-image: linear-gradient(-39deg, #71C1EE 7%, #4651D6 100%);
+	color:#fff;
+}
+.active{
+	background-image: linear-gradient(-39deg, #71C1EE 7%, #4651D6 100%);
+	color:#fff;
+}
+
+.spendgrey
+{
+	width 			: 100%;
+	padding-left	: 10%;
+	text-align		: left;
+	font-family 	: Ciutadella-Regular;
+	font-size		: 24px;
+	color 			: #9C9C9C;
+	letter-spacing	: 0;
+	background 		: #FFFFFF;
+	border-radius	: 5px;
+	border-width	: 1px;
+	margin-bottom	: 10px;
+}
+
+@media (max-width: 1024px)
+{
+	.spendgrey
+	{
+		font-size: 1rem;
+	}
+}
+.semiround-text-balance{
+	background-color: rgba(15, 15, 16, 0.5);
+}
+.semiround-textarea-balance{
+	background-color: rgba(15, 15, 16, 0.5);
+	padding:0px 9px;
+}
+.inputform>p{
+	text-align: justify;
+}
+.questions{
+	margin:12px auto;
+}
+.arrow-balance{
+	width:15px;
+	height:10px;
+	margin-top:24px;
+}
+@media(max-width:400px){
+	.spendblue{
+		font-size: 18px;
+	}
+}

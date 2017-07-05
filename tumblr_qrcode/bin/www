@@ -1,0 +1,327 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+
+var app = require('../app');
+var debug = require('debug')('foo:server');
+var http = require('http');
+
+
+/**
+ * Get port from environment and store in Express.
+ */
+
+var port = normalizePort(process.env.PORT || '8080');
+app.set('port', port);
+
+console.log(port);
+/**
+ * Create HTTP server.
+ */
+
+var server = http.createServer(app);
+
+/**
+ * Listen on provided port, on all network interfaces.
+ */
+
+server.listen(port);
+server.on('error', onError);
+server.on('listening', onListening);
+
+/**
+ * Normalize a port into a number, string, or false.
+ */
+
+function normalizePort(val) {
+	var port = parseInt(val, 10);
+
+	if (isNaN(port)) {
+		// named pipe
+		return val;
+	}
+
+	if (port >= 0) {
+		// port number
+		return port;
+	}
+
+	return false;
+}
+
+/**
+ * Event listener for HTTP server "error" event.
+ */
+
+function onError(error) {
+	if (error.syscall !== 'listen') {
+		throw error;
+	}
+
+	var bind = typeof port === 'string'
+		? 'Pipe ' + port
+		: 'Port ' + port;
+
+	// handle specific listen errors with friendly messages
+	switch (error.code) {
+		case 'EACCES':
+			console.error(bind + ' requires elevated privileges');
+			process.exit(1);
+			break;
+		case 'EADDRINUSE':
+			console.error(bind + ' is already in use');
+			process.exit(1);
+			break;
+		default:
+			throw error;
+	}
+}
+
+/**
+ * Event listener for HTTP server "listening" event.
+ */
+
+function onListening() {
+	var addr = server.address();
+	var bind = typeof addr === 'string'
+		? 'pipe ' + addr
+		: 'port ' + addr.port;
+	debug('Listening on ' + bind);
+}
+
+
+
+var io = require('socket.io').listen(server);
+var tumblr = require('./../lib/tumblr.js');
+io.sockets.on('connection', function (socket)
+{
+	m_socket = socket;
+	console.log('connected');
+
+	socket.on('c_userinfo', function (user_data) 
+	{
+		var vCardString = require('./../lib/vcard_test.js');
+		console.log('user_data' + user_data.data);
+		vCardString = new vCardString();
+		var string = vCardString.getString(user_data.data);
+		console.log(string);
+		console.log('Length : ' + string.length);
+		m_socket.emit('s_vcard',
+        {
+            data : string
+        });
+		// var qrcode=require('../lib/qrcode_index.js');
+		// var url = 'http://www.sunzhongkui.me';
+		// var base64 = qrcode.toBase64(string, 1024);
+		// console.log(base64);
+	});
+
+	socket.on('posting_vcard', function (imgdata) 
+	{
+		var data = imgdata.image.replace(/^data:image\/\w+;base64,/, "");
+		console.log(data);
+
+		var client = tumblr.createClient(
+		{
+		      consumer_key: 'q7YeR33zYVnhnfynr6xdFzmTH0tKag4gVmiFVLHeN1uZphFMdW',
+		      consumer_secret: '9VRMqdHHH5ftaYQmHqqzCojP19oSOSiXYoqjTbTraW92ueLGng',
+		      token: 'GZDir2LJF4HoDqm5mbfM8keSxcYalMQX0fPPHXaflrB0LlizBI',
+		      token_secret: 'mBMrssagq5fS6j6xC36djPqo45Y5zUhV8jodujHrgisBx9NLYa'
+			// consumer_key: 'D4mU0lKcnWpswSeKYjGgdKq8AQuKImyWiR0gOoWDMygO5VGVbe',
+			// consumer_secret: 'fGRvU7XfofMM9dorIWJPqh7U74kX29NiZZJtaYkbfMMASn8V3w',
+			// token: 'DQDjQkCm3HMaJkkQhZQJPonBz3UNRAIExbR7iGhwpdXH89Hz2f',
+			// token_secret: '1BFxcrZwjHVCnFgPVPZhDU77KYIGPGjKWXvfmqcylbSroKA1nG'
+		});
+
+		// console.log(client);
+
+		// Make the request
+		client.userInfo(function (err, userinfo)
+		{
+		    if(err)
+		    {
+		    	console.log('userinfo_error' + err);
+		    }
+		    else
+		    {
+			    userinfo.user.blogs.forEach(function(blog)
+			    {
+		    		// console.log('userInfo: ' + JSON.stringify(blog));
+				    console.log('user name: ' + blog.name);
+				    console.log('url: ' + blog.url);
+					// client.taggedPosts('businesscard', null, function (error, data1)
+					// {
+						// if(error)
+						// {
+						// 	console.log('taggedPosts: ' + error);
+						// }
+						// else
+						// deletePost
+						{
+							var param = 
+							{
+								data64: data,
+								caption: "andy's vcard",
+								tags: 'businesscard',
+							};
+							client.createPhotoPost(blog.name + '.tumblr.com', param, function(err1, json)
+							{
+								if(err1)
+								{
+							    	console.log('createPhotoPost: ' + err1);
+								}
+								else
+								{
+							        m_socket.emit('success_posting',
+							        {
+							            id : json.id
+							        });
+							    }
+							});
+						}
+					// });
+				});
+			}
+		});
+    })
+});
+
+
+
+// var tumblr = require('./../lib/tumblr.js');
+// io.sockets.on('connection', function (socket)
+// {
+// 	m_socket = socket;
+// 	console.log('connected');
+
+// 	socket.on('posting_vcard', function (imgdata) 
+// 	{
+// 		var data = imgdata.image.replace(/^data:image\/\w+;base64,/, "");
+// 		console.log(data);
+
+// 		var client = tumblr.createClient(
+// 		{
+// 			consumer_key: 'D4mU0lKcnWpswSeKYjGgdKq8AQuKImyWiR0gOoWDMygO5VGVbe',
+// 			consumer_secret: 'fGRvU7XfofMM9dorIWJPqh7U74kX29NiZZJtaYkbfMMASn8V3w',
+// 			token: 'DQDjQkCm3HMaJkkQhZQJPonBz3UNRAIExbR7iGhwpdXH89Hz2f',
+// 			token_secret: '1BFxcrZwjHVCnFgPVPZhDU77KYIGPGjKWXvfmqcylbSroKA1nG'
+// 		});
+
+// 		// Make the request
+// 		client.userInfo(function (err, userinfo)
+// 		{
+// 		    if(err)
+// 		    {
+// 		    	console.log('userinfo_error' + err);
+// 		    }
+// 		    else
+// 		    {
+// 			    userinfo.user.blogs.forEach(function(blog) {
+// 				    console.log('user name: ' + blog.name);
+// 					var param = 
+// 					{
+// 						data64: data,
+// 						caption: "andy's vcard",
+// 					};
+
+// 					client.createPhotoPost(blog.name + '.tumblr.com', param, function(err, json)
+// 					{
+// 						if(err)
+// 						{
+// 					    	console.log(err);
+// 						}
+// 						else
+// 						{
+// 					    	console.log('success: ' + json);
+
+// 					        m_socket.emit('success_posting',
+// 					        {
+// 					            id : json.id
+// 					        });
+// 					    }
+// 					});
+// 				});
+// 			}
+// 		});
+//     })
+// });
+
+
+
+
+
+
+// var tumblr = require('./../lib/tumblr.js');
+// io.sockets.on('connection', function (socket)
+// {
+// 	m_socket = socket;
+// 	console.log('connected');
+
+// 	socket.on('posting_vcard', function (data) 
+// 	{
+// 		console.log(data);
+// 		fs = require('fs');
+// 		sys = require('sys');
+// 		// string generated by canvas.toDataURL()
+// 		var img = data.image;
+// 		// strip off the data: url prefix to get just the base64-encoded bytes
+// 		var data = img.replace(/^data:image\/\w+;base64,/, "");
+// 		var buf = new Buffer(data, 'base64');
+// 		fs.writeFile('image.png', buf, function(err)
+// 		{
+// 			var fileUrl = require('file-url');
+// 			var imageUrl = fileUrl('image.png');
+
+//             if (err) throw err;
+//             console.log('File saved: ' + imageUrl);
+
+// 			var client = tumblr.createClient({
+// 			  consumer_key: 'D4mU0lKcnWpswSeKYjGgdKq8AQuKImyWiR0gOoWDMygO5VGVbe',
+// 			  consumer_secret: 'fGRvU7XfofMM9dorIWJPqh7U74kX29NiZZJtaYkbfMMASn8V3w',
+// 			  token: 'DQDjQkCm3HMaJkkQhZQJPonBz3UNRAIExbR7iGhwpdXH89Hz2f',
+// 			  token_secret: '1BFxcrZwjHVCnFgPVPZhDU77KYIGPGjKWXvfmqcylbSroKA1nG'
+// 			});
+
+// 			// Make the request
+// 			client.userInfo(function (err, tumblrdata) {
+// 			    if(err)
+// 			    {
+// 			    	console.log('userinfo_error' + err);
+// 			    }
+// 			    else
+// 			    {
+// 				    tumblrdata.user.blogs.forEach(function(blog) {
+// 					    console.log('user name: ' + blog.name);
+
+// 						var param = 
+// 						{
+// 							// source: 'http://localhost/Tumblr/Project/1.jpg',
+// 							data64: data,
+// 							caption: 'ppp',
+// 						};
+
+// 						client.createPhotoPost(blog.name + '.tumblr.com', param, function(err, json)
+// 						{
+// 							if(err)
+// 							{
+// 						    	console.log(err);
+// 							}
+// 							else
+// 							{
+// 						    	console.log(json);
+// 						    }
+// 						});
+// 					});
+// 				}
+// 			});
+
+//         })
+
+// 	});
+// });
+
+
+
+

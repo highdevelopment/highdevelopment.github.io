@@ -1,0 +1,74 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8"/>    
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<meta id="myViewPort" name="viewport" content="user-scalable=1, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+		
+		<title>Tumblr QR code</title>
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/jquery-2.2.4.js"></script>
+		<script type="text/javascript" src="js/vcard.js"></script>
+		<script type="text/javascript" src="js/qrcode.js"></script>
+		<!-- <script type="text/javascript" src="js/tumblr.js"></script> -->
+	</head>
+
+	<body>
+		<div class="input_data">
+			<section class="title">
+				Andy Powers
+			</section>
+			<section>
+				<div class="label">Fisrt name</div>
+				<div class="control">
+					<input id='text_firstname' type="text" value="Andy">
+				</div>
+				<div class="label">Last name</div>
+				<div class="control">
+					<input id='text_secondname' type="text" value="Powers">
+				</div>
+				<br>
+			</section>
+			<section>
+				<div class="label">Company</div>
+				<div class="control">
+					<input id='text_company' type="text" value="CommuniClique">
+				</div>
+				<div class="label">Title</div>
+				<div class="control">
+					<input id='text_jobtitle' type="text" value="CEO and Founder">
+				</div>
+				<br>
+			</section>
+			<section>
+				<div class="label">Phone</div>
+				<div class="control">
+					<input id='text_phone' type="text" value="12342432432">
+				</div>
+			</section><br>
+			<section>
+				<div class="label">Email</div>
+				<div class="control">
+					<input id='text_email' type="text" value="andy@hotmail.com">
+				</div>
+			</section>
+			<br>
+		</div>
+		<div class="left button_div">
+			<a id='btn_createQR' class="button" href="#">Create vCard QR Code</a>
+		</div>
+		<div class="left button_div">
+			<a id='btn_postTo' class="button disabled" href="#">Upload to Tumblr</a>
+		</div>
+		<div id='qrcode'>
+		</div>
+
+    	<!-- <script type="text/javascript" src="node_modules/socket.io-client/dist/socket.io.js"></script> -->
+    	<script type="text/javascript" src="js/socket.io.js"></script>
+		<!-- <script type="text/javascript" src="../app.js"></script> -->
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</body>
+
+</html>

@@ -1,0 +1,91 @@
+/*@font-face {font-family: 'NokiaPureText Regular';
+src: url('NokiaPureText-Regular.eot');
+src: url('NokiaPureText-Regular.eot?#iefix') format('eot'),
+url('.NokiaPureText-Regular.woff') format('woff'),
+url('NokiaPureText-Regular.ttf') format('truetype'),
+url('webfonts/NokiaPureText-Regular.svg') format('svg');
+url('webfonts/nokiapurehweb_rg-webfont.svg') format('svg');
+font-weight: normal;
+font-style: normal;}*/
+
+/*@import url('NokiaPureText-Regular.woff');*/
+
+body {
+	margin: 0px;
+	/*overflow-x: hidden;*/
+    background-color: rgb(255, 255, 255);
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: hidden;
+
+    font-family: 'nokia_pure_textregular';
+}
+
+section
+{
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	opacity: 0.0;
+}
+
+object
+{
+	width: 100%;
+	height: 100%;
+}
+
+#page_1
+{
+	/*margin: 30px;*/
+	overflow: hidden;
+}
+
+svg
+{
+	width: 100%;
+	/*height: 100%;*/
+}
+
+#page_1 img
+{
+	width: 100%;
+}
+
+#page_1 .loading
+{
+	width: 10%;
+    position: absolute;
+    left: 13%;
+    top: 250px;
+}
+/*
+
+#page_twopoints
+{
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+}*/
+
+
+@keyframes offset
+{
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+
+iframe
+{
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    border: none;
+}

@@ -1,0 +1,272 @@
+[
+    {
+        "id": 1,
+        "name": "OUTSIDE",
+        "data": [
+            {
+                "id": 1,
+                "title": "ENTRY TEMP.",
+                "number": 2,
+                "url": "images/sensor/t.svg"
+            },
+            {
+                "id": 2,
+                "title": "DINING TEMP.",
+                "number": 3,
+                "url": "images/sensor/t.svg"
+            },
+            {
+                "id": 3,
+                "title": "DINING HUMIDITY",
+                "number": 2,
+                "url": "images/sensor/h.svg"
+            },
+            {
+                "id": 4,
+                "title": "DINING FLOOR TEMP",
+                "number": 2,
+                "url": "images/sensor/ft.svg"
+            },
+            {
+                "id": 5,
+                "title": "LIVING TEMP.",
+                "number": 2,
+                "url": "images/sensor/r.svg"
+            },
+            {
+                "id": 6,
+                "title": "EXERCISE TEMP.",
+                "number": 2,
+                "url": "images/sensor/s.svg"
+            },
+            {
+                "id": 7,
+                "title": "ART STUDIO TEMP.",
+                "number": 2,
+                "url": "images/sensor/th.svg"
+            },
+            {
+                "id": 8,
+                "title": "BATH TEMP..",
+                "number": 2,
+                "url": "images/sensor/w.svg"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "MECHANICAL",
+        "data": [
+            {
+                "id": 9,
+                "title": "ENTRY TEMP.",
+                "number": 2,
+                "url": "images/sensor/t.svg"
+            },
+            {
+                "id": 10,
+                "title": "DINING TEMP.",
+                "number": 3,
+                "url": "images/sensor/t.svg"
+            },
+            {
+                "id": 11,
+                "title": "DINING HUMIDITY",
+                "number": 2,
+                "url": "images/sensor/h.svg"
+            },
+            {
+                "id": 12,
+                "title": "DINING FLOOR TEMP",
+                "number": 2,
+                "url": "images/sensor/ft.svg"
+            },
+            {
+                "id": 13,
+                "title": "LIVING TEMP.",
+                "number": 2,
+                "url": "images/sensor/r.svg"
+            },
+            {
+                "id": 14,
+                "title": "EXERCISE TEMP.",
+                "number": 2,
+                "url": "images/sensor/s.svg"
+            },
+            {
+                "id": 15,
+                "title": "ART STUDIO TEMP.",
+                "number": 2,
+                "url": "images/sensor/th.svg"
+            },
+            {
+                "id": 16,
+                "title": "BATH TEMP..",
+                "number": 2,
+                "url": "images/sensor/w.svg"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "1ST FLOOR",
+        "data": [
+            {
+                "id": 17,
+                "title": "ENTRY TEMP.",
+                "number": 2,
+                "url": "images/sensor/t.svg"
+            },
+            {
+                "id": 18,
+                "title": "DINING TEMP.",
+                "number": 3,
+                "url": "images/sensor/t.svg"
+            },
+            {
+                "id": 19,
+                "title": "DINING HUMIDITY",
+                "number": 2,
+                "url": "images/sensor/h.svg"
+            },
+            {
+                "id": 20,
+                "title": "DINING FLOOR TEMP",
+                "number": 2,
+                "url": "images/sensor/ft.svg"
+            },
+            {
+                "id": 21,
+                "title": "LIVING TEMP.",
+                "number": 2,
+                "url": "images/sensor/r.svg"
+            },
+            {
+                "id": 22,
+                "title": "EXERCISE TEMP.",
+                "number": 2,
+                "url": "images/sensor/s.svg"
+            },
+            {
+                "id": 23,
+                "title": "ART STUDIO TEMP.",
+                "number": 2,
+                "url": "images/sensor/th.svg"
+            },
+            {
+                "id": 24,
+                "title": "BATH TEMP..",
+                "number": 2,
+                "url": "images/sensor/w.svg"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "2ND FLOOR",
+        "data": [
+            {
+                "id": 25,
+                "title": "ENTRY TEMP.",
+                "number": 2,
+                "url": "images/sensor/t.svg"
+            },
+            {
+                "id": 26,
+                "title": "DINING TEMP.",
+                "number": 3,
+                "url": "images/sensor/t.svg"
+            },
+            {
+                "id": 27,
+                "title": "DINING HUMIDITY",
+                "number": 2,
+                "url": "images/sensor/h.svg"
+            },
+            {
+                "id": 28,
+                "title": "DINING FLOOR TEMP",
+                "number": 2,
+                "url": "images/sensor/ft.svg"
+            },
+            {
+                "id": 29,
+                "title": "LIVING TEMP.",
+                "number": 2,
+                "url": "images/sensor/r.svg"
+            },
+            {
+                "id": 30,
+                "title": "EXERCISE TEMP.",
+                "number": 2,
+                "url": "images/sensor/s.svg"
+            },
+            {
+                "id": 31,
+                "title": "ART STUDIO TEMP.",
+                "number": 2,
+                "url": "images/sensor/th.svg"
+            },
+            {
+                "id": 32,
+                "title": "BATH TEMP..",
+                "number": 2,
+                "url": "images/sensor/w.svg"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "3RD FLOOR",
+        "data": [
+            {
+                "id": 33,
+                "title": "ENTRY TEMP.",
+                "number": 2,
+                "url": "images/sensor/t.svg"
+            },
+            {
+                "id": 34,
+                "title": "DINING TEMP.",
+                "number": 3,
+                "url": "images/sensor/t.svg"
+            },
+            {
+                "id": 35,
+                "title": "DINING HUMIDITY",
+                "number": 2,
+                "url": "images/sensor/h.svg"
+            },
+            {
+                "id": 36,
+                "title": "DINING FLOOR TEMP",
+                "number": 2,
+                "url": "images/sensor/ft.svg"
+            },
+            {
+                "id": 37,
+                "title": "LIVING TEMP.",
+                "number": 2,
+                "url": "images/sensor/r.svg"
+            },
+            {
+                "id": 38,
+                "title": "EXERCISE TEMP.",
+                "number": 2,
+                "url": "images/sensor/s.svg"
+            },
+            {
+                "id": 39,
+                "title": "ART STUDIO TEMP.",
+                "number": 2,
+                "url": "images/sensor/th.svg"
+            },
+            {
+                "id": 40,
+                "title": "BATH TEMP..",
+                "number": 2,
+                "url": "images/sensor/w.svg"
+            }
+        ]
+    }
+]

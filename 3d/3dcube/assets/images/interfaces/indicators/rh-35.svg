@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="62px" height="33px" viewBox="0 0 62 33" enable-background="new 0 0 62 33" xml:space="preserve">
+<path fill="#AADCB0" d="M6.576,2.662h49.081c2.209,0,4,1.791,4,4V26.23c0,2.209-1.791,4-4,4H6.576c-2.209,0-4-1.791-4-4l0,0V6.662
+	C2.576,4.453,4.366,2.662,6.576,2.662L6.576,2.662z"/>
+<path fill="#188020" d="M6.451,3.021c-2.209,0-4,1.791-4,4v19.568c0,2.209,1.791,4,4,4h6.85V3.021H6.451z"/>
+<path fill="none" stroke="#188020" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M6.576,3.021h49.081c2.209,0,4,1.791,4,4v19.568c0,2.209-1.791,4-4,4H6.576c-2.209,0-4-1.791-4-4l0,0V7.021
+	C2.576,4.812,4.367,3.021,6.576,3.021L6.576,3.021z"/>
+<text transform="matrix(0 -1 1 0 9.9941 22.4424)" fill="#AADCB0" font-family="'Arial-Black'" style="font-family:Arial Black" font-size="7">RH</text>
+<text transform="matrix(1 0 0 1 21.2773 25.1123)" fill="#188020" font-family="'Arial-BoldMT'" style="font-family:Arial;font-weight:bold" font-size="22">35</text>
+<text transform="matrix(1 0 0 1 46.2383 13.8506)" fill="#18801E" font-family="'ArialNarrow-Bold'" style="font-family:Arial Narrow;font-weight:bold;font-size:9px" font-size="8">%</text>
+</svg>

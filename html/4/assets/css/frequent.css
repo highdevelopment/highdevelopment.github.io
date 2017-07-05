@@ -1,0 +1,172 @@
+.balance-section
+{
+	background-image: linear-gradient(-40deg, #75E0C6 0%, #3AA6DD 88%, #3AA6DD 88%, #329DE4 100%);
+}
+
+.company
+{
+	color: #53BED3;
+}
+
+.freq-flyer-trth .your-savings
+{
+	/* Rectangle: */
+	background-image: linear-gradient(-40deg, #75E0C6 0%, #3AA6DD 88%, #3AA6DD 88%, #329DE4 100%);
+}
+
+.save-price
+{
+	color: #53BED3;
+}
+
+.gradient-btn
+{
+	background-image: linear-gradient(-40deg, #75E0C6 0%, #3AA6DD 88%, #3AA6DD 88%, #329DE4 100%);
+}
+
+.heart-sentence i
+{
+	color: #53BED3;
+}
+
+/*.spendblue
+{
+	background-image: linear-gradient(-40deg, #75E0C6 0%, #3AA6DD 88%, #3AA6DD 88%, #329DE4 100%);
+}*/
+
+.load-button
+{
+	border 			: 2px solid rgba(31,40,51,0.20);
+	border-radius	: 100px;
+	font-family		: HarmoniaSansStd-Bold;
+	font-size		: 14px;
+	color 			: rgba(31,40,51,0.40);
+	letter-spacing	: 0;
+	line-height		: 20px;
+	background-color: #f8f8f8;
+	padding 		: 0 5%;
+}
+
+.subscribe
+{
+	background 		: url(../images/background/frequent.png) no-repeat cover;
+}
+
+.spendblue
+{
+	width 			: 100%;
+	padding-left	: 2%;
+	text-align		: left;
+	font-family 	: Ciutadella-Regular;
+	font-size		: 24px;
+	color 			: #9b9b9b;
+	background-color: #fff;
+	letter-spacing	: 0;
+	border-radius	: 5px;
+	border-width	: 0;
+	border: 2px solid #9b9b9b;
+
+}
+.spendblue:active, .spendblue:focus{
+	background-image: linear-gradient(-40deg, #75E0C6 0%, #3AA6DD 88%, #3AA6DD 88%, #329DE4 100%);
+	color:#fff;
+}
+.inputform>p>a
+{
+	color: #53BED3;
+}
+
+.inputform>.submit
+{
+	background-image: linear-gradient(-40deg, #75E0C6 0%, #3AA6DD 88%, #3AA6DD 88%, #329DE4 100%);
+}
+
+.findcard
+{
+	background-image: linear-gradient(-40deg, #75E0C6 0%, #3AA6DD 88%, #3AA6DD 88%, #329DE4 100%);
+}
+.question-mark{
+	margin:0px 10px;
+}
+
+.article-list .readmore
+{
+	color: #53BED3;
+}
+.semiround-text-balance {
+    background-color: rgba(15, 15, 16, 0.5);
+}
+.offerdiv .detail-offer a
+{
+	color: #53BED3;
+}
+
+button.detail
+{
+	background-image: linear-gradient(-40deg, #75E0C6 0%, #3AA6DD 88%, #3AA6DD 88%, #329DE4 100%);
+}
+
+button.question-button
+{
+	background-image: linear-gradient(-40deg, #75E0C6 0%, #3AA6DD 88%, #3AA6DD 88%, #329DE4 100%);
+}
+
+.spendgrey
+{
+	width 			: 100%;
+	/*padding-left	: 10%;*/
+	text-align		: left;
+	font-family 	: Ciutadella-Regular;
+	font-size		: 24px;
+	color 			: #9C9C9C;
+	letter-spacing	: 0;
+	background 		: #FFFFFF;
+	border-radius	: 5px;
+	border-width	: 1px;
+	margin-bottom	: 10px;
+}
+
+@media (max-width: 1024px)
+{
+	.spendgrey
+	{
+		font-size: 1.5rem;
+	}
+}
+
+.progress-bar
+{
+	background-image: linear-gradient(-40deg, #75E0C6 0%, #3AA6DD 88%, #3AA6DD 88%, #329DE4 100%);
+	border-radius: 100px;
+}
+
+.span-pa
+{
+	color: #53BED3;
+}
+
+#slider .ui-slider-range, #rateslider .ui-slider-range, #debtslider .ui-slider-range { background-image: linear-gradient(-40deg, #75E0C6 0%, #3AA6DD 88%, #3AA6DD 88%, #329DE4 100%); }
+#slider .ui-slider-handle, #rateslider .ui-slider-handle, #debtslider .ui-slider-handle { border-color: #729fcf; }
+#slider, #rateslider, #debtslider
+{
+    border-radius: 50px;
+    height: 12px;
+    background-color: #e5e5e6;
+}
+#custom-handle, #rate-custom-handle, #debt-custom-handle
+{
+    width: 150px;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    border-radius: 100px;
+    font-family: Ciutadella-SemiBold;
+    font-size: 23px;
+    color: #1F2833;
+    letter-spacing: -0.39px;
+    text-align: center;
+    height: 47px;
+    position: relative;
+    top: -18px;
+    left: -50%;
+    line-height: 2;
+}

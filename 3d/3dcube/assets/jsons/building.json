@@ -1,0 +1,52 @@
+[
+    {
+        "Name": "",
+        "Notes": "",
+        "Control Types": {
+            "HVAC": false,
+            "Lighting": false,
+            "Irrigation": false
+        },
+        "Building Type": {
+            "Commercial": false,
+            "Residential": false,
+            "Industrial": false,
+            "Other": false
+        },
+        "Building Model": {
+            "Type": "",
+            "File": "",
+            "Design Day Heating": "",
+            "Design Day Cooling": "",
+            "Design Extreme (99%)": ""
+        },
+        "Floors": "",
+        "Envelope": "",
+        "Image": ""
+    },
+    {
+        "Name": "",
+        "Notes": "",
+        "Control Types": {
+            "HVAC": false,
+            "Lighting": false,
+            "Irrigation": false
+        },
+        "Building Type": {
+            "Commercial": false,
+            "Residential": false,
+            "Industrial": false,
+            "Other": false
+        },
+        "Building Model": {
+            "Type": "",
+            "File": "",
+            "Design Day Heating": "",
+            "Design Day Cooling": "",
+            "Design Extreme (99%)": ""
+        },
+        "Floors": "",
+        "Envelope": "",
+        "Image": ""
+    }
+]

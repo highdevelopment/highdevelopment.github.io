@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="92px" height="192px" viewBox="0 0 92 192" enable-background="new 0 0 92 192" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<g>
+				<path fill="#EDEDED" d="M46.395,11.585C8.37,11.585,1,25.78,1,25.78v150.098c0,0,7.249,16.122,45.438,16.122
+					C84.872,192,92,175.878,92,175.878V25.78C92,25.78,82.511,11.585,46.395,11.585z"/>
+			</g>
+			<g>
+				<path fill="none" stroke="#231F20" d="M46.395,11.585C8.37,11.585,1,25.78,1,25.78v150.098c0,0,7.249,16.122,45.438,16.122
+					C84.872,192,92,175.878,92,175.878V25.78C92,25.78,82.511,11.585,46.395,11.585z"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				
+					<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1776.9463" y1="40.4648" x2="1775.6427" y2="172.1915" gradientTransform="matrix(-1 0 0 1 1822.8359 0)">
+					<stop  offset="0" style="stop-color:#F8B7AC"/>
+					<stop  offset="0.375" style="stop-color:#DEBCC3"/>
+					<stop  offset="0.7619" style="stop-color:#C9C0D7"/>
+					<stop  offset="1" style="stop-color:#C0C2E1"/>
+				</linearGradient>
+				<path fill="url(#SVGID_1_)" d="M80.199,41.861c0.003-0.1,0.015-0.199,0.015-0.299c0-9.608-15.047-17.398-33.608-17.398
+					s-33.609,7.791-33.609,17.398c0,0.1,0.011,0.199,0.015,0.299h-0.258v120.728h0.262c0.386,9.44,15.272,17.025,33.591,17.025
+					c18.318,0,33.203-7.585,33.59-17.025h0.054V41.861H80.199z"/>
+			</g>
+			<g>
+				<path fill="none" stroke="#231F20" d="M80.199,41.861c0.003-0.1,0.015-0.199,0.015-0.299c0-9.608-15.047-17.398-33.608-17.398
+					s-33.609,7.791-33.609,17.398c0,0.1,0.011,0.199,0.015,0.299h-0.258v120.728h0.262c0.386,9.44,15.272,17.025,33.591,17.025
+					c18.318,0,33.203-7.585,33.59-17.025h0.054V41.861H80.199z"/>
+			</g>
+		</g>
+	</g>
+	<rect x="62.363" fill="#FFFFFF" stroke="#231F20" stroke-width="0.9476" width="4.229" height="140.565"/>
+	<rect x="26.954" fill="#FFFFFF" stroke="#231F20" width="4.229" height="48.065"/>
+</g>
+</svg>

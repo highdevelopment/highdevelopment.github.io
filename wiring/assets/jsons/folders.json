@@ -1,0 +1,348 @@
+[
+    {
+        "id": 1,
+        "name": "UNSORTED SYSTEMS",
+        "projects": [
+            {
+                "id": 1,
+                "name": "O'MEARA RESIDENCE",
+                "notes": "Project's Description",
+                "hvacSystem": false,
+                "lighting": false,
+                "irrigation": false,
+                "buildingSiteType": false,
+                "address": "",
+                "north": 53.48539,
+                "west": -2.248474,
+                "altitude": "",
+                "importBuildingModelOption": "",
+                "uValueArea": 0,
+                "uValueType": "estimate",
+                "heatingDesignDay": 0,
+                "coolingDesignDay": 0,
+                "floors": [
+                    {
+                        "id": 1,
+                        "name": "Floor #1",
+                        "value": 0,
+                        "rooms": [
+                            {
+                                "id": 1,
+                                "name": "ROOM #1",
+                                "type": "none",
+                                "sensors": [
+                                    {
+                                        "id": 1,
+                                        "name": "Sensor #1",
+                                        "type": "none",
+                                        "icon": "resources/images/",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "TURNER RESIDENCE",
+                "notes": "Project's Description",
+                "hvacSystem": false,
+                "lighting": false,
+                "irrigation": false,
+                "buildingSiteType": false,
+                "address": "",
+                "north": 53.487305,
+                "west": -2.248832,
+                "altitude": "",
+                "importBuildingModelOption": "",
+                "uValueArea": 0,
+                "uValueType": "estimate",
+                "heatingDesignDay": 0,
+                "coolingDesignDay": 0,
+                "floors": [
+                    {
+                        "id": 1,
+                        "name": "Floor #1",
+                        "value": 0,
+                        "rooms": [
+                            {
+                                "id": 1,
+                                "name": "ROOM #1",
+                                "type": "none",
+                                "sensors": [
+                                    {
+                                        "id": 1,
+                                        "name": "Sensor #1",
+                                        "type": "none",
+                                        "icon": "resources/images/",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "MARANO RESIDENCE",
+                "notes": "Project's Description",
+                "hvacSystem": false,
+                "lighting": false,
+                "irrigation": false,
+                "buildingSiteType": false,
+                "address": "",
+                "north": 53.483079,
+                "west": -2.25426,
+                "altitude": "",
+                "importBuildingModelOption": "",
+                "uValueArea": 0,
+                "uValueType": "estimate",
+                "heatingDesignDay": 0,
+                "coolingDesignDay": 0,
+                "floors": [
+                    {
+                        "id": 1,
+                        "name": "Floor #1",
+                        "value": 0,
+                        "rooms": [
+                            {
+                                "id": 1,
+                                "name": "ROOM #1",
+                                "type": "none",
+                                "sensors": [
+                                    {
+                                        "id": 1,
+                                        "name": "Sensor #1",
+                                        "type": "none",
+                                        "icon": "resources/images/",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "SYSTEM 1",
+                "notes": "Project's Description",
+                "hvacSystem": false,
+                "lighting": false,
+                "irrigation": false,
+                "buildingSiteType": false,
+                "address": "",
+                "north": 53.485913,
+                "west": -2.242308,
+                "altitude": "",
+                "importBuildingModelOption": "",
+                "uValueArea": 0,
+                "uValueType": "estimate",
+                "heatingDesignDay": 0,
+                "coolingDesignDay": 0,
+                "floors": [
+                    {
+                        "id": 1,
+                        "name": "Floor #1",
+                        "value": 0,
+                        "rooms": [
+                            {
+                                "id": 1,
+                                "name": "ROOM #1",
+                                "type": "none",
+                                "sensors": [
+                                    {
+                                        "id": 1,
+                                        "name": "Sensor #1",
+                                        "type": "none",
+                                        "icon": "resources/images/",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "SYSTEM 2",
+                "notes": "Project's Description",
+                "hvacSystem": false,
+                "lighting": false,
+                "irrigation": false,
+                "buildingSiteType": false,
+                "address": "",
+                "north": 53.48387,
+                "west": -2.245227,
+                "altitude": "",
+                "importBuildingModelOption": "",
+                "uValueArea": 0,
+                "uValueType": "estimate",
+                "heatingDesignDay": 0,
+                "coolingDesignDay": 0,
+                "floors": [
+                    {
+                        "id": 1,
+                        "name": "Floor #1",
+                        "value": 0,
+                        "rooms": [
+                            {
+                                "id": 1,
+                                "name": "ROOM #1",
+                                "type": "none",
+                                "sensors": [
+                                    {
+                                        "id": 1,
+                                        "name": "Sensor #1",
+                                        "type": "none",
+                                        "icon": "resources/images/",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "SYSTEM 3",
+                "notes": "Project's Description",
+                "hvacSystem": false,
+                "lighting": false,
+                "irrigation": false,
+                "buildingSiteType": false,
+                "address": "",
+                "north": 53.482696,
+                "west": -2.244712,
+                "altitude": "",
+                "importBuildingModelOption": "",
+                "uValueArea": 0,
+                "uValueType": "estimate",
+                "heatingDesignDay": 0,
+                "coolingDesignDay": 0,
+                "floors": [
+                    {
+                        "id": 1,
+                        "name": "Floor #1",
+                        "value": 0,
+                        "rooms": [
+                            {
+                                "id": 1,
+                                "name": "ROOM #1",
+                                "type": "none",
+                                "sensors": [
+                                    {
+                                        "id": 1,
+                                        "name": "Sensor #1",
+                                        "type": "none",
+                                        "icon": "resources/images/",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "USER FOLDER 1",
+        "projects": [
+            {
+                "id": 7,
+                "name": "New Project 1",
+                "notes": "Project's Description",
+                "hvacSystem": false,
+                "lighting": false,
+                "irrigation": false,
+                "buildingSiteType": false,
+                "address": "",
+                "north": 53.48539,
+                "west": -2.248474,
+                "altitude": "",
+                "importBuildingModelOption": "",
+                "uValueArea": 0,
+                "uValueType": "estimate",
+                "heatingDesignDay": 0,
+                "coolingDesignDay": 0,
+                "floors": [
+                    {
+                        "id": 1,
+                        "name": "Floor #1",
+                        "value": 0,
+                        "rooms": [
+                            {
+                                "id": 1,
+                                "name": "ROOM #1",
+                                "type": "none",
+                                "sensors": [
+                                    {
+                                        "id": 1,
+                                        "name": "Sensor #1",
+                                        "type": "none",
+                                        "icon": "resources/images/",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "USER FOLDER 2",
+        "projects": [
+            {
+                "id": 8,
+                "name": "New Project 2",
+                "notes": "Project's Description",
+                "hvacSystem": false,
+                "lighting": false,
+                "irrigation": false,
+                "buildingSiteType": false,
+                "address": "",
+                "north": 53.48539,
+                "west": -2.248474,
+                "altitude": "",
+                "importBuildingModelOption": "",
+                "uValueArea": 0,
+                "uValueType": "estimate",
+                "heatingDesignDay": 0,
+                "coolingDesignDay": 0,
+                "floors": [
+                    {
+                        "id": 1,
+                        "name": "Floor #1",
+                        "value": 0,
+                        "rooms": [
+                            {
+                                "id": 1,
+                                "name": "ROOM #1",
+                                "type": "none",
+                                "sensors": [
+                                    {
+                                        "id": 1,
+                                        "name": "Sensor #1",
+                                        "type": "none",
+                                        "icon": "resources/images/",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

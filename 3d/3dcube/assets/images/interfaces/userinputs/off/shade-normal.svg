@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="47px" height="47px" viewBox="0 0 47 47" enable-background="new 0 0 47 47" xml:space="preserve">
+<path fill="#903434" stroke="#903434" stroke-width="5" d="M8.283,35.842"/>
+<path fill="#903434" stroke="#903434" stroke-width="5" d="M8.355,9.974"/>
+<radialGradient id="SVGID_1_" cx="29.3203" cy="16.3521" r="19.8704" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.202" style="stop-color:#F2D8D2"/>
+	<stop  offset="0.4537" style="stop-color:#E8B3AC"/>
+	<stop  offset="0.6797" style="stop-color:#E29A93"/>
+	<stop  offset="0.8695" style="stop-color:#DE8C85"/>
+	<stop  offset="1" style="stop-color:#DC8780"/>
+</radialGradient>
+<circle fill="url(#SVGID_1_)" cx="23.963" cy="22.822" r="20.486"/>
+<circle fill="none" stroke="#903434" stroke-width="5" cx="23.963" cy="23.195" r="20.486"/>
+<g>
+	<rect x="27.752" y="9.138" fill="#903434" width="12.56" height="2"/>
+	<rect x="6.749" y="9.138" fill="#903434" width="13.854" height="2"/>
+	<rect x="27.752" y="18.138" fill="#903434" width="15.998" height="2"/>
+	<rect x="4.374" y="18.138" fill="#903434" width="16.229" height="2"/>
+	<rect x="27.752" y="15.138" fill="#903434" width="15.998" height="2"/>
+	<rect x="6.749" y="15.138" fill="#903434" width="13.854" height="2"/>
+	<rect x="6.749" y="12.138" fill="#903434" width="13.854" height="2"/>
+	<rect x="27.752" y="12.138" fill="#903434" width="15.998" height="2"/>
+	<rect x="27.752" y="6.138" fill="#903434" width="11.247" height="2"/>
+	<rect x="10.874" y="6.138" fill="#903434" width="9.729" height="2"/>
+</g>
+<line fill="#841618" x1="19.721" y1="25.591" x2="19.721" y2="25.591"/>
+<polyline fill="#903434" points="21.062,5.986 27.123,5.986 27.123,25.914 30.265,25.914 24.196,34.924 17.926,25.914 
+	21.062,25.914 "/>
+</svg>

@@ -1,0 +1,1064 @@
+@media all {
+    .form-fileviewer .widget, .form-site .widget, .form-site .widget, .form-system .widget, .form-interface .widget, .form-wiring .widget, .form-equipment .widget {
+        min-width: 200px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* iPad in portrait & landscape */
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* iPad in landscape */
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* iPad in landscape */
+    .form-fileviewer .widget, .form-site .widget, .form-system .widget, .form-interface .widget, .form-wiring .widget, .form-equipment .widget {
+        min-width: 150px;
+    }
+}
+
+@media only screen and (max-width: 1148px) {
+    .header {
+        .bt-project {
+        }
+        .bt-reload, .bt-add-tab {
+            margin-left: 10px !important;
+        }
+        .btn-setting, .btn-help, .btn-lock {
+            margin-left: 10px !important;
+        }
+    }
+
+    .form-setup {
+        input {
+            &.txt-coordinates {
+                width: 120px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .form-setup {
+        input {
+            &.txt-project-name {
+                width: 100%;
+            }
+            &.txt-coordinates {
+                width: 120px;
+            }
+        }
+
+        textarea {
+            &.txt-note {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 11px;
+    }
+
+    input {
+        font-size: 11px !important;
+        line-height: 14px;
+    }
+
+    .footer {
+        .onyx-grabber {
+            &.bt-collapsing {
+
+            }
+        }
+    }
+
+    span {
+        &.apply {
+            width: 16px !important;
+            height: 16px !important;
+            background: url("@{images}/tablet/commission.png") 0px 0px no-repeat !important;
+            background-size: 45px !important;
+            top: 2px !important;
+            right: 5px !important;
+        }
+        &.exit {
+            width: 16px !important;
+            height: 16px !important;
+            background: url("@{images}/tablet/commission.png") -34px 0px no-repeat !important;
+            background-size: 45px !important;
+            top: 2px !important;
+            right: 5px !important;
+        }
+    }
+
+    /* Button */
+    .bt-commission-apply {
+        background: url("@{images}/tablet/commission.png") 0px 0px no-repeat !important;
+        height: 16px !important;
+        width: 16px !important;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{images}/tablet/commission.png") 0px 0px no-repeat !important;
+        }
+    }
+
+    .bt-commission-exit {
+        background: url("@{images}/tablet/commission.png") -34px 0px no-repeat !important;
+        height: 16px !important;
+        width: 16px !important;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{images}/tablet/commission.png") -34px 0px no-repeat !important;
+        }
+    }
+
+    .bt-commission-setting {
+        background: url("@{images}/tablet/commission.png") -18px 0px no-repeat !important;
+        height: 16px !important;
+        width: 16px !important;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{images}/tablet/commission.png") -18px 0px no-repeat !important;
+        }
+    }
+
+    .bt-default, .bt-file-input button {
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .bt-new {
+        background: url("@{tablet-small-icons}") -209px -62px no-repeat !important;
+        height: 20px !important;
+        width: 20px !important;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -209px -62px no-repeat !important;
+        }
+    }
+
+    .bt-reload {
+        background: url("@{tablet-small-icons}") 0px -63px no-repeat !important;
+        height: 20px !important;
+        width: 20px !important;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") 0px -63px no-repeat !important;
+        }
+    }
+
+    .bt-project {
+        background: url("@{images}/tablet/bt-project.png") no-repeat;
+        width: 65px;
+        height: 20px !important;
+        font-size: 11px;
+        line-height: 20px;
+        padding-left: 4px !important;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{images}/tablet/bt-project.png") no-repeat !important;
+        }
+
+    }
+
+    .bt-add-tab {
+        background: url("@{tablet-small-icons}") -180px -63px no-repeat !important;
+        height: 20px !important;
+        width: 20px !important;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -180px -62px no-repeat !important;
+        }
+    }
+
+    .bt-add {
+        background: url("@{tablet-small-icons}") -89px -61px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -89px -61px no-repeat !important;
+        }
+    }
+
+    .btn {
+        &:before {
+            background-image: url("@{tablet-small-icons}");
+        }
+        &.btn-setting {
+            &:before {
+                top: 0;
+                width: 20px;
+                height: 20px;
+                background-position: -153px -62px;
+            }
+            &:hover,
+            &.active,
+            &.pressed,
+            &:active:hover {
+                &:before {
+                    background-position: -153px -186px;
+                }
+            }
+        }
+        &.btn-help {
+            &:before {
+                top: 0;
+                width: 20px;
+                height: 20px;
+                background-position: -367px -62px;
+            }
+            &:hover,
+            &.active,
+            &.pressed,
+            &:active:hover {
+                &:before {
+                    background-position: -367px -186px;
+                }
+            }
+        }
+        &.btn-lock {
+            height: 25px;
+            width: 25px;
+            &:before {
+                top: 0;
+                width: 20px;
+                height: 20px;
+                background-position: -299px -62px;
+            }
+            &:hover {
+                &:before {
+                    background-position: -299px -186px;
+                }
+            }
+            &.active,
+            &.pressed,
+            &:active:hover {
+                &:before {
+                    background-position: -319px -186px;
+                }
+            }
+        }
+        &.btn-open {
+            height: 25px;
+            width: 25px;
+            &:before {
+                height: 20px;
+                width: 20px;
+                background-position: -253px -32px;
+            }
+            &:hover,
+            &.active,
+            &.pressed,
+            &:active:hover {
+                &:before {
+                    background-position: -253px -156px;
+                }
+            }
+        }
+        &.btn-add-new {
+            &:before {
+                width: 20px;
+                height: 20px;
+                background-position: -90px -62px;
+            }
+            &.active,
+            &.pressed,
+            &:hover,
+            &:active:hover {
+                &:before {
+                    background-position: -90px -186px;
+                }
+            }
+        }
+    }
+
+    .bt-move {
+        background: url("@{tablet-small-icons}") -207px 1px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC !important;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -207px 1px no-repeat !important;
+        }
+    }
+
+    .bt-connector-tool {
+        background: url("@{tablet-small-icons}") -175px -33px no-repeat;
+        height: 18px !important;
+        width: 19px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -175px -33px no-repeat !important;
+        }
+    }
+
+    .bt-connector {
+        background: url("@{tablet-small-icons}") -65px -32px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -65px -32px no-repeat !important;
+        }
+    }
+
+    .bt-connector2 {
+        background: url("@{tablet-small-icons}") -84px -32px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -84px -32px no-repeat !important;
+        }
+    }
+
+    .bt-outline {
+        background: url("@{tablet-small-icons}") -254px -34px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -254px -34px no-repeat !important;
+        }
+    }
+
+    .bt-CPI {
+        background: url("@{tablet-small-icons}") -198px -32px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -198px -32px no-repeat !important;
+        }
+
+    }
+
+    .bt-text {
+        background: url("@{tablet-small-icons}") -155px -32px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -155px -32px no-repeat !important;
+        }
+    }
+
+    .bt-multiselect {
+        background: url("@{tablet-small-icons}") -139px 1px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -139px 1px no-repeat !important;
+        }
+    }
+
+    .bt-delete {
+        background: url("@{tablet-small-icons}") -136px -93px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -136px -93px no-repeat !important;
+        }
+    }
+
+    .bt-rotate-left {
+        background: url("@{tablet-small-icons}") -245px -63px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -245px -63px no-repeat !important;
+        }
+    }
+
+    .bt-go-back {
+        background: url("@{tablet-small-icons}") -245px -63px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -245px -63px no-repeat !important;
+        }
+    }
+
+    .bt-go-forward {
+        background: url("@{tablet-small-icons}") -274px -63px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -274px -63px no-repeat !important;
+        }
+    }
+
+    .bt-flip {
+        background: url("@{tablet-small-icons}") -254px -34px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -254px -34px no-repeat !important;
+        }
+    }
+
+    .bt-align {
+        background: url("@{tablet-small-icons}") -273px -32px no-repeat;
+        height: 18px !important;
+        width: 19px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -273px -32px no-repeat !important;
+        }
+    }
+
+    .bt-align-bottom {
+        background: url("@{tablet-small-icons}") -299px -3px no-repeat !important;
+        height: 20px !important;
+        width: 20px !important;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -299px -3px no-repeat !important;
+        }
+    }
+
+    .bt-align-vcenter {
+        background: url("@{tablet-small-icons}") -330px -3px no-repeat !important;
+        height: 20px !important;
+        width: 20px !important;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -330px -3px no-repeat !important;
+        }
+    }
+
+    .bt-align-top {
+        background: url("@{tablet-small-icons}") -362px -3px no-repeat !important;
+        height: 20px !important;
+        width: 20px !important;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -362px -3px no-repeat !important;
+        }
+    }
+
+    .bt-align-left {
+        background: url("@{tablet-small-icons}") -296px -31px no-repeat !important;
+        height: 20px !important;
+        width: 20px !important;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -296px -31px no-repeat !important;
+        }
+    }
+
+    .bt-align-hcenter {
+        background: url("@{tablet-small-icons}") -330px -31px no-repeat !important;
+        height: 20px !important;
+        width: 20px !important;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -330px -31px no-repeat !important;
+        }
+    }
+
+    .bt-align-right {
+        background: url("@{tablet-small-icons}") -364px -31px no-repeat !important;
+        height: 20px !important;
+        width: 20px !important;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -364px -31px no-repeat !important;
+        }
+    }
+
+    .bt-look {
+        background: url("@{tablet-small-icons}") -249px 0px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -249px 0px no-repeat !important;
+        }
+    }
+
+    .bt-max {
+        background: url("@{tablet-small-icons}") -187px -0px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -187px -0px no-repeat !important;
+        }
+    }
+
+    .bt-min {
+        background: url("@{tablet-small-icons}") -228px -0px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -228px -0px no-repeat !important;
+        }
+    }
+
+    .bt-footer-default {
+        height: 20px !important;
+        padding: 0px 8px !important;
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .bt-up2 {
+        background: url("@{tablet-small-icons}") -180px -91px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -180px -91px no-repeat !important;
+        }
+    }
+
+    .bt-rectangle {
+        background: url("@{tablet-small-icons}") -118px -33px  no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -118px -33px no-repeat !important;
+        }
+    }
+
+    .bt-circle {
+        background: url("@{tablet-small-icons}") -136px -33px  no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -136px -33px no-repeat !important;
+        }
+    }
+
+    .bt-line-thickness {
+        background: url("@{images}/tablet/icons-other.png") 0px 0px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{images}/tablet/icons-other-hover.png") 0px 0px no-repeat !important;
+        }
+    }
+
+    .bt-line-color {
+        background: url("@{images}/tablet/icons-other.png") -23px 0px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{images}/tablet/icons-other-hover.png") -23px 0px no-repeat !important;
+        }
+    }
+
+    .bt-fill-color {
+        background: url("@{images}/tablet/icons-other.png") -70px 0px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{images}/tablet/icons-other-hover.png") -70px 0px no-repeat !important;
+        }
+    }
+
+    .bt-group {
+        background: url("@{images}/tablet/icons-other.png") -47px 0px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{images}/tablet/icons-other-hover.png") -47px 0px 1px no-repeat !important;
+        }
+    }
+
+    .bt-front-down {
+        background: url("@{tablet-small-icons}") -218px -34px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -218px -34px no-repeat !important;
+        }
+    }
+
+    .bt-front-up {
+        background: url("@{tablet-small-icons}") -235px -34px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -235px -34px no-repeat !important;
+        }
+    }
+
+    .bt-line-1 {
+        background: url("@{tablet-small-icons}") -120px 2px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -120px 2px no-repeat !important;
+        }
+    }
+
+    .bt-line-2 {
+        background: url("@{tablet-small-icons}") -139px 2px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -139px 2px no-repeat !important;
+        }
+    }
+
+    .bt-line-3 {
+        background: url("@{tablet-small-icons}") -158px 2px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        border: solid 1px #CCC;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -158px 2px no-repeat !important;
+        }
+    }
+
+    .bt-up {
+        background: url("@{tablet-small-icons}") -235px -91px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -235px -91px no-repeat !important;
+        }
+    }
+
+    .bt-down {
+        background: url("@{tablet-small-icons}") -257px -91px no-repeat;
+        height: 20px !important;
+        width: 20px !important;
+        &.active, &.pressed, &:active:hover {
+            background: url("@{tablet-small-icons-hover}") -257px -91px no-repeat !important;
+        }
+    }
+
+    .sub-menu-bar {
+        padding: 0 5px;
+    }
+
+    /* Menu Bar */
+    .menu-bar {
+        .title {
+            height: 20px;
+            line-height: 20px;
+            font-size: 11px;
+            padding-left: 27px;
+            .background(~"@{images}/tablet/sidebar.png"; ~"0px -30px"; ~"#f7f7f7, #dbdbdb, #bfbfbf"; ~"0 0"; #dbdbdb);
+        }
+
+        .selected .title, .title.selected {
+            .background(~"@{images}/tablet/sidebar.png"; ~"0px -4px"; ~"#f7f7f7, #dbdbdb, #bfbfbf"; ~"0 0"; #dbdbdb);
+        }
+
+        .title > .click {
+            height: 20px;
+            width: 27px;
+        }
+
+        ul li {
+            background: url("@{images}/tablet/sidebar-li.png") 6px 5px no-repeat;
+            padding: 0 0 0 25px;
+            height: 20px;
+            line-height: 20px;
+            font-size: 11px;
+        }
+
+        .input input {
+            width: 120px !important;
+            height: 16px;
+            top: 2px;
+        }
+    }
+
+    /* SideBar */
+    .side-bar .slidebar-name, .wiring-menu-bar .title, .form-wiring .setup .setup-menu .item > div,
+    .form-commission .setup .setup-menu .item > div {
+        height: 20px;
+        line-height: 20px;
+        font-size: 11px;
+        padding-left: 25px;
+        .background(~"@{images}/tablet/sidebar.png"; ~"0px -30px"; ~"#f7f7f7, #dbdbdb, #bfbfbf"; ~"0 0"; #dbdbdb);
+    }
+
+    .side-bar .slidebar-name.selected, .wiring-menu-bar .title.selected, .form-wiring .setup .setup-menu .item.selected > div,
+    .form-commission .setup .setup-menu .item.selected > div {
+        .background(~"@{images}/tablet/sidebar.png"; ~"0px -4px"; ~"#f7f7f7, #dbdbdb, #bfbfbf"; ~"0 0"; #dbdbdb);
+    }
+
+    /* Common */
+    .header {
+        padding-top: 9px;
+        .header-left {
+            top: 9px;
+        }
+
+        .header-right {
+            top: 9px;
+        }
+        .bt-project, .bt-reload, .bt-add-tab, .btn-setting, .btn-help, .btn-lock {
+            margin: 0 5px !important;
+        }
+    }
+
+    .footer {
+        padding-top: 9px;
+    }
+
+    .drawer-title {
+        font-size: 12px;
+        line-height: 20px;
+        background-position: 7px 4px;
+        &.check .ok {
+            width: 20px;
+            height: 20px;
+            top: 1px;
+            right: 7px;
+            background: url("@{images}/tablet/setup-title-check.png") no-repeat;
+        }
+    }
+
+    .form-fileviewer .widget, .form-site .widget, .form-system .widget, .form-interface .widget, .form-wiring .widget, .form-equipment .widget {
+        min-width: 150px;
+        width: 150px;
+    }
+
+    .form-site .heading-title, .form-interface .heading-title, .form-commission .setup .heading-title, .form-wiring .panel-2 .heading-title {
+        padding: 3px 0px 2px 10px;
+        font-size: 11px;
+    }
+
+    .form-search {
+        .onyx-input-decorator {
+            padding: 0px 5px 2px 6px !important;
+        }
+
+        label {
+            width: 140px;
+            input {
+                width: 110px;
+            }
+        }
+    }
+
+    /* Form Startup */
+    .form-startup {
+        .heading-title {
+            padding-top: 3px;
+            line-height: normal;
+        }
+    }
+
+    /* Form Fileviewer */
+    .form-fileviewer {
+        .radio-button {
+            font-size: 11px;
+            line-height: 12px;
+            width: 80px;
+        }
+    }
+
+    /* Form SetUp */
+    .form-setup {
+        input {
+            &.txt-coordinates {
+                width: 85px;
+            }
+
+            &.txt-total {
+                width: 130px;
+            }
+        }
+
+        .manual-build {
+            width: 450px;
+            .level-input, .building-mechanical-input {
+                width: 90px;
+            }
+            .u-value {
+                &.estimate.check {
+                    background: url("@{images}/default/u-value-estimate.png") 67px 0px no-repeat;
+                }
+                &.accurate.check {
+                    background: url("@{images}/default/u-value-accurate.png") 67px 0px no-repeat;
+                }
+            }
+            .u-value-button {
+                left: 110px;
+            }
+        }
+
+        button.bt-select {
+            width: 120px !important;
+            .background(~"@{images}/default/picker.png"; ~"108px 9px"; ~"#fcfbfb, #f2f2f2, #ececed"; ~"0 0 !important");
+        }
+    }
+
+    /* Form Site Builder */
+    .form-site {
+        .zone-list-setup {
+            .floor-setting {
+                width: 150px;
+            }
+
+            .room-setting {
+                width: 150px;
+            }
+        }
+
+        .menu-bar {
+            ul li input {
+                top: 3px;
+                width: 120px;
+                line-height: 11px;
+                font-size: 11px !important;
+            }
+        }
+
+        .bt-footer-default {
+            margin: 0 0 0 30px !important;
+        }
+
+        .sub-menu-title {
+            padding: 3px 0px 2px 10px;
+            font-size: 11px;
+        }
+
+        .sub-menu-other {
+            .content {
+                margin: 10px 0px 0px 5px;
+                font-size: 11px;
+            }
+            .title {
+                font-size: 11px;
+            }
+            button {
+                &.option {
+                    width: 140px !important;
+                    font-size: 11px;
+                    .background(~"@{images}/default/picker.png"; ~"128px 10px"; ~"#fcfbfb, #f2f2f2, #ececed"; ~"0 0 !important");
+                }
+            }
+            input {
+                width: 120px;
+                font-size: 11px !important;
+            }
+        }
+    }
+
+    /* Form System Builder */
+    .form-system {
+        .widget .side-bar ul.slidebar-content li img {
+            width: 60px;
+        }
+
+        .tank-settings {
+            width: 150px;
+        }
+
+        .zone-setting {
+            width: 350px;
+        }
+
+        .zone-manifold-settings {
+            width: 200px;
+        }
+
+        .zone-list {
+            width: 150px;
+        }
+
+        .box {
+            margin: 20px 5px 0 5px;
+            .box-content {
+                margin: 10px 5px 0 5px;
+            }
+            input {
+                width: 129px;
+                margin-left: 15px;
+                &.input-name {
+                    margin-left: 0;
+                }
+            }
+        }
+
+        button {
+            &.mfg {
+                width: 129px !important;
+                .background(~"@{images}/default/picker.png"; ~"115px 10px"; ~"#fcfbfb, #f2f2f2, #ececed"; ~"0 0 !important");
+            }
+            &.model {
+                width: 109px !important;
+                margin-left: 15px;
+                .background(~"@{images}/default/picker.png"; ~"95px 10px"; ~"#fcfbfb, #f2f2f2, #ececed"; ~"0 0 !important");
+            }
+        }
+
+        input.mfg-input {
+            width: 60px !important;
+            margin-right: 5px;
+        }
+
+        .text-text {
+            margin-top: 21px;
+        }
+
+        .text-mode {
+            margin-left: 20px;
+        }
+
+        .text-variable-1, .text-variable-2, .text-variable {
+            margin-left: 15px;
+        }
+
+        .mfg-text {
+            line-height: 25px;
+        }
+
+        .bt-footer-default {
+            margin: 0px 0 0 0 !important;
+        }
+    }
+
+    /* Form Interface */
+    .form-interface {
+        .bt-footer-default {
+            margin: 0 30px 0 50px !important;
+        }
+
+        .tab .onyx-radiobutton {
+            font-size: 12px;
+            padding: 4px 12px;
+            width: 100px;
+        }
+
+        .bt-footer-default {
+            margin: 5px 30px 0 20px !important;
+        }
+    }
+
+    /* Form Equipment */
+    .form-equipment {
+        .form-name {
+            line-height: 20px;
+            font-size: 12px;
+        }
+
+        .heading-title {
+            font-size: 11px;
+        }
+
+        .app-panels .onyx-button {
+            width: 130px !important;
+            font-size: 11px;
+            .background(~"@{images}/default/picker.png"; ~"116px 9px"; ~"#fcfbfb, #f2f2f2, #ececed"; ~"0 0 !important");
+        }
+
+        .animation-type .child button {
+            width: 115px !important;
+            .background(~"@{images}/default/picker.png"; ~"102px 10px"; ~"#fcfbfb, #f2f2f2, #ececed"; ~"0 0 !important");
+        }
+
+        .editor {
+            width: 200px;
+            textarea {
+                width: 179px;
+            }
+            .child {
+                padding: 30px 0 0 18px;
+                background-position: 0px -82px;
+                > div > * + * {
+                    margin-left: 5px;
+                }
+            }
+            button {
+                &.equipent-type {
+                    width: 149px !important;
+                    .background(~"@{images}/default/picker.png"; ~"135px 10px"; ~"#fcfbfb, #f2f2f2, #ececed"; ~"0 0 !important");
+                }
+                &.child-type {
+                    width: 79px !important;
+                    padding: 2px 10px !important;
+                    .background(~"@{images}/default/picker.png"; ~"65px 10px"; ~"#fcfbfb, #f2f2f2, #ececed"; ~"0 0 !important");
+                }
+            }
+            input {
+                width: 75px;
+            }
+        }
+    }
+
+    /* Form Wiring */
+    .wiring-menu-bar {
+        ul {
+            li {
+                height: 20px;
+                line-height: 20px;
+                font-size: 11px;
+                div.number {
+                    width: 16px;
+                    height: 16px;
+                    right: 7px;
+                    top: 2px;
+                    line-height: 16px;
+                }
+                div.check {
+                    width: 15px;
+                    height: 15px;
+                    top: 2px;
+                    left: 4px;
+                    background: url("@{images}/tablet/check-blue.png") 0px 0px no-repeat;
+                }
+                div.uncheck {
+                    background: url("@{images}/tablet/uncheck-blue.png") 0px 0px no-repeat;
+                }
+            }
+        }
+    }
+
+    .form-wiring {
+        .footer {
+            .text {
+                line-height: 23px;
+            }
+            .onyx-toggle-button {
+                margin-top: 0px !important;
+                font-size: 11px;
+            }
+        }
+
+        .setup .setup-menu ul li {
+            height: 20px;
+            line-height: 20px;
+            font-size: 11px;
+        }
+    }
+
+    /* Form Commission */
+    .form-commission {
+        .setup {
+
+            .setup-menu ul li {
+                height: 20px;
+                line-height: 20px;
+                font-size: 11px;
+            }
+            .setup-submenu {
+                .content {
+                    .device {
+                        .device-item .setting {
+                            width: 18px;
+                            height: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

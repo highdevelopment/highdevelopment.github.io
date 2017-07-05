@@ -1,0 +1,21 @@
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In  -->
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="111.3px" height="77px" viewBox="0 0 111.3 77" enable-background="new 0 0 111.3 77" xml:space="preserve"
+	>
+<defs>
+	
+		<pattern  x="6280.7" y="-2865.8" width="46.6" height="46.6" patternUnits="userSpaceOnUse" id="Unnamed_Pattern_6" viewBox="0 -46.6 46.6 46.6" overflow="visible">
+		<g>
+			<polygon fill="none" points="0,0 46.6,0 46.6,-46.6 0,-46.6 			"/>
+			<polygon fill="#243983" points="0,-46.6 0,0 46.6,0 46.6,-46.6 			"/>
+		</g>
+	</pattern>
+</defs>
+<g>
+	<pattern  id="SVGID_1_" xlink:href="#Unnamed_Pattern_6" patternTransform="matrix(1 0 0 1 217.1631 3445.979)">
+	</pattern>
+	<polygon fill="url(#SVGID_1_)" points="55.6,77 0,38.5 55.6,0 111.3,38.5 	"/>
+	<polygon fill="#BEC8D2" points="55.6,77 0,38.5 55.6,0 111.3,38.5 	"/>
+</g>
+</svg>

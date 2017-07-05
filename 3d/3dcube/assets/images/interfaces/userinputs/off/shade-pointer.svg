@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="69px" height="47px" viewBox="0 0 69 47" enable-background="new 0 0 69 47" xml:space="preserve">
+<g>
+	<path fill="#903434" stroke="#903434" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M24.951,14.825
+		c-3.281,8.37-17.709,8.37-23.809,8.37c6.1,0,20.652,0,23.809,8.368"/>
+	<path fill="#903434" stroke="#903434" stroke-width="5" d="M29.643,35.842"/>
+	<path fill="#903434" stroke="#903434" stroke-width="5" d="M29.715,9.974"/>
+	<radialGradient id="SVGID_1_" cx="50.6807" cy="16.3521" r="19.8701" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.202" style="stop-color:#F2D8D2"/>
+		<stop  offset="0.4537" style="stop-color:#E8B3AC"/>
+		<stop  offset="0.6797" style="stop-color:#E29A93"/>
+		<stop  offset="0.8695" style="stop-color:#DE8C85"/>
+		<stop  offset="1" style="stop-color:#DC8780"/>
+	</radialGradient>
+	<circle fill="url(#SVGID_1_)" cx="45.323" cy="22.822" r="20.485"/>
+	<circle fill="none" stroke="#903434" stroke-width="5" cx="45.323" cy="23.195" r="20.485"/>
+	<g>
+		<rect x="49.111" y="9.138" fill="#903434" width="12.561" height="2"/>
+		<rect x="28.109" y="9.138" fill="#903434" width="13.854" height="2"/>
+		<rect x="49.111" y="18.138" fill="#903434" width="15.998" height="2"/>
+		<rect x="25.734" y="18.138" fill="#903434" width="16.229" height="2"/>
+		<rect x="49.111" y="15.138" fill="#903434" width="15.998" height="2"/>
+		<rect x="28.109" y="15.138" fill="#903434" width="13.854" height="2"/>
+		<rect x="28.109" y="12.138" fill="#903434" width="13.854" height="2"/>
+		<rect x="49.111" y="12.138" fill="#903434" width="15.998" height="2"/>
+		<rect x="49.111" y="6.138" fill="#903434" width="11.248" height="2"/>
+		<rect x="32.234" y="6.138" fill="#903434" width="9.729" height="2"/>
+	</g>
+	<line fill="#841618" x1="41.082" y1="25.591" x2="41.082" y2="25.591"/>
+	<polyline fill="#903434" points="42.422,5.986 48.483,5.986 48.483,25.914 51.625,25.914 45.557,34.924 39.287,25.914 
+		42.422,25.914 	"/>
+</g>
+</svg>

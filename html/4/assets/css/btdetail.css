@@ -1,0 +1,2024 @@
+body
+{
+	overflow 		: auto;
+}
+
+body h3
+{
+	font-weight 	: normal;
+}
+
+body h6
+{
+	font-weight 	: normal;
+}
+
+body button
+{
+	border 			: 0;
+}
+
+body header
+{
+	background-image: linear-gradient(-39deg, #71C1EE 7%, #506ADC 79%, #4651D6 100%);
+}
+
+#mainNav
+{
+	padding-top 	: 0px;
+}
+
+.navbar-nav li p
+{
+	float 			: right;
+	padding-bottom 	: 22.5px;
+	padding-top 	: 22.5px;
+	font-family		: .AppleSystemUIFont;
+	font-size		: 14px;
+	color 			: #FFFFFF;
+	letter-spacing	: 0;
+	line-height		: 17px;
+}
+
+.navbar-nav li a
+{
+	float 			: left;
+}
+
+#intro-text
+{
+	padding-top 	: 144px;
+	padding-bottom	: 0;
+}
+
+#intro-text .intro-lead-in
+{
+	position 		: relative;
+	left 			: 0;
+	/* NAB Premium Credit C: */
+	font-family 	: .AppleSystemUIFont;
+	font-size 		: 14px;
+	color 			: #FFFFFF;
+	letter-spacing	: 0;
+	line-height		: 45px;
+}
+
+#intro-text .intro-lead-in ul
+{
+	list-style 		: none;
+	padding-left 	: 0;
+	margin-bottom 	: 40px;
+}
+
+#intro-text .intro-lead-in ul li
+{
+	float 			: left;
+	text-align		: left;
+}
+
+#intro-text .intro-lead-in ul li.imagepart
+{
+	width 			: 20%;
+}
+
+#intro-text .intro-lead-in ul li.imagepart img
+{
+	width 			: 90%;
+}
+
+#intro-text .intro-lead-in ul li.labelpart
+{
+	width 			: 40%;
+	vertical-align 	: top;
+	line-height 	: 1;
+}
+
+#intro-text .intro-lead-in ul li.labelpart p
+{
+	font-family		: Ciutadella-Light;
+	font-size 		: 46px;
+	line-height 	: 1;
+	margin-bottom	: 33px;
+}
+
+#intro-text .intro-lead-in ul li.labelpart .comparebutton
+{
+	/* Rectangle 20: */
+	background 		: rgba(0,0,0,0.05);
+	border 			: 1px solid rgba(0,0,0,0.12);
+	border-radius	: 100px;
+	font-family 	: HarmoniaSansStd-Bold;
+	font-size		: 12px;
+	letter-spacing	: 0;
+	height 			: 33px;
+	padding-left	: 15px;
+	padding-right	: 15px;
+}
+
+#intro-text .intro-lead-in ul li.labelpart .left
+{
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+#intro-text .intro-lead-in ul li.labelpart .right
+{
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	position: relative;
+	left: -4px;
+}
+
+.intro-offer-button
+{
+	/* Rectangle 9: */
+	background: #1F2833;
+	border-radius: 100px;
+	font-family: HarmoniaSansStd-Bold;
+	font-size: 13px;
+	color: #FFFFFF;
+	letter-spacing: -0.21px;
+	line-height: 20px;
+	height: 33px;
+}
+
+#intro-text .intro-lead-in ul li.offerpart
+{
+	line-height		: 1;
+	text-align 		: center;
+	width 			: 40%;
+	padding-left 	: 20%;
+	font-family 	: .AppleSystemUIFont;
+	font-size 		: 14px;
+	color 			: #FFFFFF;
+	letter-spacing	: 0;
+}
+
+#intro-text .intro-lead-in ul li.offerpart button
+{
+	/* Rectangle 8 Copy 6: */
+	background 		: #FFFFFF;
+	border-radius	: 100px;
+	margin-top 		: 6%;
+	width 			: 100%;
+	height 			: 66px;
+	/* Go to offer: */
+	font-family: HarmoniaSansStd-Bold;
+	font-size: 18px;
+	color: #1F2833;
+	letter-spacing: 0;
+}
+
+#intro-text .intro-lead-in img
+{
+	width 			: 16.5%;
+	float 			: left;
+}
+
+.intro-card-list ul.ul-center
+{
+	list-style 		: none;
+}
+
+.intro-card-list ul.ul-center li
+{
+	font-family		: HarmoniaSansStd-Bold;
+	font-size		: 14px;
+	color 			: #FFFFFF;
+	letter-spacing	: 0;
+	text-align 		: left;
+	float 			: left;
+	width 			: 20%;
+}
+
+.intro-card-list ul.ul-left
+{
+	list-style 		: none;
+}
+
+.intro-card-list ul.ul-left li
+{
+	font-family: HarmoniaSansStd-Bold;
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 17px;
+	text-align 		: left;
+	float 			: left;
+	width 			: 20%;
+	/*padding-left 	: 3%;*/
+}
+
+.intro-card-list ul.ul-left li p 
+{
+	/* 19.99%: */
+	font-family		: Ciutadella-Light;
+	font-size		: 60px;
+	color 			: #FFFFFF;
+	letter-spacing	: -2px;
+	line-height 	: 1;
+	margin-bottom 	: 0;
+}
+
+@media (max-width: 500px)
+{
+	.intro-card-list ul.ul-left li p 
+	{
+		font-size	: 1.3em;
+	}	
+}
+
+@media (max-width: 500px)
+{
+	.intro-card-list ul
+	{
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 500px)
+{
+	header .container
+	{
+		margin-left	: 5px;
+		margin-right: 5px;
+	}
+}
+
+@media (min-width: 700px)
+{
+	@media (max-width: 1100px)
+	{
+		.container
+		{
+			margin-right: 0;
+			margin-left	: 0;
+		}
+
+		.intro-card-list ul.ul-left li p 
+		{
+			font-size	: 2em;
+		}
+	}
+}
+
+.intro-card-list ul.ul-left li span
+{
+	font-family		: Ciutadella-Light;
+	font-size		: 60px;
+	color 			: #FFFFFF;
+	letter-spacing	: -2px;
+	line-height 	: 1;
+	margin-bottom 	: 0;
+}
+.inputform>p {
+    text-align: left;
+    font-family: HarmoniaSansStd-Regular;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 18px;
+    margin-bottom: 25px;
+}
+@media (max-width: 500px)
+{
+	.intro-card-list ul li.interest span
+	{
+		font-size 	: 1.4em;
+	}
+}
+
+@media (max-width: 1100px)
+{
+	.intro-card-list ul.ul-left li span
+	{
+		font-size 	: 1.5em;
+	}
+	.intro-card-list ul.ul-center li.interest span
+	{
+		font-size 	: 1em;
+	}
+	.overview-application .application
+	{
+		padding-right: 1%;
+	}
+}
+
+.intro-card-bottom
+{
+	margin-top 		: 3%;
+	text-align 		: center;
+	padding-left 	: 80%;
+	margin-bottom	: 5.5%;
+}
+
+.intro-card-bottom p
+{
+	text-align 		: right;
+}
+
+.intro-card-bottom .progress
+{
+	position 		: relative;
+	right 			: 0;
+}
+
+.intro-card-bottom .progress .progress-bar
+{
+	background 		: #2A5E9E;
+}
+
+.intro-card-bottom .debt_button
+{
+	position 		: relative;
+	background 		: #FFFFFF;
+	border 			: 1px solid #E3E3E3;
+	border-radius	: 100px;
+	font-family		: .SFNSDisplay-Regular;
+	font-size 		: 23px;
+	color 			: #1F2833;
+	letter-spacing	: -0.39px;
+	text-align 		: center;
+	position 		: relative;
+	top 			: -32.5px;
+	height 			: 47px;
+	width 			: 60%;	
+}
+
+@media (max-width: 500px)
+{
+	.intro-card-bottom
+	{
+		padding-left: 0;
+	}
+	.intro-card-bottom p
+	{
+		text-align 	: center;
+	}
+}
+
+.row .debt_button
+{
+	background 		: #FFFFFF;
+	border 			: 1px solid #E3E3E3;
+	border-radius	: 100px;
+	/* $5,000: */
+	font-family		: .SFNSDisplay-Regular;
+	font-size 		: 23px;
+	color 			: #1F2833;
+	letter-spacing	: -0.39px;
+	text-align 		: center;
+	position 		: relative;
+	top 			: -32.5px;
+	height 			: 47px;
+	width 			: 60%;
+}
+
+#services
+{
+	padding-top		: 0px;
+	padding-bottom 	: 0px;
+}
+
+.progress
+{
+	height 			: 12px;
+	margin-bottom 	: 6px;
+}
+
+.progress-bar
+{
+	background-color: #2C2099;
+}
+
+.col-md-3-minimum p
+{
+	font-family		: HarmoniaSansStd-Bold;
+	font-size		: 14px;
+	color 			: #1F2833;
+	letter-spacing	: 0;
+	text-align 		: center;
+	margin-bottom 	: 1em;
+}
+
+.col-md-3-minimum
+{
+	font-family		: .SFNSDisplay-Regular;
+	font-size		: 24px;
+	color 			: #649EE6;
+	letter-spacing	: -0.81px;
+}
+
+.col-md-3-minimum span
+{
+	font-family		: .SFNSDisplay-Regular;
+	font-size		: 24px;
+	color 			: #649EE6;
+	letter-spacing	: -0.81px;
+	font-size		: 45px;
+}
+
+.col-md-3-visa img
+{
+	width 			: 35%;
+}
+
+.col-md-3-visa span
+{
+	/* Visa Card: */
+	font-family		: .AppleSystemUIFont;
+	font-size		: 14px;
+	color 			: #898B8F;
+	letter-spacing	: 0;
+}
+
+div.content
+{
+	margin  		: 3% 5%;
+	/*background 		: */
+}
+
+/*@media (max-width: 500px)
+{
+	div.content
+	{
+		margin-right: 2px;
+	}
+
+	.navbar-brand img
+	{
+		width 		: 200px;
+	}
+}
+
+@media (max-width: 768px)
+{
+	.navbar-brand img
+	{
+		width 		: 210px;
+	}
+}*/
+
+.intro-card-bottom p
+{
+	/* My typical monthly s: */
+	font-family: HarmoniaSansStd-Bold;
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+}
+
+.ourservicefield
+{
+	padding: 0 85px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.oursev-left-pane
+{
+	padding-left: 0px;
+	padding-right: 10px;
+	background: none;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.oursev-left-pane .overview
+{
+	background: #FFFFFF;
+	padding-top: 38px;
+	padding-left: 38px;
+	padding-right: 33px;
+	padding-bottom: 40px;
+}
+
+.oursev-left-pane .text-left
+{
+	font-family: Ciutadella-Light;
+	font-size: 24px;
+	color: #1F2833;
+	letter-spacing: 0;
+}
+
+.oursev-left-pane .overview .text-left
+{
+	font-family: HarmoniaSansStd-Bold;
+	font-size: 18px;
+	color: #1F2833;
+	letter-spacing: 0;
+}
+
+.oursev-left-pane .overview ul li
+{
+	text-align: left;
+	font-size: 16px;
+	color: black;
+	line-height: 34px;
+	font-family: .SFNSDisplay-Regular;
+}
+
+.oursev-left-pane .overview ul li i
+{
+	color: green;
+}
+
+.m-top-45
+{
+	margin-top: 45px;
+}
+
+
+.oursev-left-pane .overview ul.redmark li i
+{
+	color: red;
+}
+
+.arrow-left
+{
+	width: 0; 
+	height: 0; 
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent; 
+	border-right:5px solid blue; 
+}
+
+.editor-review
+{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.editor-review .img
+{
+	padding: 0;
+	text-align: left;
+	margin-top: 50px;
+}
+
+.review-content
+{
+	/* The St.George Vertig: */
+	font-family: .SFNSText-Regular;
+	font-size: 15px;
+	color: #1F2833;
+	letter-spacing: 0;
+	line-height: 28px;
+	text-align: left;
+	padding: 17px 35px;
+	padding-right: 45px;
+	background: #F5F5F7;
+}
+
+.oursev-right-pane
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.oursev-right-pane .overview
+{
+	background: #FFFFFF;
+	padding-top: 38px;
+	padding-left: 38px;
+	padding-right: 33px;
+	padding-bottom: 40px;
+}
+
+.oursev-right-pane .text-left
+{
+	font-family: Ciutadella-Light;
+	font-size: 24px;
+	color: #1F2833;
+	letter-spacing: 0;
+	line-height: 2rem;
+}
+
+.oursev-right-pane .application
+{
+	background-image: linear-gradient(-39deg, #71C1EE 7%, #4651D6 100%);
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.08);
+	border-radius: 4px;
+	padding: 37px;
+	padding-bottom: 27px;
+}
+
+.oursev-right-pane .application p.title
+{
+	font-family: Ciutadella-Light;
+	font-size: 45px;
+	color: #FFFFFF;
+	letter-spacing: -1.5px;
+	margin-bottom: 10px;
+}
+
+.oursev-right-pane .application p.comment
+{
+	font-family: HarmoniaSansStd-Bold;
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+}
+
+.oursev-right-pane .white-border
+{
+	width: 100%;
+	border: 2px solid #FFFFFF;
+	border-radius: 100px;
+	background: none;
+	height: 47px;
+	font-family: HarmoniaSansStd-Bold;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+}
+
+.oursev-right-pane .eligible
+{
+	background: #EDEDF1;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.09);
+	border-radius: 4px;
+	padding: 37px;
+	padding-bottom: 27px;
+	text-align: left;
+}
+
+.oursev-right-pane .eligible .white-border
+{
+	border: 2px solid #649EE6;
+	border-radius: 100px;
+	color: #649EE6;
+}
+
+.section-title
+{
+	font-family: Ciutadella-Light;
+	font-size: 24px;
+	color: #1F2833;
+	letter-spacing: 0;
+}
+
+.m-bottom-10
+{
+	margin-bottom: 10px;
+}
+
+.rates
+{
+	padding: 37px;
+	background: #FFFFFF;
+	padding-bottom: 0;
+}
+
+.last-rates
+{
+	padding-bottom: 50px;
+	margin-bottom: 45px;
+}
+
+.rates-title
+{
+	font-family: HarmoniaSansStd-Bold;
+	font-size: 18px;
+	color: #1F2833;
+	letter-spacing: 0;
+}
+
+.first
+{
+	padding-left: 0;
+}
+
+.second
+{
+	padding-right: 0;
+}
+
+.rates div
+{
+	padding-left: 0;
+	font-family: HarmoniaSansStd-Regular;
+	font-size: 16px;
+	color: #797C7F;
+	line-height: 48px;
+}
+
+.botborder
+{
+	border-bottom: 1px solid #E4E4E4;
+}
+
+b
+{
+	color: #000000;
+}
+
+.review-title
+{
+	font-family: Ciutadella-Light;
+	font-size: 32px;
+	color: #649EE6;
+	letter-spacing: 0;
+}
+
+#myChart
+{
+	width: 100%;
+}
+
+.baltran-first canvas
+{
+	width: 100%;
+}
+
+/*.article-review-first
+{
+	margin-top: 34px;
+	background: #EDEDF1;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.09);
+	border-radius: 4px;
+	padding-top: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.article-review-first p
+{
+	font-family: Ciutadella-SemiBold;
+	font-size: 25px;
+	color: #1F2833;
+	letter-spacing: 0;
+}
+
+.btn-circle {
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 25px;
+  line-height: 1.428571429;
+  border-radius: 30px;
+}
+
+.article-review-first p.review-article-content
+{
+	font-family: HarmoniaSansStd-Regular;
+	font-size: 15px;
+	color: #1F2833;
+	letter-spacing: 0;
+	line-height: 28px;
+}*/
+
+.article-review
+{
+	width 			: 100%;
+	margin-top 		: 3%;
+}
+
+.article-review .great-rewards
+{
+	width 			: 49%;
+	margin-right	: 2%;
+	background 		: #EDEDF1;
+	box-shadow		: 0 2px 3px 0 rgba(0,0,0,0.09);
+	border-radius 	: 4px;
+	float 			: left;
+	padding-top 	: 2%;
+	padding-left	: 3%;
+}
+
+.article-review .cautious
+{
+	width 			: 49%;
+	position 		: relative;
+	float			: left;
+	background 		: #EDEDF1;
+	box-shadow		: 0 2px 3px 0 rgba(0,0,0,0.09);
+	border-radius 	: 4px;
+	float 			: left;
+}
+
+.article-review .great-rewards p
+{
+	float 			: left;
+	margin-top 		: 0;
+	margin-bottom 	: 0;
+	font-family 	: Ciutadella-SemiBold;
+	font-size 		: 25px;
+	color 			: #1F2833;
+	letter-spacing 	: 0;
+}
+
+.article-review .great-rewards p.label
+{
+	margin-right 	: 20%;
+}
+
+.article-review .great-rewards span
+{
+	font-family		: HarmoniaSansStd-Regular;
+	font-size		: 16px;
+	color 			: #797C7F;
+	line-height		: 48px;
+	position 		: relative;
+	right 			: 0;
+}
+
+.article-review .great-rewards .circleMY
+{
+	color 			: white;
+  	height 			: 48px;
+  	width 			: 48px;
+  	display 		: able-cell;
+	vertical-align	: middle;
+	background 		: #A4B493;
+	border-radius 	: 100px;
+	font-family		: .SFNSDisplay-Regular;
+	font-size 		: 25px;
+	color 			: #FFFFFF;
+	letter-spacing	: -1px;
+	text-align 		: center;
+	float 			: left;
+}
+
+@media (max-width: 500px)
+{
+	.article-review .great-rewards .circleMY
+	{
+		height 		: 24px;
+		width 		: 24px;
+		font-size 	: 1em;
+	}
+
+	.article-review .great-rewards p
+	{
+		float 		: none;
+	}
+
+	.article-review .great-rewards span
+	{
+		font-size 	: 0.8em;
+	}
+
+	.article-review .great-rewards p.label
+	{
+		font-size	: 0.9em;
+		padding-left: 0;
+		margin-right: 0px;
+	}
+
+	.article-review .great-rewards .comment
+	{
+		font-size		: 1em;
+		padding-right	: 0;
+		line-height 	: 1;
+	}
+}
+
+@media (min-width: 700px)
+{
+	@media (max-width: 1100px)
+	{
+		.article-review .great-rewards .circleMY
+		{
+			height 		: 36px;
+			width 		: 36px;
+			font-size 	: 1.2em;
+		}
+	
+		.article-review .great-rewards p
+		{
+			float 		: none;
+		}
+	
+		.article-review .great-rewards span
+		{
+			font-size 	: 0.8em;
+		}
+	
+		.article-review .great-rewards p.label
+		{
+			font-size	: 0.9em;
+			padding-left: 0;
+			margin-right: 0px;
+		}
+	
+		.article-review .great-rewards .comment
+		{
+			font-size		: 1em;
+			padding-right	: 0;
+			line-height 	: 1;
+		}
+	}
+}
+
+.article-review .comment
+{
+	/* The St.George Vertig: */
+	font-family		: HarmoniaSansStd-Regular;
+	font-size		: 15px;
+	color 			: #1F2833;
+	letter-spacing	: 0;
+	line-height		: 28px;
+	text-align 		: left;
+	padding-right 	: 13%;
+	margin-top		: 2%;
+}
+
+.article-review div.review-confirm
+{
+	margin-top 		: 3%;
+	margin-bottom	: 3%;
+}
+
+.article-review div.review-confirm p.general
+{
+	/* Was this review help: */
+	font-family		: .AppleSystemUIFont;
+	font-size		: 14px;
+	color 			: #1F2833;
+	line-height		: 18px;
+	float 			: left;
+}
+
+.article-review div.review-confirm p.circleblue
+{
+	color 			: white;
+  	height 			: 48px;
+  	width 			: 97px;
+  	display 		: table-cell;
+	vertical-align	: middle;
+	text-align 		: center;
+	float 			: left;
+	font-family 	: .SFNSDisplay-Regular;
+	font-size		: 20px;
+	color 			: #FFFFFF;
+	letter-spacing	: 0;
+	background-image: linear-gradient(39deg, #71C1EE 7%, #4651D6 100%);
+	border-radius	: 55px;
+}
+
+@media (max-width: 500px)
+{
+	.article-review div.review-confirm p.circleblue
+	{
+		height 		: 24px;
+		width 		: 48px;
+		font-size 	: 1em;
+	}
+}
+
+@media (min-width: 700px)
+{
+	@media (max-width: 1100px)
+	{
+		.article-review div.review-confirm p.circleblue
+		{
+			height 		: 24px;
+			width 		: 48px;
+			font-size 	: 1.1em;
+		}
+	}
+}
+
+.article-review .cautious
+{
+	background 		: #EDEDF1;
+	box-shadow		: 0 2px 3px 0 rgba(0,0,0,0.09);
+	border-radius 	: 4px;
+	/*float 			: left;*/
+	padding-top 	: 2%;
+	padding-left	: 3%;
+}
+
+.article-review .cautious .circleFH
+{
+	color 			: white;
+  	height 			: 48px;
+  	width 			: 48px;
+  	display 		: able-cell;
+	vertical-align	: middle;
+	background 		: #9396B4;
+	border-radius 	: 100px;
+	font-family		: .SFNSDisplay-Regular;
+	font-size 		: 25px;
+	color 			: #FFFFFF;
+	letter-spacing	: -1px;
+	text-align 		: center;
+	float 			: left;
+	margin-bottom 	: 0;
+	margin-top 		: 0;
+}
+
+.article-review .cautious p.label
+{
+	float 			: left;
+	margin-top		: 0;
+	margin-right	: 13%;
+	font-family: Ciutadella-SemiBold;
+    font-size: 24px;
+    color: #1F2833;
+    letter-spacing: 0;
+}
+
+.article-review .cautious span
+{
+	font-size		: 16px;
+    color 			: #797C7F;
+    line-height		: 48px;
+    position 		: relative;
+    right 			: 0;
+}
+
+.article-review .cautious .review-confirm
+{
+	margin-top 		: 0%;
+	margin-bottom 	: 7.9%;
+}
+
+.article-review .cautious .review-confirm p.general
+{
+	margin-bottom 	: 0;
+}
+
+@media (min-width: 700px)
+{
+	@media (max-width: 1100px)
+	{
+		.article-review .cautious .review-confirm
+		{
+			margin-bottom: 15px;
+		}
+	}
+}
+
+@media (min-width: 700px)
+{
+	@media (max-width: 800px)
+	{
+		.article-review .cautious .review-confirm
+		{
+			margin-bottom: 24px;
+		}
+	}
+}
+
+@media (max-width: 500px)
+{
+	.article-review .cautious .circleFH
+	{
+		height 		: 24px;
+		width 		: 24px;
+		font-size 	: 1em;
+	}
+
+	.article-review .cautious p.label
+	{
+		font-size	: 0.9em;
+		padding-left: 0;
+		margin-right: 0px;
+		margin-top 	: 1px;
+		float 		: none;
+		width 		: 150px;
+	}
+
+	.article-review .cautious span
+	{
+		font-size 	: 0.8em;
+	}
+
+	.article-review .cautious .comment
+	{
+		font-size		: 1em;
+		padding-right	: 0;
+		line-height 	: 1;
+	}
+}
+
+@media (min-width: 700px)
+{
+	@media (max-width: 1100px)
+	{
+		.article-review .cautious .circleFH
+		{
+			height 		: 36px;
+			width 		: 36px;
+			font-size 	: 1.2em;
+		}
+	
+		.article-review .cautious p.label
+		{
+			font-size	: 0.9em;
+			padding-left: 0;
+			margin-right: 0px;
+			margin-top 	: 1px;
+			float 		: none;
+			width 		: 150px;
+		}
+	
+		.article-review .cautious span
+		{
+			font-size 	: 0.8em;
+		}
+	
+		.article-review .cautious .comment
+		{
+			font-size		: 1em;
+			padding-right	: 0;
+			line-height 	: 1;
+			margin-bottom 	: 1.3em;
+		}
+	}
+}
+
+div.ask-question
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+div.ask-question .question-input
+{
+	/*background 		: #212429;*/
+}
+
+div.ask-question .question-input .inter
+{
+	background 		: #EDEDF0;
+}
+
+div.ask-question .question-input .inter p.inter-label
+{
+	padding 		: 2%;
+	margin 			: 0;
+	font-family		: .SFNSText-Regular;
+	font-size		: 14px;
+	color 			: #1F2833;
+	line-height		: 18px;
+	opacity 		: 0.57;
+	border-bottom	: 1px solid #D8D8D8;
+}
+
+div.ask-question .question-input .inter .feedback-1
+{
+	padding 		: 2%;
+}
+
+div.ask-question .question-input .inter .feedback-1 .circleMY
+{
+	color 			: white;
+  	height 			: 48px;
+  	width 			: 48px;
+  	display 		: able-cell;
+	vertical-align	: middle;
+	background 		: #A4B493;
+	border-radius 	: 100px;
+	font-family		: .SFNSDisplay-Regular;
+	font-size 		: 25px;
+	color 			: #FFFFFF;
+	letter-spacing	: -1px;
+	text-align 		: center;
+	float 			: left;
+}
+
+div.ask-question .question-input .inter .feedback-1 .comment
+{
+	font-family		: HarmoniaSansStd-Regular;
+	font-size		: 15px;
+	color 			: #1F2833;
+	letter-spacing	: 0;
+	line-height		: 28px;
+	text-align 		: left;
+	padding-right 	: 3%;
+	padding-top		: 20px;
+	padding-left 	: 9%;
+}
+
+div.ask-question .question-input .inter .feedback-1 p
+{
+	float 			: left;
+	margin-top 		: 0;
+	margin-bottom 	: 0;
+	font-family 	: .SFNSDisplay-Regular;
+	font-size 		: 25px;
+	color 			: #1F2833;
+	letter-spacing 	: 0;
+}
+
+div.ask-question .question-input .inter .feedback-1 p.label
+{
+	font-family		: Ciutadella-SemiBold;
+	margin-right	: 20%;
+}
+
+div.ask-question .question-input .inter .feedback-1 span
+{
+	font-family		:HarmoniaSansStd-Regular
+}
+
+@media (max-width: 500px)
+{
+	div.ask-question .question-input .inter .feedback-1 .circleMY
+	{
+		width 		: 24px;
+		height 		: 24px;
+		font-size 	: 1em;
+	}
+
+	div.ask-question .question-input .inter .feedback-1 p.label
+	{
+		font-size 	: 1em;
+		margin-right: 0;
+		float 		: none;
+	}
+
+	div.ask-question .question-input .inter .feedback-1 span
+	{
+		font-size	: 0.8em;
+		color 		: #797C7F;
+	}
+	div.ask-question .question-input .inter .feedback-1 .comment
+	{
+		padding-left	: 0;
+		font-size		: 1em;
+    	padding-right	: 0;
+    	line-height		: 1;
+	}
+}
+
+.article-review div.review-confirm
+{
+	margin-top 		: 3%;
+	margin-bottom	: 3%;
+}
+
+div.ask-question .question-input .inter .feedback-1 p.general
+{
+	/* Was this review help: */
+	font-family		: .AppleSystemUIFont;
+	font-size		: 14px;
+	color 			: #1F2833;
+	line-height		: 18px;
+	float 			: left;
+}
+
+div.ask-question .question-input .inter .feedback-1 .comment-author
+{
+	margin-top 		: 65px;
+	font-family: Ciutadella-SemiBold;
+	font-size: 25px;
+	color: #1F2833;
+	letter-spacing: 0;
+}
+
+div.ask-question .question-input .inter .feedback-1 .comment-author .author-comment
+{
+	/* The St.George Vertig: */
+	font-family: HarmoniaSansStd-Regular;
+	font-size: 15px;
+	color: #1F2833;
+	letter-spacing: 0;
+	line-height: 26px;
+	margin-bottom: 57px;
+}
+
+div.ask-question .question-input .inter .feedback-1 .comment-author span
+{
+	font-family		: .AppleSystemUIFont;
+	font-size 		: 16px;
+	color 			: #797C7F;
+	line-height		: 48px;
+}
+
+div.ask-question .question-input .inter .feedback-1 .comment-author div
+{
+	font-family		: .AppleSystemUIFont;
+	font-size		: 15px;
+	color 			: #1F2833;
+	letter-spacing	: 0;
+	line-height		: 26px;
+	margin-bottom 	: 5%;
+}
+
+@media (max-width: 500px)
+{
+	div.ask-question .question-input .inter .feedback-1 .comment-author
+	{
+		font-size 	: 1em;
+	}
+
+	div.ask-question .question-input .inter .feedback-1 .comment-author div
+	{
+		font-size		: 1em;
+    	padding-right	: 0;
+    	line-height		: 1;
+	}
+}
+
+div.ask-question .question-input .question-form
+{
+	background 		: #212429;
+    box-shadow		: 0 2px 3px 0 rgba(0,0,0,0.08);
+    border-radius	: 4px 4px 0 0;
+    padding 		: 5%;
+}
+
+div.ask-question .question-input .question-form input
+{
+	background 		: rgba(0,0,0,0.20);
+    border-radius	: 5px;
+    border 			: 0;
+    padding-left	: 2%;
+    width 			: 49%;
+    height: 55px;
+}
+
+div.ask-question .question-input .question-form input.username
+{
+	padding-right 	: 1%;
+}
+
+div.ask-question .question-input .question-form .form-control
+{
+	background 		: rgba(0,0,0,0.20);
+	border-radius	: 5px;
+	border 			: 0;
+	margin-bottom 	: 3%;
+	text-align 		: left;
+	padding-left 	: 0;
+	height 			: 170px;
+}
+
+div.ask-question .question-input .question-form p
+{
+	font-family		: HarmoniaSansStd-Regular;
+	font-size		: 12px;
+	color 			: #FFFFFF;
+	letter-spacing	: 0;
+	line-height		: 18px;
+}
+
+div.ask-question .question-input .question-form .submit
+{
+	background-image: linear-gradient(-39deg, #71C1EE 7%, #4651D6 100%);
+	border-radius	: 100px;
+	font-family		: HarmoniaSansStd-Bold;
+	font-size		: 18px;
+	color 			: #FFFFFF;
+	letter-spacing	: 0;
+	width 			: 50%;
+	position 		: relative;
+	left 			: 25%;
+}
+
+div.ask-question .question-input .question-form .name-email
+{
+	margin-bottom 	: 3%;
+}
+
+@media (max-width: 500px)
+{
+	div.ask-question .question-input .question-form .submit
+	{
+		font-size 	: 1em;
+	}
+}
+
+div.comparison
+{
+	padding-top 	: 5%;
+	background  	: #FFFFFF;
+	text-align: center;
+}
+
+div.comparison ul
+{
+	list-style 		: none;
+	padding-left: 40px;
+	margin-bottom: 12.5px;
+}
+
+div.comparison ul li
+{
+	float 			: left;
+	display 		: table-cell;
+	vertical-align	: middle;
+}
+
+div.comparison ul li.li-label
+{
+	font-family		: .AppleSystemUIFont;
+	font-size		: 14px;
+	color 			: #A5A6A8;
+	line-height		: 14px;
+}
+
+div.comparison ul li .left-button
+{
+	margin-left 	: 31px;
+	border 			: 1px solid #C7C7C7;
+	border-radius 	: 100px;
+	font-family 	: .AppleSystemUIFont;
+	font-size 		: 14px;
+	color 			: #FFFFFF;
+	letter-spacing 	: 0;
+	width 			: 140px;
+	height 			: 38px;
+}
+
+div.comparison ul li .right-button
+{
+	/* Rectangle 8 Copy 6: */
+	background-image: linear-gradient(-39deg, #71C1EE 7%, #4651D6 100%);
+	margin-left 	: 31px;
+	border 			: 1px solid #C7C7C7;
+	border-radius 	: 100px;
+	font-family 	: .AppleSystemUIFont;
+	font-size 		: 14px;
+	color 			: #FFFFFF;
+	letter-spacing 	: 0;
+	width 			: 140px;
+	height 			: 38px;
+}
+
+div.comparison ul.bar
+{
+	margin-bottom	: 0;
+}
+
+div.comparison ul.bar li.label
+{
+	padding 		: 0;
+	font-family		: HarmoniaSansStd-Regular;
+	font-size: 14px;
+	color: #1F2833;
+	line-height: 18px;
+	width 			: 30%;
+}
+
+div.comparison ul.bar li.bar-chart
+{
+	margin-left 	: 3%;
+	width 			: 60%;
+	margin-right	: 5%;
+}
+
+div.comparison ul.bar li .progress
+{
+	height 			: 52px;
+}
+
+div.comparison ul.bar li .progress .progress-bar
+{
+	opacity: 0.4;
+	background-image: linear-gradient(-39deg, #71C1EE 7%, #4651D6 100%);
+	border-radius: 4px;
+}
+
+div.comparison button.review-nab
+{
+	background-image: linear-gradient(-39deg, #71C1EE 7%, #4651D6 100%);
+	border-radius	: 100px;
+	font-family		: HarmoniaSansStd-Bold;
+	font-size		: 16px;
+	color 			: #FFFFFF;
+	letter-spacing	: 0;
+	margin 			: 4% 21%;
+	height 			: 47px;
+}
+
+@media (max-width: 500px)
+{
+	div.comparison ul
+	{
+		padding-left: 0;
+	}
+
+	div.comparison ul li .left-button
+	{
+		margin-left : 0;
+		width 		: 120px;
+		height 		: 25px;
+		margin-top 	: 14px;
+	}
+
+	div.comparison ul li .right-button
+	{
+		margin-left : 0;
+		width 		: 120px;
+		height 		: 25px;
+		margin-top 	: 13px;
+	}
+
+	div.comparison ul li button
+	{
+		width 		: 120px;
+		height 		: 25px;
+	}
+
+	div.comparison ul.bar li.label
+	{
+		font-size 	: 0.5em;
+		width 		: 60%;
+	}
+
+	div.comparison ul.bar li.bar-chart
+	{
+		width 		: 30%;
+	}
+
+	div.comparison button.review-nab
+	{
+		font-size 	: 0.8em;
+		margin 		: 4% 0;	
+	}
+}
+
+@media (min-width: 700px)
+{
+	@media (max-width: 1100px)
+	{
+		div.comparison ul
+		{
+			padding-left: 1%;
+		}
+		div.comparison ul li .left-button
+		{
+			margin-left : 0;
+			width 		: 120px;
+			height 		: 25px;
+			margin-top 	: 14px;
+		}
+		div.comparison ul li .right-button
+		{
+			margin-left : 0;
+			width 		: 120px;
+			height 		: 25px;
+			margin-top 	: 13px;
+		}
+	
+		div.comparison ul li button
+		{
+			width 		: 120px;
+			height 		: 25px;
+		}
+		div.comparison ul.bar li.label
+		{
+			font-size 	: 1em;
+			width 		: 60%;
+		}
+		div.comparison ul.bar li.bar-chart
+		{
+			width 		: 30%;
+		}
+		div.comparison button.review-nab
+		{
+			font-size 	: 1em;
+			margin 		: 4% 5%;	
+		}
+	}
+}
+
+@media (min-width: 700px)
+{
+	@media (max-width: 1100px)
+	{
+		div.comparison button.review-nab
+		{
+			margin 		: 4% 15%;
+		}
+	}
+}
+
+div.improve div.report-error p.report
+{
+	margin-top 		: 0;
+	margin-left 	: 10%;
+	font-family		: HarmoniaSansStd-Regular;
+	font-size		: 15px;
+	color 			: #6D7175;
+	letter-spacing	: 0;
+	line-height		: 26px;
+}
+
+div.improve div.report-error button.report-button
+{
+	border 			: 2px solid #C2424F;
+	border-radius	: 100px;
+	font-family 	: HarmoniaSansStd-Bold;
+	font-size 		: 14px;
+	color 			: #C2424F;
+	letter-spacing 	: 0;
+	background 		: #FFFFFF;
+	width 			: 100%;
+	margin-bottom 	: 11.7%;
+}
+
+div.improve .report-error img
+{
+	float 			: left;
+	margin-right 	: 2%;
+}
+
+@media (max-width: 500px)
+{
+	div.improve .report-error img
+	{
+		width 		: 20px;
+	}
+
+	div.improve div.report-error p.report
+	{
+		font-size 	: 1em;
+		line-height : 1;
+	}
+
+	div.improve div.report-error button.report-button
+	{
+		font-size 	: 0.8em;
+	}
+}
+
+@media (min-width: 700px)
+{
+	@media (max-width: 1100px)
+	{
+		div.improve .report-error img
+		{
+			width 		: 30px;
+		}
+	}
+}
+
+div.similar-list ul li
+{
+	font-family		: Ciutadella-SemiBold
+}
+
+div.similar-list ul
+{
+	list-style 		: none;
+	width 			: 60%;
+	padding-left  	: 0;
+	background 		: #FFFFFF;
+}
+
+div.similar-list ul li
+{
+	float 			: left;
+	width 			: 33.33%;
+	padding-top		: 5%;
+	padding-left 	: 5%;
+	padding-right	: 5%;
+	text-align 		: center;
+	border-right	: 1px solid #979797;
+}
+
+div.similar-list ul li p
+{
+	text-align 		: center;
+}
+
+div.similar-list ul li p.bank-title
+{
+	font-family		: HarmoniaSansStd-Regular;
+	font-size		: 14px;
+	color 			: #1F2833;
+	line-height		: 18px;
+}
+
+div.similar-list ul li p.grey-label
+{
+	font-family		: HarmoniaSansStd-Regular;
+	font-size		: 13px;
+	color 			: #9D9D9D;
+	line-height 	: 29px;
+}
+
+div.similar-list ul li p.normal-label
+{
+	font-family		: .AppleSystemUIFont;
+	font-size		: 14px;
+	color 			: #000000;
+}
+
+div.similar-list ul li p.large-label
+{
+	font-family		: .AppleSystemUIFont;
+	font-size		: 26px;
+	color 			: #000000;
+}
+
+div.similar-list ul li .grey-button
+{
+	/* Rectangle 8 Copy 6: */
+	border 			: 1px solid #9D9D9D;
+	border-radius	: 100px;
+	background 		: #FFFFFF;
+	font-family 	: .AppleSystemUIFont;
+	font-size		: 14px;
+	color 			: #9D9D9D;
+	letter-spacing	: 0;
+	width 			: 100%;
+	height 			: 47px;
+	margin-bottom	: 25%;
+}
+
+@media (max-width: 500px)
+{
+	div.similar-list ul
+	{
+		width 		: 100%;
+	}
+
+	div.similar-list ul li img
+	{
+		width 		: 70px;
+	}
+
+	div.similar-list ul li p.bank-title
+	{
+		font-size 	: 0.6em;
+	}
+}
+
+@media (min-width: 700px)
+{
+	@media (max-width:1200px)
+	{
+		div.similar-list ul
+		{
+			width 		: 100%;
+		}
+
+		div.similar-list ul li img
+		{
+			width 		: 100px;
+		}
+
+		div.similar-list ul li p.bank-title
+		{
+			font-size 	: 0.6em;
+		}
+	}
+}
+
+.footer
+{
+	background 			: #202429;
+	width 				: 100%;
+}
+
+.footer div
+{
+	width 				: 100%;
+}
+
+.footer .layer_comment
+{
+	font-family			: HarmoniaSansStd-Regular;
+	font-size			: 13px;
+	color 				: #666666;
+	letter-spacing		: 0;
+	line-height			: 20px;
+	padding-top			: 3%;
+	text-align			: center;
+}
+
+.footer .footer_layer
+{
+	padding-right 		: 5%;
+	padding-left			: 5%;
+	margin-top 			: 18px;
+}
+
+.footer .footer_layer img
+{
+	width: 100%;
+}
+
+.footer .footer_note
+{
+	padding-left 		: 5%;
+	padding-right 		: 5%;
+	margin-top			: 60px;
+	width 				: 100%;
+	text-align 			: left;
+	font-family: HarmoniaSansStd-SemiBd;
+	font-size: 15px;
+	color: rgba(255,255,255,0.45);
+	letter-spacing: 0;
+	line-height: 22px;
+}
+
+.footer .footer_comment
+{
+	padding-left 		: 5%;
+	padding-right 		: 5%;
+	width 				: 100%;
+	margin-top 			: 6px;
+	text-align			: left;
+	font-family			: HarmoniaSansStd-Regular;
+	font-size			: 13px;
+	color 				: rgba(255,255,255,0.22);
+	letter-spacing		: 0;
+	line-height			: 16px;
+}
+
+@media (max-width: 500px)
+{
+	.footer .layer_comment
+	{
+		font-size 		: 0.9em;
+	}
+	
+	.footer .footer_layer
+	{
+		margin-right 	: 5%;
+		margin-left 	: 5%;
+	}
+	
+	.footer .footer_layer img
+	{
+		width 			: 90%;
+	}
+
+	.footer .footer_note
+	{
+		margin-top 		: 5px;
+		padding-left 	: 5%;
+		padding-right 	: 5%;
+		font-size 		: 0.9em;
+		width 			: 100%;
+	}
+
+	.footer .footer_comment
+	{
+		padding-left 	: 5%;
+		padding-right 	: 5%;
+		width 			: 100%;
+	}
+}
+
+@media (min-width: 700px)
+{
+	@media (max-width: 1100px)
+	{
+		.footer .layer_comment
+		{
+			font-size 		: 1em;
+		}
+	
+		/*.footer .footer_layer
+		{
+			margin-right 	: 5%;
+			margin-left 	: 5%;
+		}
+		
+		.footer .footer_layer img
+		{
+			width 			: 90%;
+		}
+	*/
+		.footer .footer_note
+		{
+			margin-top 		: 5px;
+			/*margin-left 	: 5%;
+			margin-right 	: 5%;*/
+			font-size 		: 0.9em;
+			/*width 			: 90%;*/
+		}
+	
+		/*.footer .footer_comment
+		{
+			margin-left 	: 5%;
+			margin-right 	: 5%;
+			width 			: 90%;
+		}*/
+	}
+}
+
+.overview-application .overview p
+{
+	font-family		: Ciutadella-Light;
+	font-size		: 24px;
+	color 			: #1F2833;
+	letter-spacing	: 0;
+	/*width 			: 60%;*/
+}
+
+@media (max-width: 1200px)
+{
+	.ourservicefield
+	{
+		padding: 0 5px;
+	}
+
+	.rates
+	{
+		padding-left: 20px;
+		padding-right: 0;
+	}
+
+	.section-title
+	{
+		padding-left: 20px;
+	}
+}
+
+.overview-application .application p
+{
+	font-family		: Ciutadella-Light;
+	font-size		: 24px;
+	color 			: #1F2833;
+	letter-spacing	: 0;
+	margin-bottom 	: 10px;
+}
+
+.overview-application .application
+{
+	text-align		: left;
+    margin-top		: 5px;
+    margin-left		: 0;
+    padding-left	: 1%;
+}
+
+.similarcard
+{
+	font-family: Ciutadella-SemiBold;
+    font-size: 24px;
+    color: #1F2833;
+    letter-spacing: 0;
+    margin-top: 3%;
+}
+
+@media (max-width: 1200px)
+{
+	.similarcard
+	{
+		display: none;
+	}
+	.similar-list
+	{
+		display: none;
+	}
+	.first
+	{
+		padding-right: 0;
+	}
+	.oursev-left-pane .overview
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.oursev-left-pane
+	{
+		padding-right: 0;
+	}
+	.text-mob-right
+	{
+		text-align: center;
+	}
+	.rates div
+	{
+		font-size: 12px;
+	}
+}
+
+.col-md-3-minimum .small
+{
+	/* Visa Card: */
+	font-family: HarmoniaSansStd-Regular;
+	font-size: 14px;
+	color: #898B8F;
+	letter-spacing: 0;
+}
+
+.balance-section
+{
+	padding-bottom: 0;
+}
+
+div.comparison ul li .left-button
+{
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+}
+
+div.comparison ul li .right-button
+{
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	margin-left: 0;
+	position: relative;
+	left: -4px;
+}
+
+.li-label
+{
+	width: 20%;
+}
+.twobutton
+{
+	width: 78%;
+}

@@ -1,0 +1,246 @@
+body 
+{
+	/* Rectangle: */
+	background-image: linear-gradient(215deg, #10B5E9 0%, #336FE9 57%, #435DE7 74%, #435DE7 75%, #5C43E4 100%);
+	width 			: 100%;
+	height 			: 100%;
+	background-repeat: no-repeat;
+	overflow 		: auto;
+}
+
+.logo-div
+{
+	padding-top 	: 2%;
+	text-align 		: center;
+}
+
+.logo-div img
+{
+	width 			: 16.5%;
+}
+
+.apply-div
+{
+	margin-left 	: 23%;
+	margin-right	: 23%;
+	margin-top		: 5.3%;
+	margin-bottom	: 5.3%;
+	background 		: #FFFFFF;
+	box-shadow		: 0 7px 11px 0 rgba(0,0,0,0.22);
+	border-radius	: 4px;
+	text-align 		: center;
+	padding-top 	: 4.9%;
+}
+
+@media (max-width: 500px)
+{
+	.apply-div
+	{
+		margin-left		: 10%;
+		margin-right	: 10%;
+	}
+}
+
+.apply-div img
+{
+	width 			: 50%;
+	height 			: 10%;
+}
+
+.apply-div .message-div
+{
+	margin-top 		: 7.5%
+}
+
+.apply-div .message-div p
+{
+	font-family		: Ciutadella-Light;
+	font-size		: 2.6em;
+	color 			: #1F2833;
+	letter-spacing	: 0;
+	line-height 	: 1.2;
+	padding-right 	: 10%;
+	padding-left 	: 10%;
+}
+
+.apply-div .message-div span
+{
+	font-family		: HarmoniaSansStd-Bold;
+	font-weight 	: bold;
+	font-size		: 1.2em;
+	color 			: #1F2833;
+	letter-spacing	: 0;
+}
+
+.apply-div ul
+{
+	width 			: 41%;
+	padding-left 	: 0;
+	list-style 		: none;
+	margin 			: auto;
+}
+
+.apply-div ul li
+{
+	float 			: left;
+	display 		: table-cell;
+	vertical-align	: middle;
+	width 			: 20%;
+	text-align 		: center;
+	margin 			: auto;
+	height 			: 4em;
+	display 		: inline-flex;
+}
+
+.apply-div ul li div
+{
+	margin 			: auto;
+}
+
+.circle50
+{
+	width 					: 3.6em;
+	height 					: 3.6em;
+	-webkit-border-radius	: 25px;
+	-moz-border-radius		: 25px;
+	border-radius 			: 25px;
+	/* Rectangle 28 Copy: */
+	background-image 		: linear-gradient(215deg, #10B5E9 0%, #336FE9 57%, #5C43E4 100%);
+	border-radius 			: 100px;
+}
+
+.circle30
+{
+	/*width 					: 30px;
+	height 					: 30px;
+	-webkit-border-radius	: 15px;
+	-moz-border-radius		: 15px;
+	border-radius 			: 15px;*/
+	width 					: 50%;
+	height 					: 50%;
+	-webkit-border-radius	: 15px;
+	-moz-border-radius		: 15px;
+	border-radius 			: 15px;
+	opacity 				: 0.23;
+	background-image		: linear-gradient(215deg, #10B5E9 0%, #336FE9 57%, #5C43E4 100%);
+	border-radius 			: 100%;
+}
+
+.circle40
+{
+	width 					: 40px;
+	height 					: 40px;
+	-webkit-border-radius	: 20px;
+	-moz-border-radius		: 20px;
+	border-radius 			: 20px;
+	opacity 				: 0.56;
+	background-image		: linear-gradient(215deg, #10B5E9 0%, #336FE9 57%, #5C43E4 100%);
+	border-radius 			: 100px;
+}
+
+.apply-div ul li .grey
+{
+	background-image		: linear-gradient(-215deg, #10B5E9 0%, #336FE9 57%, #5C43E4 100%);
+}
+
+.apply-div div.proceed
+{
+	margin 			: 0px 15px;
+	margin-top 		: 8%;
+}
+
+.apply-div div.proceed p
+{
+	font-family		: HarmoniaSansStd-Regular;
+	font-size		: 1.4em;
+	color			: #1F2833;
+	letter-spacing	: 0;
+	line-height 	: 1.2;
+}
+
+.apply-div div.proceed p a
+{
+	color 			: blue;
+}
+
+.apply-div div.proceed img
+{
+	width 			: 20%;
+}
+@media(max-width:700px){
+	.logo-div img{
+		width : 40.5%;
+	}
+}
+
+@media(max-width:400px){
+	.apply-div .message-div p{
+		font-size:2.1em;
+	}
+	.apply-div .message-div span{
+		font-size:1.0em;
+		margin:0px 10px;
+	}
+	.apply-div div.proceed p{
+		font-size:1.0em;
+	}
+	.apply-div{
+
+	}
+}
+@media(max-width:1176px){
+	.circle30{
+		width 					: 39%;
+		height 					: 39%;
+	}
+	.circle40{
+		width 					: 33px;
+		height 					: 33px;
+	}
+	.circle50{
+		width 					: 2.8em;
+		height 					: 2.8em;
+	}
+}
+@media(max-width:1024px){
+	.circle30{
+		width 					: 40%;
+		height 					: 30%;
+	}
+	.circle40{
+		width 					: 30px;
+		height 					: 30px;
+	}
+	.circle50{
+		width 					: 2.3em;
+		height 					: 2.3em;
+	}
+}
+@media(max-width:768px){
+	.circle30{
+		width 					: 40%;
+		height 					: 25%;
+	}
+	.circle40{
+		width 					: 25px;
+		height 					: 25px;
+	}
+	.circle50{
+		width 					: 2.0em;
+		height 					: 2.0em;
+	}
+}
+@media(max-width:660px){
+	.circle30{
+		width 					: 40%;
+		height 					: 20%;
+	}
+	.circle40{
+		width 					: 15px;
+		height 					: 15px;
+	}
+	.circle50{
+		width 					: 1.5em;
+		height 					: 1.5em;
+	}
+}

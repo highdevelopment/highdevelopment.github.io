@@ -1,0 +1,78 @@
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In  -->
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="1541.4px" height="634px" viewBox="0 0 1541.4 634" enable-background="new 0 0 1541.4 634"
+	 xml:space="preserve">
+<defs>
+</defs>
+<g>
+	<rect x="0" y="61" fill="#FFFFFF" width="1541.4" height="547.5"/>
+	<g>
+		<text transform="matrix(1 0 0 1 80.3845 212.1118)" font-family="'NokiaPureText-Regular'" font-size="20">Mobile Network Experience Index</text>
+		<text transform="matrix(1 0 0 1 80.3845 248.1118)" font-family="'NokiaPureText-Regular'" font-size="20">Voice Index</text>
+		<text transform="matrix(1 0 0 1 80.3845 284.1118)" font-family="'NokiaPureText-Regular'" font-size="20">Data Index</text>
+		<text transform="matrix(1 0 0 1 80.3845 320.1118)" font-family="'NokiaPureText-Regular'" font-size="20">VoLTE Index</text>
+		<text transform="matrix(1 0 0 1 410.7283 212.1118)" font-family="'NokiaPureText-Regular'" font-size="20">24</text>
+		<text transform="matrix(1 0 0 1 410.7283 248.1118)" font-family="'NokiaPureText-Regular'" font-size="20">15</text>
+		<text transform="matrix(1 0 0 1 410.7283 284.1118)" font-family="'NokiaPureText-Regular'" font-size="20">27</text>
+		<text transform="matrix(1 0 0 1 422.5681 320.1118)" font-family="'NokiaPureText-Regular'" font-size="20">5</text>
+		<rect x="56.4" y="198.1" fill="#124191" width="13" height="13"/>
+		<rect x="56.4" y="234.3" fill="#FF8B10" width="13" height="13"/>
+		<rect x="56.4" y="270.5" width="13" height="13"/>
+		<rect x="56.4" y="306.7" fill="#00C9FF" width="13" height="13"/>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 502.865 212.1118)" font-family="'NokiaPureText-Regular'" font-size="20">100</text>
+		<text transform="matrix(1 0 0 1 514.7048 265.6118)" font-family="'NokiaPureText-Regular'" font-size="20">75</text>
+		<text transform="matrix(1 0 0 1 514.7048 319.1118)" font-family="'NokiaPureText-Regular'" font-size="20">50</text>
+		<text transform="matrix(1 0 0 1 514.7048 372.6118)" font-family="'NokiaPureText-Regular'" font-size="20">25</text>
+		<text transform="matrix(1 0 0 1 526.5447 426.1118)" font-family="'NokiaPureText-Regular'" font-size="20">0</text>
+		
+			<line fill="none" stroke="#EDF2F5" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" x1="600.4" y1="204.6" x2="1476.4" y2="204.6"/>
+		
+			<line fill="none" stroke="#EDF2F5" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" x1="600.4" y1="258.7" x2="1476.4" y2="258.7"/>
+		
+			<line fill="none" stroke="#EDF2F5" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" x1="600.4" y1="312.9" x2="1476.4" y2="312.9"/>
+		
+			<line fill="none" stroke="#EDF2F5" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" x1="600.4" y1="367" x2="1476.4" y2="367"/>
+		
+			<line fill="none" stroke="#EDF2F5" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" x1="600.4" y1="421.1" x2="1476.4" y2="421.1"/>
+	</g>
+	<polyline fill="none" stroke="#FF8B10" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" points="608.4,246.3 
+		770.9,211.1 948.4,237.1 1114.4,253.8 1299.4,209.7 1465.9,390.7 	"/>
+	<circle fill="#FF8B10" cx="608.4" cy="246.3" r="4.5"/>
+	<circle fill="#FF8B10" cx="770.9" cy="212.1" r="4.5"/>
+	<circle fill="#FF8B10" cx="948.4" cy="237.1" r="4.5"/>
+	<circle fill="#0D1023" cx="608.4" cy="414.3" r="4.5"/>
+	<circle fill="#00C9FF" cx="608.4" cy="234.3" r="4.5"/>
+	<circle fill="#0D1023" cx="770.9" cy="251.9" r="4.5"/>
+	<circle fill="#00C9FF" cx="770.9" cy="301.8" r="4.5"/>
+	<circle fill="#0D1023" cx="948.4" cy="285.5" r="4.5"/>
+	<circle fill="#00C9FF" cx="948.4" cy="249.3" r="4.5"/>
+	<circle fill="#0D1023" cx="1114.4" cy="218.6" r="4.5"/>
+	<circle fill="#00C9FF" cx="1114.4" cy="378.1" r="4.5"/>
+	<circle fill="#0D1023" cx="1300.9" cy="336.8" r="4.5"/>
+	<circle fill="#00C9FF" cx="1299.4" cy="362.5" r="4.5"/>
+	<circle fill="#0D1023" cx="1465.9" cy="360.8" r="4.5"/>
+	<circle fill="#00C9FF" cx="1465.9" cy="403.3" r="4.5"/>
+	<polyline fill="none" stroke="#124191" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" points="608.4,281.8 
+		770.9,273.2 948.4,297.3 1114.4,297.3 1299.4,349 1465.9,378.1 	"/>
+	<polyline fill="none" stroke="#0D1023" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" points="608.4,414.8 
+		770.9,251.9 948.4,285.3 1114.4,218.6 1299.4,337.7 1465.9,360.8 	"/>
+	<polyline fill="none" stroke="#00C9FF" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" points="608.4,234.3 
+		770.9,302.2 948.4,249.2 1114.4,378.1 1299.4,363.2 1465.9,403.3 	"/>
+	<circle fill="#FF8B10" cx="1465.9" cy="390.7" r="4.5"/>
+	<circle fill="#FF8B10" cx="1114.2" cy="254.2" r="4.5"/>
+	<circle fill="#FF8B10" cx="1299.4" cy="209.7" r="4.5"/>
+	<circle fill="#124191" cx="948.4" cy="297.3" r="4.5"/>
+	<circle fill="#124191" cx="770.9" cy="273.2" r="4.5"/>
+	<circle fill="#124191" cx="1114.4" cy="297.3" r="4.5"/>
+	<circle fill="#124191" cx="608.4" cy="281.8" r="4.5"/>
+	<circle fill="#124191" cx="1465.9" cy="378.1" r="4.5"/>
+	<circle fill="#124191" cx="1300.9" cy="349.3" r="4.5"/>
+	<text transform="matrix(1 0 0 1 740.2488 455.0996)" font-family="'NokiaPureText-Regular'" font-size="20">20 Feb</text>
+	<text transform="matrix(1 0 0 1 1083.7048 455.0996)" font-family="'NokiaPureText-Regular'" font-size="20">22 Feb</text>
+	<text transform="matrix(1 0 0 1 1435.2107 455.0996)" font-family="'NokiaPureText-Regular'" font-size="20">24 Feb</text>
+</g>
+<rect x="65.3" y="1.5" fill="none" width="1395.2" height="632.4"/>
+</svg>

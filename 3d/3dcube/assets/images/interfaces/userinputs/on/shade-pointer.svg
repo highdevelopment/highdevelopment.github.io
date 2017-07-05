@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="69px" height="47px" viewBox="0 0 69 47" enable-background="new 0 0 69 47" xml:space="preserve">
+<g>
+	<path fill="#648339" stroke="#648339" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M25.194,14.825
+		c-3.281,8.37-17.71,8.37-23.81,8.37c6.1,0,20.653,0,23.81,8.368"/>
+	<path fill="#903434" stroke="#903434" stroke-width="5" d="M29.886,35.842"/>
+	<path fill="#903434" stroke="#903434" stroke-width="5" d="M29.958,9.974"/>
+	<radialGradient id="SVGID_1_" cx="50.9238" cy="16.3521" r="19.8701" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.0321" style="stop-color:#F9FCF6"/>
+		<stop  offset="0.279" style="stop-color:#DBECCB"/>
+		<stop  offset="0.5078" style="stop-color:#C5E0A9"/>
+		<stop  offset="0.7114" style="stop-color:#B4D993"/>
+		<stop  offset="0.8824" style="stop-color:#AAD486"/>
+		<stop  offset="1" style="stop-color:#A7D281"/>
+	</radialGradient>
+	<circle fill="url(#SVGID_1_)" cx="45.566" cy="22.822" r="20.486"/>
+	<circle fill="none" stroke="#648339" stroke-width="5" cx="45.566" cy="23.195" r="20.486"/>
+	<g>
+		<rect x="49.354" y="37.409" fill="#648339" width="11.204" height="2"/>
+		<rect x="29.643" y="37.409" fill="#648339" width="12.563" height="2"/>
+	</g>
+	<g>
+		<rect x="49.354" y="32.575" fill="#648339" width="15.998" height="2"/>
+		<rect x="25.977" y="32.575" fill="#648339" width="16.229" height="2"/>
+	</g>
+	<g>
+		<rect x="49.354" y="27.739" fill="#648339" width="15.998" height="2.002"/>
+		<rect x="25.977" y="27.739" fill="#648339" width="16.229" height="2.002"/>
+	</g>
+	<g>
+		<rect x="49.354" y="22.889" fill="#648339" width="15.998" height="2"/>
+		<rect x="25.977" y="22.889" fill="#648339" width="16.229" height="2"/>
+	</g>
+	<g>
+		<rect x="30.393" y="8.387" fill="#648339" width="30.189" height="2"/>
+	</g>
+	<line fill="#841618" x1="41.324" y1="25.591" x2="41.324" y2="25.591"/>
+	<g>
+		<polygon fill="#648339" points="65.353,20.055 65.353,18.055 51.221,18.055 52.612,20.055 		"/>
+		<polygon fill="#648339" points="25.977,18.055 25.977,20.055 38.721,20.055 40.067,18.055 		"/>
+		<polygon fill="#648339" points="65.353,15.221 65.353,13.221 47.922,13.221 49.314,15.221 		"/>
+		<polygon fill="#648339" points="25.977,13.221 25.977,15.221 41.908,15.221 43.254,13.221 		"/>
+		<polygon fill="#648339" points="47.028,13.221 45.598,11.166 44.213,13.221 42.866,15.221 40.957,18.055 39.61,20.055 
+			39.529,20.176 42.671,20.176 42.671,40.12 48.732,40.12 48.732,20.176 51.867,20.176 51.784,20.055 50.393,18.055 48.42,15.221 		
+			"/>
+	</g>
+</g>
+</svg>
