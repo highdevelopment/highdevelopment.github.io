@@ -263,6 +263,30 @@ input[disabled] {
     left: 18px;
 }
 
+#layer_addmeasure {
+    display: none;
+    left: 36px;
+    bottom: 22px;
+}
+
+#layer_rotation {
+    left: 31px;
+    bottom: 22px;
+}
+#layer_rotation section {
+    top: 61px;
+    left: -20px;
+}
+#layer_rotation li {
+    float: left;
+    margin-right: 51px;
+}
+#layer_rotation li div {
+    width: 30px;
+    height: 22px;
+    cursor: pointer;
+}
+
 
 /*#btn_rotate {
     color: white;
@@ -310,4 +334,8 @@ input[disabled] {
     margin-left: 53px;
     margin-top: -2px;
     font-size: 10px;
+}
+
+#btn_add.disabled {
+    opacity: 0.5
 }

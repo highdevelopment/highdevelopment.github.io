@@ -341,5 +341,34 @@ function CShapeObj(initPts, strokeColor, isCalibration, callBackMoved)
 		main.reloadPolygon();
 	}
 
+	this.setRotateRight = function(angle) {
+		var width = g_bgImage.imgObj.width;
+		var height = g_bgImage.imgObj.height;
+		for(var i = 0; i < 4; i++) {
+			var ox = this.vertexes[i].left;
+			var oy = this.vertexes[i].top;
+			if(angle == 270) {
+				x = oy;
+				y = width - ox;
+			}
+			else if(angle == 180) {
+				x = oy;
+				y = height - ox;
+			}
+			else if(angle == 90) {
+				x = oy;
+				y = width - ox;
+			}
+			else if(angle == 0) {
+				x = oy;
+				y = height - ox;
+			}
+			this.vertexes[i].left = x;
+			this.vertexes[i].top = y;
+			polygon.points[i].x = (x - polygon.left) / polygon.scaleX;
+			polygon.points[i].y = (y - polygon.top) / polygon.scaleY;
+		}
+		main.reloadPolygon();
+	}
 	this.init();
 }

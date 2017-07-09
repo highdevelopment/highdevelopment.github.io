@@ -275,5 +275,36 @@ function CLengthObj(initPos, isVolume)
 		this.reloadPolygon();
 	}
 
+	this.setRotateRight = function(angle) {
+		var width = g_bgImage.imgObj.width;
+		var height = g_bgImage.imgObj.height;
+		for(var i = 0; i < 2; i++) {
+			var ox = this.vertexes[i].left;
+			var oy = this.vertexes[i].top;
+			if(angle == 270) {
+				x = oy;
+				y = width - ox;
+			}
+			else if(angle == 180) {
+				x = oy;
+				y = height - ox;
+			}
+			else if(angle == 90) {
+				x = oy;
+				y = width - ox;
+			}
+			else if(angle == 0) {
+				x = oy;
+				y = height - ox;
+			}
+			this.vertexes[i].left = x;
+			this.vertexes[i].top = y;
+		}
+		this.polygon.x1 = (this.vertexes[0].left - this.polygon.left) / this.polygon.scaleX;
+		this.polygon.y1 = (this.vertexes[0].top - this.polygon.top) / this.polygon.scaleY;
+		this.polygon.x2 = (this.vertexes[1].left - this.polygon.left) / this.polygon.scaleX;
+		this.polygon.y2 = (this.vertexes[1].top - this.polygon.top) / this.polygon.scaleY;
+		this.reloadPolygon();
+	}
 	this.init();
 }

@@ -218,7 +218,13 @@ function ClassBG(callbackLoaded)
         });
 	}
 
-	$('#btn_rotate').click(function() {
+	$('#btn_rotate').mouseenter(function(e) {
+		$('.layer').hide();
+		$('#layer_rotation').show();
+		e.preventDefault();
+		e.stopPropagation();	
+	})
+	$('#layer_rotation #btn_left').click(function() {
 		// canvas.remove(main.imgObj);
 		var angle = main.imgObj.angle;
 		// main.resetCanvas();
@@ -234,6 +240,30 @@ function ClassBG(callbackLoaded)
 			g_measureArea.setRotatePoints(angle);
 		if(g_measureVolumeHeight)
 			g_measureVolumeHeight.setRotatePoints(angle);
+
+		main.imgObj.set({
+            	angle: angle,
+            });
+		main.setResize();
+		canvas.renderAll();
+		// main.setBackgroundImage('img/image_1.jpg', angle);
+	})
+	$('#layer_rotation #btn_right').click(function() {
+		// canvas.remove(main.imgObj);
+		var angle = main.imgObj.angle;
+		// main.resetCanvas();
+		if(angle == 0)
+			angle = 360
+		angle -= 90;
+
+		g_caliObject.setRotateRight(angle);
+		g_measureLengths.forEach(function(obj, index) {
+			obj.setRotateRight(angle);
+		})
+		if(g_measureArea)
+			g_measureArea.setRotateRight(angle);
+		if(g_measureVolumeHeight)
+			g_measureVolumeHeight.setRotateRight(angle);
 
 		main.imgObj.set({
             	angle: angle,
@@ -261,8 +291,8 @@ function ClassBG(callbackLoaded)
 	})
 	var slider = $('#slider_zoom').slider({
 		// orientation: 'vertical',
-		min		: -50,
-		max		: 50,
+		min		: 0,
+		max		: 100,
 		value	: 0,
 		change	: function(event, ui)
 		{
@@ -281,7 +311,7 @@ function ClassBG(callbackLoaded)
 	$('#btn_zoom_reset').click(function() {
         canvas.absolutePan(new fabric.Point(0, 0));
 		canvas.setZoom(main.zoom);
-		slider.val(0);
+		slider.slider('value', 0);
 	})
 	$('#btn_save').click(function() {
 		main.setResize(true);
@@ -338,6 +368,9 @@ function ClassBG(callbackLoaded)
 
 		main.setResize(false);
 
+        canvas.absolutePan(new fabric.Point(0, 0));
+		canvas.setZoom(main.zoom);
+		slider.slider('value', 0);
 		// var dataURL = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
 		// $('#file_download_iframe')[0].src = dataURL;
 	})
@@ -457,8 +490,19 @@ function initToolBar()
 	})
 
 
+	$('#btn_add').mouseenter(function(e) {
+		if($(this).hasClass('disabled'))
+			return;
+		$('.layer').hide();
+		$('#layer_measure').hide();
+		$('#layer_addmeasure').show();
+		e.preventDefault();
+		e.stopPropagation();
+	})
 	$('#btn_add').click(function()
 	{
+		if($(this).hasClass('disabled'))
+			return;
 		var cnt = g_measureLengths.length;
 
 		var zoom = canvas.getZoom();
@@ -737,7 +781,7 @@ function initMeasureModeDlg()
 				g_measureArea.hideAll();
 			if(g_measureVolumeHeight)
 				g_measureVolumeHeight.hide();
-			$('#btn_add').show();
+			$('#btn_add').removeClass('disabled');
 			$('#text_Label h2').text('LONGITUD');
 			$('#text_area').hide();
 			$('#text_perimeter').hide();
@@ -762,7 +806,7 @@ function initMeasureModeDlg()
 				g_measureArea.isCalibration = 1;
 				g_measureArea.showAll();
 			}
-			$('#btn_add').hide();
+			$('#btn_add').addClass('disabled');
 			if(g_measureVolumeHeight)
 				g_measureVolumeHeight.hide();
 			$('#text_Label h2').text('ÁREA');
@@ -801,7 +845,7 @@ function initMeasureModeDlg()
 				g_measureArea.isCalibration = 2;
 				g_measureArea.showAll();
 			}
-			$('#btn_add').hide();
+			$('#btn_add').addClass('disabled');
 			$('#text_Label h2').text('VOLUMEN');
 			$('#text_area').show();
 			$('#text_perimeter').hide();
